@@ -1,0 +1,19 @@
+# Lint configuration — pinned so that "linter-clean" is a checkable claim, not a mood.
+#
+# Scope: error-level rules only. This project is 60+ modules of research code written over
+# several sessions; demanding full style conformance (E501 line length, I001 import order) would
+# generate hundreds of cosmetic findings and bury the ones that matter.
+#
+# The rules kept here catch defects that change behaviour:
+#   E9   syntax / runtime errors
+#   F63  invalid comparison
+#   F7   syntax-level mistakes (break outside loop, etc.)
+#   F82  undefined name / undefined export
+#   F811 redefinition of an unused name (catches copy-paste blocks that shadow each other)
+#
+# Reproduce:  ruff check scripts tools tests
+# Last run:   2026-11-25 — 0 findings after fixing 5 real defects (see CHANGELOG v3.0.18).
+
+[lint]
+select = ["E9", "F63", "F7", "F82", "F811"]
+exclude = ["demo/case", "data"]

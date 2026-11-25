@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="460" viewBox="0 0 680 460" font-family="-apple-system,Segoe UI,Microsoft YaHei,SimHei,sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="26" font-size="16" font-weight="600" fill="#1f2937">药物-疾病 靶点交集</text>
+<circle cx="278.0" cy="240.0" r="118" fill="#2F6FB2" fill-opacity="0.28" stroke="#2F6FB2" stroke-width="1.2"/>
+<circle cx="402.0" cy="240.0" r="118" fill="#C0504D" fill-opacity="0.28" stroke="#C0504D" stroke-width="1.2"/>
+<text x="248.0" y="240.0" font-size="15" font-weight="600" fill="#111827" text-anchor="middle">78</text>
+<text x="432.0" y="240.0" font-size="15" font-weight="600" fill="#111827" text-anchor="middle">2221</text>
+<text x="340.0" y="240.0" font-size="13" font-weight="600" fill="#111827" text-anchor="middle">23</text>
+<text x="268.0" y="110.0" font-size="12" fill="#2F6FB2" text-anchor="middle" font-weight="600">药物靶点 (101)</text>
+<text x="412.0" y="110.0" font-size="12" fill="#C0504D" text-anchor="middle" font-weight="600">疾病靶点 (2244)</text>
+</svg>

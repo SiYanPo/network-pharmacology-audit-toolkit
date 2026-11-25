@@ -1,0 +1,33 @@
+name: Reproduction failure
+description: A documented claim could not be reproduced (this is the report we care most about)
+labels: ["reproducibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Claims and their expected outputs are listed in `REPRODUCIBILITY.md`.
+        Please quote the claim number and paste your output verbatim.
+  - type: input
+    id: claim
+    attributes:
+      label: Claim number
+      description: e.g. R2 (ledger row count)
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected output (from REPRODUCIBILITY.md)
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Your output (verbatim)
+    validations:
+      required: true
+  - type: input
+    id: archive
+    attributes:
+      label: Archive checksum
+      description: Output of `sha256sum` on the zip you used, so we know which snapshot you ran

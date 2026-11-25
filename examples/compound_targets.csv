@@ -1,0 +1,294 @@
+﻿MOL_ID,compound,target_name,herb,source
+MOL01001,Quercetin,Prothrombin,黄芪,TCMSP
+MOL01001,Quercetin,Tissue inhibitor of metalloproteinases 1,黄芪,TCMSP
+MOL01001,Quercetin,mRNA of Protein-tyrosine phosphatase,黄芪,TCMSP
+MOL01001,Quercetin,Cytochrome P450 3A4,黄芪,TCMSP
+MOL01001,Quercetin,Selectin E,黄芪,TCMSP
+MOL01001,Quercetin,Vascular endothelial growth factor A,黄芪,TCMSP
+MOL01001,Quercetin,Prostaglandin G/H synthase 1,黄芪,TCMSP
+MOL01001,Quercetin,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha",黄芪,TCMSP
+MOL01001,Quercetin,C-X-C motif chemokine 8,黄芪,TCMSP
+MOL01001,Quercetin,Coagulation factor Xa,黄芪,TCMSP
+MOL01001,Quercetin,Sirtuin 1,黄芪,TCMSP
+MOL01001,Quercetin,Peroxisome proliferator-activated receptor gamma,黄芪,TCMSP
+MOL01001,Quercetin,Interleukin-6,黄芪,TCMSP
+MOL01001,Quercetin,Serine/threonine-protein kinase mTOR,黄芪,TCMSP
+MOL01001,Quercetin,Vascular cell adhesion protein 1,黄芪,TCMSP
+MOL01001,Quercetin,Estrogen receptor,黄芪,TCMSP
+MOL01001,Quercetin,Endothelin-1 receptor,黄芪,TCMSP
+MOL01001,Quercetin,Nuclear factor NF-kappa-B p105 subunit,黄芪,TCMSP
+MOL01001,Quercetin,Hypoxia-inducible factor 1-alpha,黄芪,TCMSP
+MOL01001,Quercetin,Solute carrier organic anion transporter family member 1B1,黄芪,TCMSP
+MOL01001,Quercetin,Fibronectin,黄芪,TCMSP
+MOL01001,Quercetin,Matrix metalloproteinase-9,黄芪,TCMSP
+MOL01001,Quercetin,Matrix metalloproteinase-2,黄芪,TCMSP
+MOL01001,Quercetin,Superoxide dismutase Mn,黄芪,TCMSP
+MOL01001,Quercetin,Heme oxygenase 1,黄芪,TCMSP
+MOL01001,Quercetin,Aldose reductase,黄芪,TCMSP
+MOL01001,Quercetin,Nitric-oxide synthase endothelial,黄芪,TCMSP
+MOL01001,Quercetin,Prostaglandin G/H synthase 2,黄芪,TCMSP
+MOL01001,Quercetin,Caspase-3,黄芪,TCMSP
+MOL01001,Quercetin,NF-kappa-B ligand receptor activator,黄芪,TCMSP
+MOL01002,Kaempferol,Interleukin-6,黄芪,TCMSP
+MOL01002,Kaempferol,Transcription factor p65,黄芪,TCMSP
+MOL01002,Kaempferol,NAD(P)H dehydrogenase quinone 1,黄芪,TCMSP
+MOL01002,Kaempferol,Peroxisome proliferator-activated receptor alpha,黄芪,TCMSP
+MOL01002,Kaempferol,Prostaglandin G/H synthase 2,黄芪,TCMSP
+MOL01002,Kaempferol,Coagulation factor Xa,黄芪,TCMSP
+MOL01002,Kaempferol,ATP-binding cassette sub-family B member 1,黄芪,TCMSP
+MOL01002,Kaempferol,mRNA of Protein-tyrosine phosphatase,黄芪,TCMSP
+MOL01002,Kaempferol,Apoptosis regulator Bcl-2,黄芪,TCMSP
+MOL01002,Kaempferol,Transforming growth factor beta-1,黄芪,TCMSP
+MOL01002,Kaempferol,Collagen alpha-1(I) chain,黄芪,TCMSP
+MOL01002,Kaempferol,Vascular endothelial growth factor A,黄芪,TCMSP
+MOL01002,Kaempferol,Androgen receptor,黄芪,TCMSP
+MOL01002,Kaempferol,C-X-C motif chemokine 8,黄芪,TCMSP
+MOL01002,Kaempferol,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha",黄芪,TCMSP
+MOL01002,Kaempferol,RAC-alpha serine/threonine-protein kinase,黄芪,TCMSP
+MOL01002,Kaempferol,Glycogen synthase kinase-3 beta,黄芪,TCMSP
+MOL01002,Kaempferol,Sirtuin 1,黄芪,TCMSP
+MOL01002,Kaempferol,Selectin E,黄芪,TCMSP
+MOL01002,Kaempferol,Mitogen-activated protein kinase 1,黄芪,TCMSP
+MOL01002,Kaempferol,Tissue inhibitor of metalloproteinases 1,黄芪,TCMSP
+MOL01002,Kaempferol,Heme oxygenase 1,黄芪,TCMSP
+MOL01002,Kaempferol,Tumor necrosis factor,黄芪,TCMSP
+MOL01002,Kaempferol,Angiotensin-converting enzyme,黄芪,TCMSP
+MOL01002,Kaempferol,Nuclear factor erythroid 2-related factor 2,黄芪,TCMSP
+MOL01002,Kaempferol,Prostaglandin G/H synthase 1,黄芪,TCMSP
+MOL01003,Luteolin,mRNA of Protein-tyrosine phosphatase,丹参,TCMSP
+MOL01003,Luteolin,Cellular tumor antigen p53,丹参,TCMSP
+MOL01003,Luteolin,Tumor necrosis factor receptor superfamily member 11B,丹参,TCMSP
+MOL01003,Luteolin,Nuclear factor NF-kappa-B p105 subunit,丹参,TCMSP
+MOL01003,Luteolin,Insulin-like growth factor 1 receptor,丹参,TCMSP
+MOL01003,Luteolin,Angiotensin-converting enzyme,丹参,TCMSP
+MOL01003,Luteolin,Insulin receptor,丹参,TCMSP
+MOL01003,Luteolin,Interleukin-6,丹参,TCMSP
+MOL01003,Luteolin,Matrix metalloproteinase-9,丹参,TCMSP
+MOL01003,Luteolin,C-X-C motif chemokine 8,丹参,TCMSP
+MOL01003,Luteolin,Estrogen receptor,丹参,TCMSP
+MOL01003,Luteolin,Endothelin-1 receptor,丹参,TCMSP
+MOL01003,Luteolin,Serine/threonine-protein kinase mTOR,丹参,TCMSP
+MOL01003,Luteolin,Interleukin-1 beta,丹参,TCMSP
+MOL01003,Luteolin,Intercellular adhesion molecule 1,丹参,TCMSP
+MOL01003,Luteolin,Mitogen-activated protein kinase 14,丹参,TCMSP
+MOL01003,Luteolin,Vascular cell adhesion protein 1,丹参,TCMSP
+MOL01003,Luteolin,Fibronectin,丹参,TCMSP
+MOL01003,Luteolin,NF-kappa-B ligand receptor activator,丹参,TCMSP
+MOL01003,Luteolin,Collagen alpha-1(I) chain,丹参,TCMSP
+MOL01003,Luteolin,Advanced glycosylation end product-specific receptor,丹参,TCMSP
+MOL01003,Luteolin,Mitogen-activated protein kinase 1,丹参,TCMSP
+MOL01004,beta-sitosterol,Matrix metalloproteinase-9,黄芪,TCMSP
+MOL01004,beta-sitosterol,Transcription factor p65,黄芪,TCMSP
+MOL01004,beta-sitosterol,Cytochrome P450 2D6,黄芪,TCMSP
+MOL01004,beta-sitosterol,NF-kappa-B ligand receptor activator,黄芪,TCMSP
+MOL01004,beta-sitosterol,Prostaglandin G/H synthase 2,黄芪,TCMSP
+MOL01004,beta-sitosterol,Superoxide dismutase Mn,黄芪,TCMSP
+MOL01004,beta-sitosterol,Interleukin-1 beta,黄芪,TCMSP
+MOL01004,beta-sitosterol,Estrogen receptor,黄芪,TCMSP
+MOL01004,beta-sitosterol,Fibronectin,黄芪,TCMSP
+MOL01004,beta-sitosterol,Apoptosis regulator Bcl-2,黄芪,TCMSP
+MOL01004,beta-sitosterol,Coagulation factor Xa,黄芪,TCMSP
+MOL01004,beta-sitosterol,Transforming growth factor beta-1,黄芪,TCMSP
+MOL01004,beta-sitosterol,Sirtuin 1,黄芪,TCMSP
+MOL01004,beta-sitosterol,Apoptosis regulator BAX,黄芪,TCMSP
+MOL01004,beta-sitosterol,Hypoxia-inducible factor 1-alpha,黄芪,TCMSP
+MOL01004,beta-sitosterol,Selectin E,黄芪,TCMSP
+MOL01004,beta-sitosterol,Interleukin-6,黄芪,TCMSP
+MOL01004,beta-sitosterol,Tissue inhibitor of metalloproteinases 1,黄芪,TCMSP
+MOL01005,Stigmasterol,Collagen alpha-1(I) chain,当归,TCMSP
+MOL01005,Stigmasterol,Endothelin-1 receptor,当归,TCMSP
+MOL01005,Stigmasterol,Matrix metalloproteinase-2,当归,TCMSP
+MOL01005,Stigmasterol,Matrix metalloproteinase-9,当归,TCMSP
+MOL01005,Stigmasterol,Insulin-like growth factor 1 receptor,当归,TCMSP
+MOL01005,Stigmasterol,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha",当归,TCMSP
+MOL01005,Stigmasterol,Sirtuin 1,当归,TCMSP
+MOL01005,Stigmasterol,NF-kappa-B ligand receptor activator,当归,TCMSP
+MOL01005,Stigmasterol,Cytochrome P450 3A4,当归,TCMSP
+MOL01005,Stigmasterol,Prothrombin,当归,TCMSP
+MOL01005,Stigmasterol,Cytochrome P450 2D6,当归,TCMSP
+MOL01005,Stigmasterol,Glucocorticoid receptor,当归,TCMSP
+MOL01005,Stigmasterol,ATP-binding cassette sub-family B member 1,当归,TCMSP
+MOL01005,Stigmasterol,Heme oxygenase 1,当归,TCMSP
+MOL01006,Formononetin,NAD(P)H dehydrogenase quinone 1,黄芪,TCMSP
+MOL01006,Formononetin,Insulin-like growth factor 1 receptor,黄芪,TCMSP
+MOL01006,Formononetin,Selectin E,黄芪,TCMSP
+MOL01006,Formononetin,Matrix metalloproteinase-2,黄芪,TCMSP
+MOL01006,Formononetin,Mitogen-activated protein kinase 1,黄芪,TCMSP
+MOL01006,Formononetin,Glucocorticoid receptor,黄芪,TCMSP
+MOL01006,Formononetin,Advanced glycosylation end product-specific receptor,黄芪,TCMSP
+MOL01006,Formononetin,Insulin receptor,黄芪,TCMSP
+MOL01006,Formononetin,Superoxide dismutase Mn,黄芪,TCMSP
+MOL01007,Calycosin,Interleukin-6,黄芪,TCMSP
+MOL01007,Calycosin,Tumor necrosis factor,黄芪,TCMSP
+MOL01007,Calycosin,Advanced glycosylation end product-specific receptor,黄芪,TCMSP
+MOL01007,Calycosin,Matrix metalloproteinase-9,黄芪,TCMSP
+MOL01007,Calycosin,Heme oxygenase 1,黄芪,TCMSP
+MOL01007,Calycosin,Hypoxia-inducible factor 1-alpha,黄芪,TCMSP
+MOL01007,Calycosin,Aldose reductase,黄芪,TCMSP
+MOL01007,Calycosin,Selectin E,黄芪,TCMSP
+MOL01007,Calycosin,Cytochrome P450 3A4,黄芪,TCMSP
+MOL01008,Astragaloside IV,Nitric-oxide synthase endothelial,黄芪,TCMSP
+MOL01008,Astragaloside IV,Interleukin-6,黄芪,TCMSP
+MOL01008,Astragaloside IV,Nuclear factor NF-kappa-B p105 subunit,黄芪,TCMSP
+MOL01008,Astragaloside IV,C-C motif chemokine 2,黄芪,TCMSP
+MOL01009,Astragaloside I,Collagen alpha-1(I) chain,黄芪,TCMSP
+MOL01009,Astragaloside I,Transcription factor p65,黄芪,TCMSP
+MOL01009,Astragaloside I,RAC-alpha serine/threonine-protein kinase,黄芪,TCMSP
+MOL01009,Astragaloside I,ATP-binding cassette sub-family B member 1,黄芪,TCMSP
+MOL01009,Astragaloside I,Solute carrier organic anion transporter family member 1B1,黄芪,TCMSP
+MOL01009,Astragaloside I,Peroxisome proliferator-activated receptor alpha,黄芪,TCMSP
+MOL01009,Astragaloside I,Matrix metalloproteinase-2,黄芪,TCMSP
+MOL01009,Astragaloside I,Prostaglandin G/H synthase 1,黄芪,TCMSP
+MOL01009,Astragaloside I,Apoptosis regulator Bcl-2,黄芪,TCMSP
+MOL01009,Astragaloside I,Tissue inhibitor of metalloproteinases 1,黄芪,TCMSP
+MOL01009,Astragaloside I,NF-kappa-B ligand receptor activator,黄芪,TCMSP
+MOL01010,Fermononetin,Peroxisome proliferator-activated receptor alpha,黄芪,TCMSP
+MOL01010,Fermononetin,Collagen alpha-1(I) chain,黄芪,TCMSP
+MOL01010,Fermononetin,Prostaglandin G/H synthase 2,黄芪,TCMSP
+MOL01010,Fermononetin,Mitogen-activated protein kinase 14,黄芪,TCMSP
+MOL01010,Fermononetin,Cellular tumor antigen p53,黄芪,TCMSP
+MOL01010,Fermononetin,Interleukin-1 beta,黄芪,TCMSP
+MOL01010,Fermononetin,Tumor necrosis factor receptor superfamily member 11B,黄芪,TCMSP
+MOL01010,Fermononetin,Aldose reductase,黄芪,TCMSP
+MOL01010,Fermononetin,C-X-C motif chemokine 8,黄芪,TCMSP
+MOL01011,Jaranol,C-C motif chemokine 2,黄芪,TCMSP
+MOL01011,Jaranol,Nitric-oxide synthase endothelial,黄芪,TCMSP
+MOL01011,Jaranol,Nuclear factor NF-kappa-B p105 subunit,黄芪,TCMSP
+MOL01011,Jaranol,Peroxisome proliferator-activated receptor alpha,黄芪,TCMSP
+MOL01011,Jaranol,Insulin receptor,黄芪,TCMSP
+MOL01011,Jaranol,Tissue inhibitor of metalloproteinases 1,黄芪,TCMSP
+MOL01011,Jaranol,Vascular cell adhesion protein 1,黄芪,TCMSP
+MOL01011,Jaranol,NAD(P)H dehydrogenase quinone 1,黄芪,TCMSP
+MOL01011,Jaranol,Caspase-3,黄芪,TCMSP
+MOL01011,Jaranol,Vascular endothelial growth factor A,黄芪,TCMSP
+MOL01011,Jaranol,Sirtuin 1,黄芪,TCMSP
+MOL01012,Hederagenin,Cellular tumor antigen p53,黄芪,TCMSP
+MOL01012,Hederagenin,mRNA of Protein-tyrosine phosphatase,黄芪,TCMSP
+MOL01012,Hederagenin,Nuclear factor NF-kappa-B p105 subunit,黄芪,TCMSP
+MOL01012,Hederagenin,Estrogen receptor,黄芪,TCMSP
+MOL01013,Isorhamnetin,Advanced glycosylation end product-specific receptor,黄芪,TCMSP
+MOL01013,Isorhamnetin,Estrogen receptor,黄芪,TCMSP
+MOL01013,Isorhamnetin,Angiotensin II receptor type 1,黄芪,TCMSP
+MOL01013,Isorhamnetin,mRNA of Protein-tyrosine phosphatase,黄芪,TCMSP
+MOL01013,Isorhamnetin,Endothelin-1 receptor,黄芪,TCMSP
+MOL01013,Isorhamnetin,Nitric-oxide synthase endothelial,黄芪,TCMSP
+MOL01013,Isorhamnetin,NF-kappa-B ligand receptor activator,黄芪,TCMSP
+MOL01013,Isorhamnetin,Peroxisome proliferator-activated receptor alpha,黄芪,TCMSP
+MOL01013,Isorhamnetin,Angiotensin-converting enzyme,黄芪,TCMSP
+MOL01014,"3,9-di-O-methylnissolin",Coagulation factor Xa,黄芪,TCMSP
+MOL01014,"3,9-di-O-methylnissolin",Nitric-oxide synthase endothelial,黄芪,TCMSP
+MOL01014,"3,9-di-O-methylnissolin",Prostaglandin G/H synthase 1,黄芪,TCMSP
+MOL01014,"3,9-di-O-methylnissolin",mRNA of Protein-tyrosine phosphatase,黄芪,TCMSP
+MOL01015,Ferulic acid,Selectin E,当归,TCMSP
+MOL01015,Ferulic acid,mRNA of Protein-tyrosine phosphatase,当归,TCMSP
+MOL01015,Ferulic acid,C-X-C motif chemokine 8,当归,TCMSP
+MOL01015,Ferulic acid,Mitogen-activated protein kinase 14,当归,TCMSP
+MOL01015,Ferulic acid,Endothelin-1 receptor,当归,TCMSP
+MOL01015,Ferulic acid,Coagulation factor Xa,当归,TCMSP
+MOL01015,Ferulic acid,Androgen receptor,当归,TCMSP
+MOL01015,Ferulic acid,Glucocorticoid receptor,当归,TCMSP
+MOL01015,Ferulic acid,Cytochrome P450 3A4,当归,TCMSP
+MOL01015,Ferulic acid,Prostaglandin G/H synthase 2,当归,TCMSP
+MOL01015,Ferulic acid,Glycogen synthase kinase-3 beta,当归,TCMSP
+MOL01016,Z-ligustilide,Interleukin-6,当归,TCMSP
+MOL01016,Z-ligustilide,Solute carrier organic anion transporter family member 1B1,当归,TCMSP
+MOL01016,Z-ligustilide,Matrix metalloproteinase-9,当归,TCMSP
+MOL01016,Z-ligustilide,mRNA of Protein-tyrosine phosphatase,当归,TCMSP
+MOL01016,Z-ligustilide,Heme oxygenase 1,当归,TCMSP
+MOL01016,Z-ligustilide,Tumor necrosis factor,当归,TCMSP
+MOL01016,Z-ligustilide,C-X-C motif chemokine 8,当归,TCMSP
+MOL01017,Senkyunolide A,Angiotensin II receptor type 1,当归,TCMSP
+MOL01017,Senkyunolide A,NF-kappa-B ligand receptor activator,当归,TCMSP
+MOL01017,Senkyunolide A,Peroxisome proliferator-activated receptor gamma,当归,TCMSP
+MOL01017,Senkyunolide A,Hypoxia-inducible factor 1-alpha,当归,TCMSP
+MOL01018,n-butylidenephthalide,Endothelin-1 receptor,当归,TCMSP
+MOL01018,n-butylidenephthalide,Peroxisome proliferator-activated receptor gamma,当归,TCMSP
+MOL01018,n-butylidenephthalide,Cytochrome P450 3A4,当归,TCMSP
+MOL01018,n-butylidenephthalide,Superoxide dismutase Mn,当归,TCMSP
+MOL01019,Vanillic acid,Glycogen synthase kinase-3 beta,当归,TCMSP
+MOL01019,Vanillic acid,Fibronectin,当归,TCMSP
+MOL01019,Vanillic acid,Matrix metalloproteinase-9,当归,TCMSP
+MOL01019,Vanillic acid,Apoptosis regulator Bcl-2,当归,TCMSP
+MOL01019,Vanillic acid,Aldose reductase,当归,TCMSP
+MOL01019,Vanillic acid,Advanced glycosylation end product-specific receptor,当归,TCMSP
+MOL01019,Vanillic acid,Mitogen-activated protein kinase 14,当归,TCMSP
+MOL01019,Vanillic acid,Solute carrier organic anion transporter family member 1B1,当归,TCMSP
+MOL01019,Vanillic acid,Matrix metalloproteinase-2,当归,TCMSP
+MOL01019,Vanillic acid,Sirtuin 1,当归,TCMSP
+MOL01020,Tanshinone IIA,Epidermal growth factor receptor,丹参,TCMSP
+MOL01020,Tanshinone IIA,Tumor necrosis factor receptor superfamily member 11B,丹参,TCMSP
+MOL01020,Tanshinone IIA,Interleukin-6,丹参,TCMSP
+MOL01020,Tanshinone IIA,Fibronectin,丹参,TCMSP
+MOL01020,Tanshinone IIA,Mitogen-activated protein kinase 1,丹参,TCMSP
+MOL01020,Tanshinone IIA,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha",丹参,TCMSP
+MOL01020,Tanshinone IIA,Transcription factor p65,丹参,TCMSP
+MOL01020,Tanshinone IIA,C-C motif chemokine 2,丹参,TCMSP
+MOL01020,Tanshinone IIA,Hypoxia-inducible factor 1-alpha,丹参,TCMSP
+MOL01020,Tanshinone IIA,Intercellular adhesion molecule 1,丹参,TCMSP
+MOL01021,Cryptotanshinone,Estrogen receptor,丹参,TCMSP
+MOL01021,Cryptotanshinone,Nitric-oxide synthase endothelial,丹参,TCMSP
+MOL01021,Cryptotanshinone,Angiotensin-converting enzyme,丹参,TCMSP
+MOL01021,Cryptotanshinone,Mitogen-activated protein kinase 14,丹参,TCMSP
+MOL01021,Cryptotanshinone,Matrix metalloproteinase-9,丹参,TCMSP
+MOL01021,Cryptotanshinone,mRNA of Protein-tyrosine phosphatase,丹参,TCMSP
+MOL01021,Cryptotanshinone,Vascular endothelial growth factor A,丹参,TCMSP
+MOL01022,Salvianolic acid B,Selectin E,丹参,TCMSP
+MOL01022,Salvianolic acid B,Mitogen-activated protein kinase 14,丹参,TCMSP
+MOL01022,Salvianolic acid B,NAD(P)H dehydrogenase quinone 1,丹参,TCMSP
+MOL01022,Salvianolic acid B,Hypoxia-inducible factor 1-alpha,丹参,TCMSP
+MOL01022,Salvianolic acid B,Peroxisome proliferator-activated receptor alpha,丹参,TCMSP
+MOL01022,Salvianolic acid B,Apoptosis regulator BAX,丹参,TCMSP
+MOL01022,Salvianolic acid B,Transforming growth factor beta-1,丹参,TCMSP
+MOL01022,Salvianolic acid B,Caspase-3,丹参,TCMSP
+MOL01022,Salvianolic acid B,Glucocorticoid receptor,丹参,TCMSP
+MOL01022,Salvianolic acid B,Matrix metalloproteinase-9,丹参,TCMSP
+MOL01022,Salvianolic acid B,Angiotensin-converting enzyme,丹参,TCMSP
+MOL01023,Dihydrotanshinone I,Mitogen-activated protein kinase 14,丹参,TCMSP
+MOL01023,Dihydrotanshinone I,Sirtuin 1,丹参,TCMSP
+MOL01023,Dihydrotanshinone I,Tumor necrosis factor receptor superfamily member 11B,丹参,TCMSP
+MOL01023,Dihydrotanshinone I,Apoptosis regulator Bcl-2,丹参,TCMSP
+MOL01024,Rosmarinic acid,C-X-C motif chemokine 8,丹参,TCMSP
+MOL01024,Rosmarinic acid,Superoxide dismutase Mn,丹参,TCMSP
+MOL01024,Rosmarinic acid,Angiotensin II receptor type 1,丹参,TCMSP
+MOL01024,Rosmarinic acid,Fibronectin,丹参,TCMSP
+MOL01024,Rosmarinic acid,Epidermal growth factor receptor,丹参,TCMSP
+MOL01024,Rosmarinic acid,Mitogen-activated protein kinase 14,丹参,TCMSP
+MOL01025,Lithospermic acid,Cytochrome P450-cam,丹参,TCMSP
+MOL01025,Lithospermic acid,Hypoxia-inducible factor 1-alpha,丹参,TCMSP
+MOL01025,Lithospermic acid,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha",丹参,TCMSP
+MOL01025,Lithospermic acid,Prostaglandin G/H synthase 1,丹参,TCMSP
+MOL01025,Lithospermic acid,Sirtuin 1,丹参,TCMSP
+MOL01026,Ursolic acid,NF-kappa-B ligand receptor activator,当归,TCMSP
+MOL01026,Ursolic acid,Intercellular adhesion molecule 1,当归,TCMSP
+MOL01026,Ursolic acid,Aldose reductase,当归,TCMSP
+MOL01026,Ursolic acid,Prothrombin,当归,TCMSP
+MOL01026,Ursolic acid,Transforming growth factor beta-1,当归,TCMSP
+MOL01026,Ursolic acid,Transcription factor p65,当归,TCMSP
+MOL01026,Ursolic acid,Cytochrome P450 3A4,当归,TCMSP
+MOL01026,Ursolic acid,Cytochrome P450 2D6,当归,TCMSP
+MOL01026,Ursolic acid,Interleukin-6,当归,TCMSP
+MOL01026,Ursolic acid,Hypoxia-inducible factor 1-alpha,当归,TCMSP
+MOL01026,Ursolic acid,Estrogen receptor,当归,TCMSP
+MOL01027,Gallic acid,Advanced glycosylation end product-specific receptor,丹参,TCMSP
+MOL01027,Gallic acid,Mitogen-activated protein kinase 1,丹参,TCMSP
+MOL01027,Gallic acid,Nitric-oxide synthase endothelial,丹参,TCMSP
+MOL01027,Gallic acid,mRNA of Protein-tyrosine phosphatase,丹参,TCMSP
+MOL01027,Gallic acid,Selectin E,丹参,TCMSP
+MOL01027,Gallic acid,Insulin receptor,丹参,TCMSP
+MOL01027,Gallic acid,Matrix metalloproteinase-9,丹参,TCMSP
+MOL01027,Gallic acid,Tissue inhibitor of metalloproteinases 1,丹参,TCMSP
+MOL01027,Gallic acid,Collagen alpha-1(I) chain,丹参,TCMSP
+MOL01027,Gallic acid,Interleukin-6,丹参,TCMSP
+MOL01028,Caffeic acid,Heme oxygenase 1,丹参,TCMSP
+MOL01028,Caffeic acid,Solute carrier organic anion transporter family member 1B1,丹参,TCMSP
+MOL01028,Caffeic acid,Nuclear factor erythroid 2-related factor 2,丹参,TCMSP
+MOL01028,Caffeic acid,Interleukin-1 beta,丹参,TCMSP
+MOL01028,Caffeic acid,Nuclear factor NF-kappa-B p105 subunit,丹参,TCMSP
+MOL01028,Caffeic acid,Cytochrome P450 3A4,丹参,TCMSP
+MOL01028,Caffeic acid,Prostaglandin G/H synthase 1,丹参,TCMSP
+MOL01028,Caffeic acid,Vascular cell adhesion protein 1,丹参,TCMSP
+MOL01028,Caffeic acid,Apoptosis regulator BAX,丹参,TCMSP
+MOL01028,Caffeic acid,Tumor necrosis factor receptor superfamily member 11B,丹参,TCMSP
+MOL01028,Caffeic acid,NAD(P)H dehydrogenase quinone 1,丹参,TCMSP
+MOL01005,beta-sitosterol,Cytochrome P450-cam,黄芪,TCMSP
+MOL01007,Calycosin,mRNA of Protein-tyrosine phosphatase,黄芪,TCMSP

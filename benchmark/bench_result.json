@@ -1,0 +1,59 @@
+[
+ {
+  "id": "empty-input",
+  "category": "empty",
+  "duration_s": 0.32,
+  "exit_code": 2,
+  "why": "空药名表",
+  "status": "PASS",
+  "fails": [],
+  "stdout_tail": "",
+  "stderr_tail": "{\"status\": \"failed\", \"message\": \"输入为 0 行（空用例）\", \"advice\": \"确认药名列表是否为空；矿物药/动物药可能无记录\"}\n"
+ },
+ {
+  "id": "malformed-row",
+  "category": "malformed",
+  "duration_s": 0.33,
+  "exit_code": 2,
+  "why": "多余逗号",
+  "status": "PASS",
+  "fails": [],
+  "stdout_tail": "",
+  "stderr_tail": "{\"status\": \"failed\", \"message\": \"CSV 解析失败: unexpected end of data\", \"advice\": \"单列 CSV、逗号分隔、引号成对\"}\n"
+ },
+ {
+  "id": "nonstandard-name",
+  "category": "nonstandard",
+  "duration_s": 4.75,
+  "exit_code": 0,
+  "why": "矿物药/拉丁名混写",
+  "status": "PASS",
+  "fails": [],
+  "stdout_tail": "{\"status\": \"ok\", \"input_rows\": 3, \"checks\": {\"scripts_ok\": true, \"data_dir\": true, \"references\": true, \"fallback\": true, \"hitl\": true, \"contracts\": true, \"selftest\": true}, \"artifacts\": []}\n",
+  "stderr_tail": ""
+ },
+ {
+  "id": "typical",
+  "category": "typical",
+  "duration_s": 4.04,
+  "exit_code": 0,
+  "why": "典型药对",
+  "note": "无 golden（golden/typical.json），跳过比对",
+  "status": "PASS",
+  "fails": [],
+  "stdout_tail": "{\"status\": \"ok\", \"input_rows\": 5, \"checks\": {\"scripts_ok\": true, \"data_dir\": true, \"references\": true, \"fallback\": true, \"hitl\": true, \"contracts\": true, \"selftest\": true}, \"artifacts\": []}\n",
+  "stderr_tail": ""
+ },
+ {
+  "id": "idempotent-rerun",
+  "category": "regression",
+  "duration_s": 4.11,
+  "exit_code": 0,
+  "why": "两次一致",
+  "repro_ok": true,
+  "status": "PASS",
+  "fails": [],
+  "stdout_tail": "{\"status\": \"ok\", \"input_rows\": 5, \"checks\": {\"scripts_ok\": true, \"data_dir\": true, \"references\": true, \"fallback\": true, \"hitl\": true, \"contracts\": true, \"selftest\": true}, \"artifacts\": []}\n",
+  "stderr_tail": ""
+ }
+]

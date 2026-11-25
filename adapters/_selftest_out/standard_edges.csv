@@ -1,0 +1,3 @@
+﻿src_id,dst_id,relation,weight,source,evidence
+MOL001,AKT1,compound-target,0.28,TCMSP,TCMSP database
+MOL002,TNF,compound-target,0.25,TCMSP,TCMSP database

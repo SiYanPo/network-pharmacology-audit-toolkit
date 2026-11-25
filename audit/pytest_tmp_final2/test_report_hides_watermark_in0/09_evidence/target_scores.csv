@@ -1,0 +1,2 @@
+﻿gene,p_gold,ci_low,ci_high,n_evidence_types,decision,decision_zh,log_n_compounds,degree_pct,betweenness_pct,hub_robust,mr_significant,mr_direction,coloc_pp4,tissue_expressed,enrich_hit,ortholog_ok,dock_norm,has_L4
+IL6,,,,2,uncalibrated,未校准：仅可按级别先验排序，不得写作概率,,,,,,,,,,,,

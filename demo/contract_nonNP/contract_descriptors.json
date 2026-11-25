@@ -1,0 +1,13 @@
+{
+  "required": ["smiles", "mw", "logp", "tpsa"],
+  "aliases": {
+    "smiles": ["smiles", "canonical_smiles", "isomeric_smiles"],
+    "mw": ["mw", "molwt", "molecular_weight"],
+    "logp": ["logp", "xlogp", "alogp"],
+    "tpsa": ["tpsa", "polar_surface_area"]
+  },
+  "types": {"mw": "number", "logp": "number", "tpsa": "number"},
+  "min_rows": 3,
+  "kind": "table",
+  "note": "非 NP 产物：分子描述符表。用于演示契约层与领域无关。"
+}

@@ -1,0 +1,149 @@
+﻿family,unit,test,stat,p,q_family,q_global,significant_raw,significant_family,significant_global,source,sha256_16
+ENRICH,Prostate cancer,hypergeom,7.0,9.50579e-12,1.40685692e-09,1.40685692e-09,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Pathways in cancer,hypergeom,10.0,1.00971e-10,7.471854e-09,7.471854e-09,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Neurotrophin signaling pathway,hypergeom,6.0,3.05205e-09,1.505678e-07,1.505678e-07,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Glioma,hypergeom,5.0,1.78774e-08,6.614638e-07,6.614638e-07,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,IL-17 signaling pathway,hypergeom,5.0,5.60736e-08,1.6597785600000001e-06,1.6597785600000001e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Proteoglycans in cancer,hypergeom,6.0,7.9217e-08,1.9540193333333333e-06,1.9540193333333333e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Lipid and atherosclerosis,hypergeom,6.0,1.05036e-07,2.220761142857143e-06,2.220761142857143e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Negative Regulation Of Programmed Cell Death (GO:0043069),hypergeom,7.0,1.33247e-07,2.329454222222222e-06,2.329454222222222e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Response To Amyloid-Beta (GO:1904645),hypergeom,4.0,1.41656e-07,2.329454222222222e-06,2.329454222222222e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Reversible Hydration Of Carbon Dioxide R-HSA-1475029,hypergeom,3.0,2.65864e-07,3.9347872e-06,3.9347872e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Endometrial cancer,hypergeom,4.0,4.81632e-07,6.408752923076922e-06,6.408752923076922e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Breast cancer,hypergeom,5.0,5.24806e-07,6.408752923076922e-06,6.408752923076922e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Regulation Of Apoptotic Process (GO:0042981),hypergeom,8.0,5.62931e-07,6.408752923076922e-06,6.408752923076922e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Negative Regulation Of Apoptotic Process (GO:0043066),hypergeom,7.0,6.52128e-07,6.893924571428571e-06,6.893924571428571e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Hepatitis C,hypergeom,5.0,7.27203e-07,7.1750696e-06,7.1750696e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Nitrogen metabolism,hypergeom,3.0,8.18772e-07,7.39313105882353e-06,7.39313105882353e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Hepatitis B,hypergeom,5.0,8.49211e-07,7.39313105882353e-06,7.39313105882353e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Hepatocellular carcinoma,hypergeom,5.0,1.01638e-06,8.356902222222223e-06,8.356902222222223e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Melanoma,hypergeom,4.0,1.15587e-06,8.553437999999999e-06,8.553437999999999e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Non-small cell lung cancer,hypergeom,4.0,1.15587e-06,8.553437999999999e-06,8.553437999999999e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Chronic myeloid leukemia,hypergeom,4.0,1.43719e-06,9.66836909090909e-06,9.66836909090909e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Pancreatic cancer,hypergeom,4.0,1.43719e-06,9.66836909090909e-06,9.66836909090909e-06,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Kaposi sarcoma-associated herpesvirus infection,hypergeom,5.0,2.01262e-06,1.2950772173913043e-05,1.2950772173913043e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,ErbB signaling pathway,hypergeom,4.0,2.25314e-06,1.3894363333333334e-05,1.3894363333333334e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Colorectal cancer,hypergeom,4.0,2.3613e-06,1.3978896e-05,1.3978896e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Alzheimer disease,hypergeom,6.0,2.47722e-06,1.410109846153846e-05,1.410109846153846e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Diabetic cardiomyopathy,hypergeom,5.0,2.57872e-06,1.4135205925925926e-05,1.4135205925925926e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Small cell lung cancer,hypergeom,4.0,3.09323e-06,1.634993e-05,1.634993e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Human cytomegalovirus infection,hypergeom,5.0,4.26546e-06,2.176855448275862e-05,2.176855448275862e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Longevity regulating pathway,hypergeom,4.0,4.6698e-06,2.303768e-05,2.303768e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,hypergeom,6.0,5.5109e-06,2.613125e-05,2.613125e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807,hypergeom,4.0,5.65e-06,2.613125e-05,2.613125e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,HIF-1 signaling pathway,hypergeom,4.0,6.08183e-06,2.7276086060606064e-05,2.7276086060606064e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,TNF signaling pathway,hypergeom,4.0,6.77472e-06,2.9489957647058822e-05,2.9489957647058822e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Negative Regulation Of Transferase Activity (GO:0051348),hypergeom,3.0,9.22036e-06,3.8988950857142853e-05,3.8988950857142853e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Pathways of neurodegeneration,hypergeom,6.0,1.05434e-05,4.3345088888888884e-05,4.3345088888888884e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Relaxin signaling pathway,hypergeom,4.0,1.1859e-05,4.7436e-05,4.7436e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Bladder cancer,hypergeom,3.0,1.2613e-05,4.786471794871795e-05,4.786471794871795e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Regulation Of Microtubule-Based Process (GO:0032886),hypergeom,3.0,1.2613e-05,4.786471794871795e-05,4.786471794871795e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),hypergeom,5.0,1.3211e-05,4.8880699999999994e-05,4.8880699999999994e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,MAPK signaling pathway,hypergeom,5.0,1.56108e-05,5.4803711627906976e-05,5.4803711627906976e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Fluid shear stress and atherosclerosis,hypergeom,4.0,1.59227e-05,5.4803711627906976e-05,5.4803711627906976e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Measles,hypergeom,4.0,1.59227e-05,5.4803711627906976e-05,5.4803711627906976e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Insulin Receptor Signaling Pathway (GO:0008286),hypergeom,3.0,1.91021e-05,6.425251818181818e-05,6.425251818181818e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,MicroRNAs in cancer,hypergeom,5.0,2.01452e-05,6.625532444444445e-05,6.625532444444445e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Gastric cancer,hypergeom,4.0,2.093e-05,6.734e-05,6.734e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Regulation Of Mitochondrion Organization (GO:0010821),hypergeom,3.0,2.30394e-05,7.25496e-05,7.25496e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,mTOR signaling pathway,hypergeom,4.0,2.38275e-05,7.3468125e-05,7.3468125e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Ovarian steroidogenesis,hypergeom,3.0,2.44615e-05,7.388371428571429e-05,7.388371428571429e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Human papillomavirus infection,hypergeom,5.0,2.75875e-05,8.1659e-05,8.1659e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Protein Autophosphorylation (GO:0046777),hypergeom,4.0,2.90626e-05,8.433852549019607e-05,8.433852549019607e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular Response To Peptide (GO:1901653),hypergeom,3.0,3.24422e-05,9.233549230769231e-05,9.233549230769231e-05,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Mitochondrion Organization (GO:0010822),hypergeom,3.0,3.60598e-05,0.00010069529056603775,0.00010069529056603775,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,PI3K-Akt signaling pathway,hypergeom,5.0,3.80294e-05,0.00010422872592592592,0.00010422872592592592,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Acute myeloid leukemia,hypergeom,3.0,5.56184e-05,0.00014648001403508773,0.00014648001403508773,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Chemokine signaling pathway,hypergeom,4.0,5.64146e-05,0.00014648001403508773,0.00014648001403508773,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Transcriptional misregulation in cancer,hypergeom,4.0,5.64146e-05,0.00014648001403508773,0.00014648001403508773,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Disease R-HSA-1643685,hypergeom,9.0,5.77193e-05,0.00014728373103448276,0.00014728373103448276,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Prolactin signaling pathway,hypergeom,3.0,6.34152e-05,0.00015907541694915254,0.00015907541694915254,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Focal adhesion,hypergeom,4.0,6.74054e-05,0.00016626665333333333,0.00016626665333333333,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Viral carcinogenesis,hypergeom,4.0,7.00457e-05,0.00016858495,0.00016858495,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Extra-nuclear Estrogen Signaling R-HSA-9009391,hypergeom,3.0,7.18957e-05,0.00016858495,0.00016858495,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular Response To Reactive Oxygen Species (GO:0034614),hypergeom,3.0,7.18957e-05,0.00016858495,0.00016858495,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular Response To Oxygen-Containing Compound (GO:1901701),hypergeom,5.0,7.29016e-05,0.00016858495,0.00016858495,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,cAMP signaling pathway,hypergeom,4.0,8.90875e-05,0.00020284538461538463,0.00020284538461538463,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cytokine Signaling In Immune System R-HSA-1280215,hypergeom,6.0,9.42778e-05,0.00021141082424242424,0.00021141082424242424,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,B cell receptor signaling pathway,hypergeom,3.0,9.80531e-05,0.00021659490746268656,0.00021659490746268656,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Signaling By Interleukins R-HSA-449147,hypergeom,5.0,0.0001221,0.0002657470588235294,0.0002657470588235294,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,PD-L1 expression and PD-1 checkpoint pathway in cancer,hypergeom,3.0,0.000129754,0.00027831292753623186,0.00027831292753623186,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Shigellosis,hypergeom,4.0,0.000147092,0.0003109945142857143,0.0003109945142857143,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Signal Transduction R-HSA-162582,hypergeom,10.0,0.000154235,0.0003215039436619718,0.0003215039436619718,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular Response To Heat Stress R-HSA-3371556,hypergeom,3.0,0.00017791,0.0003606942465753425,0.0003606942465753425,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular Response To Insulin Stimulus (GO:0032869),hypergeom,3.0,0.00017791,0.0003606942465753425,0.0003606942465753425,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Progesterone-mediated oocyte maturation,hypergeom,3.0,0.000183279,0.000366558,0.000366558,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Signaling By Receptor Tyrosine Kinases R-HSA-9006934,hypergeom,5.0,0.000186524,0.0003680740266666667,0.0003680740266666667,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Protein Phosphorylation (GO:0006468),hypergeom,5.0,0.000193628,0.00037706505263157894,0.00037706505263157894,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,C-type lectin receptor signaling pathway,hypergeom,3.0,0.000205806,0.00039050369230769235,0.00039050369230769235,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,T cell receptor signaling pathway,hypergeom,3.0,0.000205806,0.00039050369230769235,0.00039050369230769235,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Metabolism R-HSA-1430728,hypergeom,9.0,0.000209509,0.00039249787341772156,0.00039249787341772156,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Insulin resistance,hypergeom,3.0,0.000230057,0.00042560545,0.00042560545,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cholinergic synapse,hypergeom,3.0,0.000262883,0.00047447175609756094,0.00047447175609756094,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Cellular Component Organization (GO:0051130),hypergeom,3.0,0.000262883,0.00047447175609756094,0.00047447175609756094,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Response To Endoplasmic Reticulum Stress (GO:0034976),hypergeom,3.0,0.000269791,0.000481073108433735,0.000481073108433735,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular Response To Oxidative Stress (GO:0034599),hypergeom,3.0,0.000291219,0.0005131001428571428,0.0005131001428571428,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Sphingolipid signaling pathway,hypergeom,3.0,0.000306098,0.0005267733023255814,0.0005267733023255814,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Transcriptional Regulation By RUNX2 R-HSA-8878166,hypergeom,3.0,0.000306098,0.0005267733023255814,0.0005267733023255814,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Thyroid hormone signaling pathway,hypergeom,3.0,0.00032146,0.0005468514942528734,0.0005468514942528734,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Intracellular Signaling By Second Messengers R-HSA-9006925,hypergeom,4.0,0.000338487,0.000569273590909091,0.000569273590909091,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,FoxO signaling pathway,hypergeom,3.0,0.000405749,0.0006747286741573034,0.0006747286741573034,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Insulin signaling pathway,hypergeom,3.0,0.000462541,0.0007522644835164836,0.0007522644835164836,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Yersinia infection,hypergeom,3.0,0.000462541,0.0007522644835164836,0.0007522644835164836,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Apoptosis,hypergeom,3.0,0.000513586,0.0008262035652173913,0.0008262035652173913,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Signaling pathways regulating pluripotency of stem cells,hypergeom,3.0,0.000524209,0.0008342250752688172,0.0008342250752688172,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Neuron Development (GO:0048666),hypergeom,3.0,0.000602544,0.0009486862978723404,0.0009486862978723404,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cushing syndrome,hypergeom,3.0,0.000662848,0.0010218906666666667,0.0010218906666666667,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Non-alcoholic fatty liver disease,hypergeom,3.0,0.000662848,0.0010218906666666667,0.0010218906666666667,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular senescence,hypergeom,3.0,0.000675353,0.0010304355051546392,0.0010304355051546392,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Protein Phosphorylation (GO:0001934),hypergeom,4.0,0.000742684,0.0011216044081632651,0.0011216044081632651,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Wnt signaling pathway,hypergeom,3.0,0.00080878,0.0012090852525252526,0.0012090852525252526,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular Responses To Stress R-HSA-2262752,hypergeom,5.0,0.00103849,0.0015369652,0.0015369652,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Axon guidance,hypergeom,3.0,0.00105527,0.0015463362376237624,0.0015463362376237624,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Negative Regulation Of Macromolecule Metabolic Process (GO:0010605),hypergeom,3.0,0.00112352,0.0016261176699029127,0.0016261176699029127,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Cellular Responses To Stimuli R-HSA-8953897,hypergeom,5.0,0.00113169,0.0016261176699029127,0.0016261176699029127,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,ESR-mediated Signaling R-HSA-8939211,hypergeom,3.0,0.00115867,0.0016488765384615387,0.0016488765384615387,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Neutrophil extracellular trap formation,hypergeom,3.0,0.0011765,0.001658304761904762,0.001658304761904762,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Regulation Of Gene Expression (GO:0010468),hypergeom,6.0,0.00119563,0.001660573831775701,0.001660573831775701,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Phosphorylation (GO:0016310),hypergeom,4.0,0.00120055,0.001660573831775701,0.001660573831775701,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Epstein-Barr virus infection,hypergeom,3.0,0.0014243,0.0019518185185185188,0.0019518185185185188,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Generic Transcription Pathway R-HSA-212436,hypergeom,6.0,0.00158373,0.0021418829090909092,0.0021418829090909092,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Rap1 signaling pathway,hypergeom,3.0,0.00159194,0.0021418829090909092,0.0021418829090909092,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Human T-cell leukemia virus 1 infection,hypergeom,3.0,0.00179481,0.0023930799999999997,0.0023930799999999997,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Gene Expression (GO:0010628),hypergeom,4.0,0.00181448,0.0023977057142857143,0.0023977057142857143,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Phosphorylation (GO:0042327),hypergeom,3.0,0.00208951,0.0027367033628318584,0.0027367033628318584,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Ras signaling pathway,hypergeom,3.0,0.00211535,0.002746243859649123,0.002746243859649123,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Developmental Process (GO:0051094),hypergeom,3.0,0.00214138,0.0027558629565217394,0.0027558629565217394,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Chemical carcinogenesis,hypergeom,3.0,0.0023018,0.002936779310344828,0.002936779310344828,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Regulation Of Autophagy (GO:0010506),hypergeom,3.0,0.00235689,0.002981365128205128,0.002981365128205128,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Transmission Across Chemical Synapses R-HSA-112315,hypergeom,3.0,0.0024982,0.003133335593220339,0.003133335593220339,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Parkinson disease,hypergeom,3.0,0.00258546,0.0032125743333333338,0.0032125743333333338,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,RNA Polymerase II Transcription R-HSA-73857,hypergeom,6.0,0.00260479,0.0032125743333333338,0.0032125743333333338,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Signaling By Nuclear Receptors R-HSA-9006931,hypergeom,3.0,0.00292153,0.0035734416528925617,0.0035734416528925617,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,PIP3 Activates AKT Signaling R-HSA-1257604,hypergeom,3.0,0.00318216,0.0038603252459016393,0.0038603252459016393,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,RAF/MAP Kinase Cascade R-HSA-5673001,hypergeom,3.0,0.00328347,0.003950841951219512,0.003950841951219512,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,MAPK1/MAPK3 Signaling R-HSA-5684996,hypergeom,3.0,0.00349202,0.004167894838709678,0.004167894838709678,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Cellular Process (GO:0048522),hypergeom,4.0,0.00391992,0.0046411852800000005,0.0046411852800000005,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Immune System R-HSA-168256,hypergeom,7.0,0.00415289,0.004877997777777777,0.004877997777777777,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Gene Expression (Transcription) R-HSA-74160,hypergeom,6.0,0.00427971,0.004987378582677165,0.004987378582677165,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,MAPK Family Signaling Cascades R-HSA-5683057,hypergeom,3.0,0.00513569,0.0059381415625,0.0059381415625,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Negative Regulation Of Gene Expression (GO:0010629),hypergeom,3.0,0.0059825,0.006863643410852714,0.006863643410852714,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Macromolecule Metabolic Process (GO:0010604),hypergeom,3.0,0.00745839,0.008491090153846153,0.008491090153846153,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Metabolism Of Lipids R-HSA-556833,hypergeom,4.0,0.00817617,0.00923719969465649,0.00923719969465649,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Neuronal System R-HSA-112316,hypergeom,3.0,0.00875746,0.009818970303030302,0.009818970303030302,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Regulation Of Cell Population Proliferation (GO:0042127),hypergeom,4.0,0.00956365,0.010642257142857143,0.010642257142857143,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Herpes simplex virus 1 infection,hypergeom,3.0,0.017371,0.019185880597014926,0.019185880597014926,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Axon Guidance R-HSA-422475,hypergeom,3.0,0.0193707,0.021236026666666668,0.021236026666666668,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Nervous System Development R-HSA-9675108,hypergeom,3.0,0.0220183,0.02396109117647059,0.02396109117647059,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Innate Immune System R-HSA-168249,hypergeom,4.0,0.0261608,0.028261302189781023,0.028261302189781023,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Developmental Biology R-HSA-1266738,hypergeom,4.0,0.0293852,0.03151456231884058,0.03151456231884058,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Transport Of Small Molecules R-HSA-382551,hypergeom,3.0,0.0426643,0.04542673669064748,0.04542673669064748,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Protein Modification Process (GO:0036211),hypergeom,3.0,0.0434217,0.045902939999999996,0.045902939999999996,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Adaptive Immune System R-HSA-1280218,hypergeom,3.0,0.0468359,0.04916108652482269,0.04916108652482269,1,1,1,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122),hypergeom,3.0,0.0517042,0.05388888450704225,0.05388888450704225,0,0,0,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944),hypergeom,3.0,0.0847739,0.08773802237762238,0.08773802237762238,0,0,0,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Negative Regulation Of DNA-templated Transcription (GO:0045892),hypergeom,3.0,0.103963,0.10685086111111111,0.10685086111111111,0,0,0,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Positive Regulation Of DNA-templated Transcription (GO:0045893),hypergeom,3.0,0.158785,0.16207020689655172,0.16207020689655172,0,0,0,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Regulation Of Transcription By RNA Polymerase II (GO:0006357),hypergeom,4.0,0.185345,0.18788397260273973,0.18788397260273973,0,0,0,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Metabolism Of Proteins R-HSA-392499,hypergeom,3.0,0.354508,0.35691961904761904,0.35691961904761904,0,0,0,07_enrich\enrich_all.csv,88d852a93884af45
+ENRICH,Regulation Of DNA-templated Transcription (GO:0006355),hypergeom,3.0,0.36465,0.36465,0.36465,0,0,0,07_enrich\enrich_all.csv,88d852a93884af45

@@ -1,0 +1,13 @@
+﻿compound,target,affinity,redock_rmsd
+Quercetin,AKT1,-8.4,1.32
+Kaempferol,TNF,-7.6,1.55
+Luteolin,IL6,-6.9,1.71
+beta-sitosterol,PPARG,-9.1,1.18
+Tanshinone IIA,AKT1,-8.9,1.24
+Cryptotanshinone,MAPK1,-7.2,1.63
+Calycosin,ESR1,-7.8,1.44
+Ferulic acid,PTGS2,-5.6,1.9
+Z-ligustilide,NFKB1,-5.1,2.6
+Salvianolic acid B,MMP9,-8.0,1.51
+Astragaloside IV,TGFB1,-6.4,1.8
+Formononetin,AGER,-7.4,1.47

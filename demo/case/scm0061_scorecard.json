@@ -1,0 +1,212 @@
+{
+ "dir": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\demo\\case",
+ "standard": "SCM0061-2021",
+ "total_score": 26,
+ "total_max": 34,
+ "percent": 76.5,
+ "percent_executed_scope": 76.5,
+ "executed_max": 34,
+ "stages_ran": [
+  "alias",
+  "compounds",
+  "doseweight",
+  "enrich",
+  "funnel",
+  "intersect",
+  "nullmodel",
+  "ortholog",
+  "ppi",
+  "report",
+  "safety",
+  "standardize",
+  "subnetwork"
+ ],
+ "grade": "B",
+ "dimensions": {
+  "可靠性": {
+   "got": 9,
+   "max": 12
+  },
+  "规范性": {
+   "got": 10,
+   "max": 10
+  },
+  "合理性": {
+   "got": 7,
+   "max": 12
+  }
+ },
+ "items": [
+  {
+   "id": "R1",
+   "score": 2,
+   "evidence": "6 个 environment.json",
+   "dimension": "可靠性",
+   "item": "数据源登记与版本",
+   "requirement": "SCM0061 6.1.1：数据出处、版本、收集时点",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "R2",
+   "score": 1,
+   "evidence": "manifest 无溯源字段",
+   "dimension": "可靠性",
+   "item": "快照/溯源",
+   "requirement": "SCM0061 6.3.1：数据可追溯（引用/实验细节）",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "R3",
+   "score": 2,
+   "evidence": "environment.json 含版本字段",
+   "dimension": "可靠性",
+   "item": "算法与工具版本记录",
+   "requirement": "SCM0061 6.1.2：软件/算法实现的可靠性与出处",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "R4",
+   "score": 2,
+   "evidence": "5 个零模型产物",
+   "dimension": "可靠性",
+   "item": "零模型/随机化显著性",
+   "requirement": "SCM0061 6.1.2：分析方法的统计可靠性",
+   "stage": "nullmodel",
+   "stage_ran": true
+  },
+  {
+   "id": "R5",
+   "score": 0,
+   "evidence": "未检出",
+   "dimension": "可靠性",
+   "item": "阴性对照或基准回归",
+   "requirement": "SCM0061 6.1.2：用标准数据集验证方法",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "N1",
+   "score": 2,
+   "evidence": "dataflow_check.json 有状态字段",
+   "dimension": "规范性",
+   "item": "产物契约校验",
+   "requirement": "SCM0061 6.2.2：分析路径明确、产物一致",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "N2",
+   "score": 2,
+   "evidence": "2 个关键中间产物",
+   "dimension": "规范性",
+   "item": "中间产物可导出",
+   "requirement": "SCM0061 6.2.1：信息提取与转换规范",
+   "stage": "standardize",
+   "stage_ran": true
+  },
+  {
+   "id": "N3",
+   "score": 2,
+   "evidence": "1 个未匹配清单",
+   "dimension": "规范性",
+   "item": "标准化与未匹配披露",
+   "requirement": "SCM0061 6.2.1：异常信息处理",
+   "stage": "standardize",
+   "stage_ran": true
+  },
+  {
+   "id": "N4",
+   "score": 2,
+   "evidence": "3 个同源映射产物",
+   "dimension": "规范性",
+   "item": "物种/同源映射声明",
+   "requirement": "SCM0061 6.2.1：跨库信息转换",
+   "stage": "ortholog",
+   "stage_ran": true
+  },
+  {
+   "id": "N5",
+   "score": 2,
+   "evidence": "manifest 含节点/命令",
+   "dimension": "规范性",
+   "item": "全流程 manifest",
+   "requirement": "SCM0061 6.2.2：分析路径可溯源",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "P1",
+   "score": 2,
+   "evidence": "compounds_kept.csv 含 gate_used/gate_detail",
+   "dimension": "合理性",
+   "item": "成分筛选尺子明确",
+   "requirement": "SCM0061 6.3.1：筛选原则与条件",
+   "stage": "compounds",
+   "stage_ran": true
+  },
+  {
+   "id": "P2",
+   "score": 0,
+   "evidence": "未检出",
+   "dimension": "合理性",
+   "item": "阈值敏感性",
+   "requirement": "SCM0061 6.3.2：网络分析参数的合理性",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "P3",
+   "score": 2,
+   "evidence": "富集产物含 FDR/q 值",
+   "dimension": "合理性",
+   "item": "多重性控制",
+   "requirement": "SCM0061 6.3.2：指标选择与判读",
+   "stage": "enrich",
+   "stage_ran": true
+  },
+  {
+   "id": "P4",
+   "score": 2,
+   "evidence": "7 个富集产物",
+   "dimension": "合理性",
+   "item": "富集分层/冗余折叠",
+   "requirement": "SCM0061 6.3.2：生物功能注释的合理性",
+   "stage": "enrich",
+   "stage_ran": true
+  },
+  {
+   "id": "P5",
+   "score": 1,
+   "evidence": "缺证据等级列",
+   "dimension": "合理性",
+   "item": "证据等级（L0–L4）",
+   "requirement": "SCM0061 6.1.3：验证方法与模型的可靠性",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "P6",
+   "score": 0,
+   "evidence": "未检出",
+   "dimension": "合理性",
+   "item": "适用域声明",
+   "requirement": "SCM0061 6.3.3：模型适用边界",
+   "stage": null,
+   "stage_ran": null
+  },
+  {
+   "id": "R6",
+   "score": 2,
+   "evidence": "1185/1185 条同时含 source 与 provenance_hash（100%）；distinct_source=5",
+   "dimension": "可靠性",
+   "item": "靶点来源可追溯率",
+   "requirement": "SCM0061 6.1.1/6.3.1：数据来源与可溯源（回顾性分析显示这是复现的首要障碍）",
+   "stage": null,
+   "stage_ran": null
+  }
+ ],
+ "note": "0=未检出该要素产物；1=产物存在但缺关键字段；2=产物与字段齐备。percent 为全要素口径；percent_executed_scope 只统计本案例实际开展的 stage，用于区分「未开展」与「做而不足」。"
+}

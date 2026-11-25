@@ -1,0 +1,94 @@
+{
+ "status": "OK",
+ "split": "lodo",
+ "databases": [
+  "A",
+  "B"
+ ],
+ "n_edges": {
+  "A": 2,
+  "B": 2
+ },
+ "pairwise_containment": {
+  "A⊂B": 1.0,
+  "B⊂A": 1.0
+ },
+ "results": [
+  {
+   "held_out_db": "A",
+   "n_train_edges": 2,
+   "n_holdout_edges": 2,
+   "status": "OK",
+   "AUC": null,
+   "AUPRC": 1.0,
+   "n_evaluated": 2,
+   "n_positive_found": 2,
+   "coverage": 1.0,
+   "at_k": {
+    "10": {
+     "hits": 2,
+     "recall": 1.0,
+     "precision": 0.2,
+     "expected_hits": 10.0,
+     "enrichment_factor": 0.2,
+     "hypergeom_p": 1.0
+    },
+    "20": {
+     "hits": 2,
+     "recall": 1.0,
+     "precision": 0.1,
+     "expected_hits": 20.0,
+     "enrichment_factor": 0.1,
+     "hypergeom_p": 1.0
+    },
+    "50": {
+     "hits": 2,
+     "recall": 1.0,
+     "precision": 0.04,
+     "expected_hits": 50.0,
+     "enrichment_factor": 0.04,
+     "hypergeom_p": 1.0
+    }
+   }
+  },
+  {
+   "held_out_db": "B",
+   "n_train_edges": 2,
+   "n_holdout_edges": 2,
+   "status": "OK",
+   "AUC": null,
+   "AUPRC": 1.0,
+   "n_evaluated": 2,
+   "n_positive_found": 2,
+   "coverage": 1.0,
+   "at_k": {
+    "10": {
+     "hits": 2,
+     "recall": 1.0,
+     "precision": 0.2,
+     "expected_hits": 10.0,
+     "enrichment_factor": 0.2,
+     "hypergeom_p": 1.0
+    },
+    "20": {
+     "hits": 2,
+     "recall": 1.0,
+     "precision": 0.1,
+     "expected_hits": 20.0,
+     "enrichment_factor": 0.1,
+     "hypergeom_p": 1.0
+    },
+    "50": {
+     "hits": 2,
+     "recall": 1.0,
+     "precision": 0.04,
+     "expected_hits": 50.0,
+     "enrichment_factor": 0.04,
+     "hypergeom_p": 1.0
+    }
+   }
+  }
+ ],
+ "subset_warning": "疑似子集关系（包含率>0.95）：A⊂B；B⊂A → 该对照**不是独立验证**，须先查清两库谱系",
+ "timestamp": "2026-11-22 17:14:49"
+}

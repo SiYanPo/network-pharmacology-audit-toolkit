@@ -1,0 +1,172 @@
+﻿5-hydroxytryptamine 1a receptor	HTR1A
+5-hydroxytryptamine 1b receptor	HTR1B
+5-hydroxytryptamine 1d receptor	HTR1D
+5-hydroxytryptamine 2a receptor	HTR2A
+5-hydroxytryptamine 2b receptor	HTR2B
+5-hydroxytryptamine 2c receptor	HTR2C
+5-hydroxytryptamine 7 receptor	HTR7
+5-hydroxytryptamine receptor 3a	HTR3A
+acetylcholinesterase	ACHE
+adiponectin	ADIPOR1
+akt1	AKT1
+alcohol dehydrogenase 1a	ADH1A
+alcohol dehydrogenase 1b	ADH1B
+alcohol dehydrogenase 1c	ADH1C
+aldo-keto reductase family 1 member c1	AKR1C1
+aldo-keto reductase family 1 member c3	AKR1C3
+androgen receptor	AR
+apolipoprotein d	APOD
+apoptosis regulator bcl-2	BCL2
+arachidonate 12-lipoxygenase, 12s-type	ALOX12
+arachidonate 5-lipoxygenase	ALOX5
+aryl hydrocarbon receptor	AHR
+bcl-2-like protein 1	BCL2L1
+beta-galactosidase	GLB1
+beta-lactamase	LACTB
+beta-secretase	BACE1
+bone morphogenetic protein receptor type-2	BMPR2
+c-c motif chemokine 2	CCR2
+c-reactive protein	CRP
+c-x-c motif chemokine 10	CXCL10
+c-x-c motif chemokine 11	CXCL11
+c-x-c motif chemokine 2	CXCL2
+calcitonin receptor	CALCR
+calmodulin	CALM1
+camp-dependent protein kinase inhibitor alpha	PKIA
+caspase-1	CASP1
+caspase-3	CASP3
+caspase-7	CASP7
+caspase-8	CASP8
+caspase-9	CASP9
+catalase	CAT
+catenin beta-1	CTNNB1
+cathepsin d	CTSD
+caveolin-1	CAV1
+cd40 ligand	CD40LG
+cholesteryl ester transfer protein	CETP
+claudin-4	CLDN4
+coagulation factor vii	F7
+complement c1r subcomponent	C1RL
+complement c3	C3
+cyclin-a2	CCNA2
+cytochrome c	CYCS
+ddb1- and cul4-associated factor 5	DCAF5
+diacylglycerol o-acyltransferase 2	DGAT2
+dna topoisomerase 1	TOPBP1
+dna topoisomerase ii	TOP2A
+dopamine d1 receptor	DRD1
+dual oxidase 2	DUOX2
+e-selectin	SELE
+endothelin-1	EDN1
+endothelin-converting enzyme 1	ECE1
+epidermal growth factor receptor	EGFR
+estrogen receptor	ESR1
+estrogen receptor beta	ESR2
+eukaryotic translation initiation factor 6	EIF6
+fatty acid synthase	FASN
+fibronectin	FN1
+gamma-aminobutyric acid receptor subunit epsilon	GABRE
+gamma-aminobutyric acid type b receptor subunit 1	GABBR1
+gap junction alpha-1 protein	GJA1
+gap junction beta-1 protein	GJB1
+glucose-6-phosphate 1-dehydrogenase	H6PD
+glutamate receptor 2	GRM2
+glutathione s-transferase mu 1	GSTM1
+glutathione s-transferase mu 2	GSTM2
+glycogen synthase kinase-3 beta	GSK3B
+gonadotropin-releasing hormone receptor	GNRHR
+heat shock factor protein 1	HSBP1
+heat shock protein beta-1	HSP90B1
+heme oxygenase 1	HMOX1
+hexokinase-2	HK2
+histamine h1 receptor	HRH1
+hyaluronan synthase 2	HAS2
+hypoxia-inducible factor 1-alpha	HIF1A
+inhibitor of nuclear factor kappa-b kinase subunit beta	IKBKB
+insulin receptor	INSR
+insulin-like growth factor-binding protein 3	IGFBP3
+integrin beta-3	ITGB3
+intercellular adhesion molecule 1	ICAM1
+interferon gamma	IFNG
+interferon regulatory factor 1	IRF1
+interleukin-1 alpha	IL1A
+interleukin-1 beta	IL1B
+interleukin-10	IL10
+interleukin-2	IL2
+interleukin-23 subunit alpha	IL23A
+interleukin-4	IL4
+interleukin-6	IL6
+lipopolysaccharide-binding protein	LBP
+low-density lipoprotein receptor	LDLR
+lysozyme	LYZ
+matrix metalloproteinase-2	MMP2
+matrix metalloproteinase-9	MMP9
+metabotropic glutamate receptor 1	GRM1
+metabotropic glutamate receptor 5	GRM5
+microtubule-associated protein 2	MAP2
+mitogen-activated protein kinase 1	MAPK1
+mitogen-activated protein kinase 10	MAPK10
+mitogen-activated protein kinase 14	MAPK14
+mitogen-activated protein kinase 3	MAPK3
+mitogen-activated protein kinase 8	MAPK8
+mucin-1	MUCL1
+myeloperoxidase	MPO
+nad(p)h dehydrogenase [quinone] 1	NQO1
+nadph oxidase 5	NOX5
+nf-kappa-b inhibitor alpha	NFKBIA
+nitric oxide synthase, brain	NOS1
+nitric oxide synthase, endothelial	NOS3
+nitric oxide synthase, inducible	NOS2
+nuclear receptor coactivator 1	NCOA1
+nuclear receptor coactivator 2	NCOA2
+nuclear receptor subfamily 1 group i member 2	NR1I2
+nuclear receptor subfamily 1 group i member 3	NR1I3
+nucleophosmin	NPM1
+ornithine decarboxylase	ODC1
+oxidized low-density lipoprotein receptor 1	OLR1
+p-selectin	SELP
+peroxisome proliferator activated receptor delta	PPARD
+peroxisome proliferator activated receptor gamma	PPARG
+peroxisome proliferator-activated receptor alpha	PPARA
+peroxisome proliferator-activated receptor delta	PPARD
+peroxisome proliferator-activated receptor gamma	PPARG
+phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit, gamma isoform	PIK3CG
+phospholipase a2	PLA2G4A
+platelet endothelial cell adhesion molecule	PECAM1
+poly [adp-ribose] polymerase 1	PARP1
+poly [adp-ribose] polymerase 4	PARP4
+potassium channel subfamily k member 10	KCNK10
+potassium channel subfamily k member 2	KCNK2
+potassium voltage-gated channel subfamily h member 2	KCNH2
+progesterone receptor	PGR
+programmed cell death 1 ligand 1	PDCD1LG2
+proliferating cell nuclear antigen	PCNA
+prostaglandin e synthase	PTGES
+prostaglandin e synthase 2	PTGES2
+prostaglandin g/h synthase 1	PTGS1
+prostaglandin g/h synthase 2	PTGS2
+proteasome assembly chaperone 1	PSMG1
+proto-oncogene tyrosine-protein kinase src	SRC
+purine nucleoside phosphorylase	PNP
+puromycin-sensitive aminopeptidase	NPEPPS
+ras gtpase-activating protein 1	SYNGAP1
+ras-specific guanine nucleotide-releasing factor 1	RASGRF1
+rhodopsin	RHO
+serine/threonine-protein kinase mtor	MTOR
+signal transducer and activator of transcription 3	STAT3
+sterol o-acyltransferase 1	SOAT1
+sterol o-acyltransferase 2	SOAT2
+thrombin	F2
+thrombomodulin	THBD
+tissue factor	F3
+tissue-type plasminogen activator	PLAT
+transcription factor ap-1	FOSL1
+transcription factor p65	RELA
+transforming growth factor beta-1	TGFB1
+transient receptor potential cation channel subfamily v member 1	TRPV1
+trypsin-1	F2RL1
+tumor necrosis factor	TNF
+tyrosinase	TYR
+udp-glucuronosyltransferase 1-1	UGT1A10
+v-set domain-containing t-cell activation inhibitor 1	VTCN1
+vascular endothelial growth factor a	VEGFA

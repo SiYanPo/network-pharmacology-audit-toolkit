@@ -1,0 +1,59 @@
+{
+ "_说明": "本机 MD 环境长期记忆（2026-11-20 实测）。用途：np_md.py 双后端选择与生产建议。",
+ "openmm": {
+  "version": "8.6.1",
+  "env_path": "D:/MDtools/envs/md",
+  "python": "D:/MDtools/envs/md/python.exe",
+  "platforms": [
+   "Reference",
+   "CPU",
+   "OpenCL"
+  ],
+  "同环境包": [
+   "pdbfixer 1.12",
+   "rdkit 2026.09.1",
+   "numpy 2.4.6",
+   "cuda-nvrtc 13.4（运行时，无独显时走 CPU/OpenCL）"
+  ],
+  "状态": "api_ok（np_md.py 主力后端，Windows 原生）"
+ },
+ "gromacs": {
+  "version": "2026.3-conda_forge",
+  "path_wsl": "/opt/md/envs/gmx/bin/gmx",
+  "distro": "Ubuntu-24.04（WSL2，已解除沙箱限制 2026-11-20）",
+  "驱动": "np_md.py gmx --pdb x.pdb --ps N --nt 6（自动路径转换 /mnt/d/...）",
+  "ambertools": "/opt/ambertools（MMPBSA.py/antechamber 可用）",
+  "mdp": "已内置 em/nvt/npt/md（tau-t/tau-p/nstxout-compressed 完整）",
+  "实测": "ubiquitin ~1万原子 6线程 48.06 ns/day；前会话 7万原子 11.27 ns/day"
+ },
+ "基准_前会话实测": {
+  "ns_per_day": "11.27 ns/day @ 7万原子",
+  "硬件": "i5-12400 6C12T / 8GB / Intel UHD 730（无独显）",
+  "内存实测": "7万原子纯水体系峰值常驻内存 133 MB（占 8GB 的 1.6%）",
+  "结论": "本机适合 ≤1ns 快筛与参数调试；20ns≈2 天（WSL gmx）；100ns+ 生产建议学校集群/郑州超算"
+ },
+ "vina": {
+  "path": "D:/MDtools/vina.exe",
+  "状态": "api_ok（np_dockprep 亦可用 _research/tools/vina.exe）"
+ },
+ "力场建议_来自MDwork报告": [
+  "蛋白 AMBER ff14SB 或 CHARMM36m",
+  "脂膜 CHARMM36(CHARMM-GUI)/Lipid17(AMBER)",
+  "配体 GAFF2+AM1-BCC（第一版，文献可追溯）；精度升级 OpenFF Sage 2.x",
+  "水 TIP3P",
+  "离子 0.15M NaCl"
+ ],
+ "基准_openmm_本会话实测": {
+  "体系": "4EJN(AKT1 全受体) pdbfixer 修复 + TIP3P 1nm 盒",
+  "atoms": 167594,
+  "ns_per_day": 0.727,
+  "备注": "CPU 后台单跑；RMSD/势能流式输出+DCD 轨迹+诊断 SVG 全链路通过；167k 原子太大，实战建议截取单链/加受体截断，5 万原子级可达数 ns/day"
+ },
+ "基准_complex_本会话实测": {
+  "体系": "4EJN+槲皮素+TIP3P 1nm（546,228 原子）",
+  "ns_per_day": 0.24,
+  "总耗时": "3810s（溶剂化+模板生成+最小化2000步+0.2ps生产）",
+  "备注": "全链路 exit=0；实战建议单链截断至 ~50k 原子（可达 1-3 ns/day），或集群生产"
+ },
+ "状态": "gmx_wsl_ok"
+}

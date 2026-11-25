@@ -1,0 +1,107 @@
+{
+ "n_profiles": 30,
+ "n_reversal": 0,
+ "top_reversal": [
+  {
+   "drug": "-666",
+   "connectivity": -0.11,
+   "reversal": false
+  },
+  {
+   "drug": "-666",
+   "connectivity": -0.09,
+   "reversal": false
+  },
+  {
+   "drug": "mestanolone",
+   "connectivity": -0.07,
+   "reversal": false
+  },
+  {
+   "drug": "-666",
+   "connectivity": -0.07,
+   "reversal": false
+  },
+  {
+   "drug": "TESTOSTERONE",
+   "connectivity": -0.065,
+   "reversal": false
+  },
+  {
+   "drug": "HY-10254",
+   "connectivity": -0.06,
+   "reversal": false
+  },
+  {
+   "drug": "zileuton",
+   "connectivity": -0.06,
+   "reversal": false
+  },
+  {
+   "drug": "RHODOMYRTOXIN B",
+   "connectivity": -0.055,
+   "reversal": false
+  },
+  {
+   "drug": "AZD8055",
+   "connectivity": -0.055,
+   "reversal": false
+  },
+  {
+   "drug": "tanespimycin",
+   "connectivity": -0.05,
+   "reversal": false
+  },
+  {
+   "drug": "-666",
+   "connectivity": -0.05,
+   "reversal": false
+  },
+  {
+   "drug": "4-demethoxydaunorubicin",
+   "connectivity": -0.05,
+   "reversal": false
+  },
+  {
+   "drug": "PD0332991",
+   "connectivity": -0.05,
+   "reversal": false
+  },
+  {
+   "drug": "itavastatin ca",
+   "connectivity": -0.045,
+   "reversal": false
+  },
+  {
+   "drug": "-666",
+   "connectivity": -0.045,
+   "reversal": false
+  },
+  {
+   "drug": "-666",
+   "connectivity": 0.03,
+   "reversal": false
+  },
+  {
+   "drug": "YK 4-279",
+   "connectivity": 0.03,
+   "reversal": false
+  },
+  {
+   "drug": "CYT997",
+   "connectivity": 0.04,
+   "reversal": false
+  },
+  {
+   "drug": "PACLITAXEL",
+   "connectivity": 0.045,
+   "reversal": false
+  },
+  {
+   "drug": "podofilox",
+   "connectivity": 0.05,
+   "reversal": false
+  }
+ ],
+ "note": "connectivity<−0.2 记为逆转候选；本地小型库仅作方法验证，正式候选需 LINCS L1000 全库 + CMap 官方 connectivity score 确认"
+}

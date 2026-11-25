@@ -1,0 +1,2554 @@
+{
+ "herb": "楮实子",
+ "herb_id": "ChuShiZi",
+ "source": "ETCM2",
+ "url": "http://www.tcmip.cn:18124/home/ingredient_target/",
+ "access_date": "2026-11-22T00:44:06+08:00",
+ "status": "ok",
+ "reason": "",
+ "records": [
+  {
+   "compound": "(+)-Beta-Caryophyllene",
+   "gene": "CNR2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "RXRA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "PTPN7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "PTPN6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "PTPN2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "FFAR4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(10E,13E)-octadeca-10,13-dienoic acid",
+   "gene": "ALOX5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(11E,13E)-docosa-11,13-dienoic acid",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(11E,13E)-docosa-11,13-dienoic acid",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(11E,13E)-docosa-11,13-dienoic acid",
+   "gene": "GABRA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(11E,13E)-docosa-11,13-dienoic acid",
+   "gene": "CES2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "RXRA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "PTPN7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "PTPN6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "PTPN2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "FFAR4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "(Z,Z,Z)-9,12,15-Octadecatrienoic acid",
+   "gene": "ALOX5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "10,13-Octadecadienoic acid",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "10,13-Octadecadienoic acid",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "10,13-Octadecadienoic acid",
+   "gene": "FFAR4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "10,13-Octadecadienoic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "TRPV1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "SREBF2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "NR1H3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "NR1H3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "ITGB3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "GRIN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "GRIN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "F10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "CYP17A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "CYP17A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "BCHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "RXRA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "PTPN7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "PTPN6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "PTPN2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "FFAR4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "8,11-OCTADECADIENOIC ACID",
+   "gene": "ALOX5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "USP7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTPRF",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTPRC",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTPN7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTPN6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTPN2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PTGES",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "POLB",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "PLA2G1B",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "NR1H3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "LIG1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "HSD11B2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "GAA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "FFAR4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "F3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "ELANE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "DUSP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "CTSD",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "CES2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "CDC25B",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "9-HEXADECENOIC ACID",
+   "gene": "ALOX15",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "alpha-cis-bergamotene",
+   "gene": "CNR2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "VDR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "SLC22A8",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "SLC22A6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "SLC10A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "PTGIR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "PTGER2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "NR3C2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "KDM5C",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "GABRA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "FNTA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "F10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "CTDSP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "CISD1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "CDC25A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Azelex",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "beta-Bisabolene",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "beta-Bisabolene",
+   "gene": "CNR2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "RXRA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "PTPN7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "PTPN6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "PTPN2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "FFAR4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "cis-9",
+   "gene": "ALOX5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "daucosterol palmitate",
+   "gene": "BCL2L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "USP7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTPRF",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTPRC",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTPN7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTPN6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTPN2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PTGES",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "POLB",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "PLA2G1B",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "NR1H3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "LIG1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "HSD11B2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "GAA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "FFAR4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "F3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "ELANE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "DUSP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "CTSD",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "CES2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "CDC25B",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "gondoic acid",
+   "gene": "ALOX15",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "isoterihanine",
+   "gene": "PRKCE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "isoterihanine",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "isoterihanine",
+   "gene": "LIG1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "isoterihanine",
+   "gene": "ACHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "isoterihanine",
+   "gene": "ABCG2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "VDR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "SLC22A8",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "SLC22A6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "SLC10A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "PTGIR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "PTGER2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "NR3C2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "KDM5C",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "GABRA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "FNTA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "F10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "CTDSP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "CISD1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "CDC25A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Lauric acid",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Mandenol",
+   "gene": "CES2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl 8-oxooctanoate",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl 8-oxooctanoate",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl 8-oxooctanoate",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl 8-oxooctanoate",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl 8-oxooctanoate",
+   "gene": "CA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl ester",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl ester",
+   "gene": "OXER1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl ester",
+   "gene": "FFAR4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl ester",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "PTPN7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "NR1H3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "CTSD",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl malvalate",
+   "gene": "CES2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl myristate",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl myristate",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl myristate",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl myristate",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl myristate",
+   "gene": "CA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "METHYL NONADECANOATE",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "METHYL NONADECANOATE",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "METHYL NONADECANOATE",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "METHYL NONADECANOATE",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "METHYL NONADECANOATE",
+   "gene": "CA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "PTPN7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "PTGER4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "PTGER2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "PPARG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "NR1H3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "CTSD",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl palmitelaidate",
+   "gene": "CES2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "VDR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "SLC22A8",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "SLC22A6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "SLC10A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "PTGIR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "PTGER2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "NR3C2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "KDM5C",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "GABRA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "FNTA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "F10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "CTDSP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "CISD1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "CDC25A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "methyl pentadecanoic acid",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl tricosanoate",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl tricosanoate",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl tricosanoate",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl tricosanoate",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Methyl tricosanoate",
+   "gene": "CA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "VDR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "SLC22A8",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "SLC22A6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "SLC10A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "PTGIR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "PTGER2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "NR3C2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "KDM5C",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "GABRA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "FNTA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "F10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "CTDSP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "CISD1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "CDC25A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Myristic acid",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "VDR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "SLC22A8",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "SLC22A6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "SLC10A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "PTGIR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "PTGER2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "NR3C2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "KDM5C",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "GABRA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "FNTA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "FABP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "FABP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "F10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "PubMed"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "CTDSP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "CISD1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "CDC25A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "n-Tricosanoic acid",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "oxyavicine",
+   "gene": "CDK4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "oxyavicine",
+   "gene": "CDK2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "oxyavicine",
+   "gene": "CDK1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "oxyavicine",
+   "gene": "AURKA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "MMP9",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "HDAC1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "HCAR2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "EGFR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "DPP4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "CA9",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "CA7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "CA5B",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "CA5A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "CA14",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "CA12",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "CA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "p-Coumaric acid",
+   "gene": "ALOX5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "δ-tocopherol",
+   "gene": "TRPV1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "δ-tocopherol",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "δ-tocopherol",
+   "gene": "ILK",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "δ-tocopherol",
+   "gene": "CNR2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "δ-tocopherol",
+   "gene": "CNR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  }
+ ],
+ "n_records": 363,
+ "sha256_16": "a218235ddf43b023"
+}

@@ -1,0 +1,217 @@
+{
+ "rows": [
+  {
+   "module": "np_alias",
+   "rc": 0,
+   "good": false,
+   "tail": "selftest: 11/11 PASS"
+  },
+  {
+   "module": "np_benchloop",
+   "rc": 2,
+   "good": false,
+   "tail": "np_benchloop.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_benchmark",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS（perfect AUC=1.000 / worst=0.000 / tie=0.500 / hypergeom p=0.01786）"
+  },
+  {
+   "module": "np_consensus",
+   "rc": 2,
+   "good": false,
+   "tail": "np_consensus.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_contraindication",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (甘草+甘遂=WARN/严格=ERROR, 丁香+郁金=ERROR, 制半夏+附子=WARN, 桃仁=WARN, 炮制=WARN)"
+  },
+  {
+   "module": "np_decoy",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (strong Z=-19.0→PASS; weak Z=0.6→RED_FLAG)"
+  },
+  {
+   "module": "np_defense",
+   "rc": 2,
+   "good": false,
+   "tail": "np_defense.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_doseweight",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (exposure@10g=0.62086, @50g=3.10430, ratio=5.0)"
+  },
+  {
+   "module": "np_envcheck",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (Vina=True, obabel=True, gmx=False, antechamber=False)"
+  },
+  {
+   "module": "np_evidence",
+   "rc": 2,
+   "good": false,
+   "tail": "np_evidence.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_finalcheck",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (22 gates)"
+  },
+  {
+   "module": "np_funnel",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (all=20→5; promiscuity nonspecific_hub→exempt disease_exempt; CNS BBB kept 1, unreachable 1)"
+  },
+  {
+   "module": "np_goldfetch",
+   "rc": 2,
+   "good": false,
+   "tail": "np_goldfetch.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_goldtest",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (tp=3 fp=2 recall=0.750 fpr=0.500)"
+  },
+  {
+   "module": "np_hpa",
+   "rc": 2,
+   "good": false,
+   "tail": "np_hpa.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_intervention",
+   "rc": 0,
+   "good": true,
+   "tail": "  [✓] no_evidence_no_verdict     No_Causal_Evidence"
+  },
+  {
+   "module": "np_liana",
+   "rc": 2,
+   "good": false,
+   "tail": "np_liana.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_ligand_top",
+   "rc": 2,
+   "good": false,
+   "tail": "np_ligand_top.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_lincs",
+   "rc": 2,
+   "good": false,
+   "tail": "np_lincs.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_lincs_local",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS（shape=[20, 12]，top=['drugB', 'drugD', 'drugC']，score=-1.23）"
+  },
+  {
+   "module": "np_mr",
+   "rc": 0,
+   "good": true,
+   "tail": "  [✓] run_mr_end_to_end            OK β=0.300 flags=NOT_TRUE_LD_CLUMPING,EXPLORATORY_ONLY_NO_LD_PANEL,COLOC_SHARED_CAUSA"
+  },
+  {
+   "module": "np_ortholog",
+   "rc": 0,
+   "good": true,
+   "tail": "  [✓] online_ensembl_path          Bcl2|bcl2a;bcl2b"
+  },
+  {
+   "module": "np_pocket",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (co-crystal LIG center=[1.0, 1.0, 1.0])"
+  },
+  {
+   "module": "np_primer",
+   "rc": 2,
+   "good": false,
+   "tail": "np_primer.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_singlecell",
+   "rc": 2,
+   "good": false,
+   "tail": "np_singlecell.py: error: the following arguments are required: cmd"
+  },
+  {
+   "module": "np_subnetwork",
+   "rc": 0,
+   "good": true,
+   "tail": "selftest: PASS (karate → 4 社区)"
+  },
+  {
+   "module": "np_synergy",
+   "rc": 0,
+   "good": true,
+   "tail": "  [✓] analyze_mechanistic_end_to_end     mech=2 ant=1"
+  },
+  {
+   "module": "np_wetlab",
+   "rc": 2,
+   "good": false,
+   "tail": "np_wetlab.py: error: the following arguments are required: cmd"
+  }
+ ],
+ "noselftest": [
+  "np_admet",
+  "np_audit",
+  "np_bench",
+  "np_compounds",
+  "np_corpus",
+  "np_cyto",
+  "np_db",
+  "np_dock",
+  "np_dockprep",
+  "np_doctor",
+  "np_domain",
+  "np_dose",
+  "np_enrich",
+  "np_export",
+  "np_fetch",
+  "np_figcheck",
+  "np_figs",
+  "np_guard",
+  "np_herbcache",
+  "np_htmlreport",
+  "np_interactive",
+  "np_interpret",
+  "np_intersect",
+  "np_lab",
+  "np_md",
+  "np_mr_plots",
+  "np_null",
+  "np_omics",
+  "np_optimize",
+  "np_pdf",
+  "np_pipeline",
+  "np_ppi",
+  "np_prov",
+  "np_qa",
+  "np_report",
+  "np_repro_batch",
+  "np_run",
+  "np_sens",
+  "np_standardize",
+  "np_survival",
+  "np_tcmviz",
+  "np_toxpath",
+  "np_uireport"
+ ]
+}

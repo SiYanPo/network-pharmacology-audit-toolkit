@@ -1,0 +1,118 @@
+{
+  "stages": [
+    {
+      "stage": "02_compounds",
+      "tool": "network-pharmacology-pro",
+      "tool_version": "1.0.0",
+      "python": "3.13.14",
+      "platform": "win32",
+      "started": "2026-11-23T14:11:28",
+      "argv": [
+        "scripts/np_pipeline.py",
+        "--inputs",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/inputs/Quercetin/inputs.json",
+        "-o",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/np_out/Quercetin_full",
+        "--offline",
+        "--enable-funnel",
+        "--enable-doseweight",
+        "--enable-louvain"
+      ],
+      "env": {
+        "python": "3.13.14",
+        "implementation": "CPython",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "machine": "AMD64",
+        "locale": "Chinese (Simplified)_China.936",
+        "filesystem_encoding": "utf-8",
+        "stdout_encoding": "utf-8",
+        "cwd": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro",
+        "tz": "中国标准时间",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "openpyxl": "3.1.5",
+          "networkx": "3.7",
+          "matplotlib": "3.11.2",
+          "rdkit": "2026.09.1"
+        }
+      },
+      "params": {
+        "input": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compounds.csv",
+        "outdir": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/03_compounds",
+        "ob": 30.0,
+        "dl": 0.18,
+        "hl": null,
+        "content": null,
+        "logic": "and",
+        "route": "unknown",
+        "force": false,
+        "exceptions": null,
+        "gate": "auto",
+        "qed_min": 0.3,
+        "max_veber": 1,
+        "obdl_snapshot": null,
+        "quiet": false
+      },
+      "inputs": {
+        "compounds": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compounds.csv",
+          "sha256_16": "37a746e7199647bb",
+          "bytes": 158,
+          "hash": "full"
+        }
+      },
+      "outputs": {
+        "kept": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\03_compounds\\compounds_kept.csv",
+          "sha256_16": "dca43adb01ac9003",
+          "bytes": 339,
+          "hash": "full"
+        },
+        "exception": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\03_compounds\\compounds_exception.csv",
+          "sha256_16": "67eac71f110705fd",
+          "bytes": 158,
+          "hash": "full"
+        },
+        "rejected": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\03_compounds\\compounds_rejected.csv",
+          "sha256_16": "67eac71f110705fd",
+          "bytes": 158,
+          "hash": "full"
+        },
+        "unassessed": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\03_compounds\\compounds_unassessed.csv",
+          "sha256_16": "67eac71f110705fd",
+          "bytes": 158,
+          "hash": "full"
+        },
+        "report": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\03_compounds\\compounds_report.md",
+          "sha256_16": "eda45800341615e4",
+          "bytes": 2033,
+          "hash": "full"
+        }
+      },
+      "warnings": [
+        "泛成分占比 100%，特异性存疑",
+        "1 个达标成分命中 PAINS 结构警示"
+      ],
+      "counts": {
+        "exceptions": 0,
+        "kept": 1,
+        "exception": 0,
+        "rejected": 0,
+        "unassessed": 0,
+        "ubiquitous_ratio": 1.0,
+        "pains": 1,
+        "gate_mixed": 1,
+        "gate_obdl": 0,
+        "gate_druglike": 1,
+        "gate_evidence": 0,
+        "rejected_marketed": 0
+      },
+      "finished": "2026-11-23T14:11:29"
+    }
+  ]
+}

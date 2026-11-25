@@ -1,0 +1,58 @@
+{
+ "decision_rules": {
+  "wetlab_candidate": {
+   "p_min": 0.7,
+   "min_evidence_types": 2,
+   "desc": "P(gold)≥0.70 且 ≥2 类独立证据 → 可进入湿实验候选"
+  },
+  "hypothesis": {
+   "p_min": 0.7,
+   "min_evidence_types": 1,
+   "desc": "P(gold)≥0.70 但仅单一证据类 → 假设生成，需补第二类证据"
+  },
+  "insufficient": {
+   "p_min": 0.0,
+   "min_evidence_types": 0,
+   "desc": "P(gold)<0.70 → 证据不足，不得写入结论"
+  }
+ },
+ "features": [
+  "log_n_compounds",
+  "degree_pct",
+  "betweenness_pct",
+  "hub_robust",
+  "mr_significant",
+  "mr_direction",
+  "coloc_pp4",
+  "tissue_expressed",
+  "enrich_hit",
+  "ortholog_ok",
+  "dock_norm",
+  "n_evidence_types",
+  "has_L4"
+ ],
+ "feature_zh": {
+  "log_n_compounds": "支持成分数(log)",
+  "degree_pct": "PPI度分位",
+  "betweenness_pct": "介数分位",
+  "hub_robust": "拓扑共识稳健",
+  "mr_significant": "MR显著",
+  "mr_direction": "MR方向",
+  "coloc_pp4": "共定位PP.H4",
+  "tissue_expressed": "组织表达",
+  "enrich_hit": "通路命中",
+  "ortholog_ok": "直系同源",
+  "dock_norm": "对接分数",
+  "n_evidence_types": "证据类数",
+  "has_L4": "有遗传因果"
+ },
+ "levels": {
+  "L0": "textmining",
+  "L1": "computational",
+  "L2": "database",
+  "L3": "experimental",
+  "L4": "genetic_causal"
+ },
+ "applied_at": "2026-11-22 17:52:06",
+ "n_targets": 1
+}

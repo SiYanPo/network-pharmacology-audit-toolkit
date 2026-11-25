@@ -1,0 +1,149 @@
+﻿term,source,n_hit,term_size,pvalue,qvalue,tier,p_analytic_u,p_empirical,genes
+Prostate cancer,KEGG_2021_Human,7,97,9.50579e-12,1.40686e-09,未分类,,,BRAF;GSK3B;IGF1R;MMP9;NFKB1;PIK3R1;TP53
+Pathways in cancer,KEGG_2021_Human,10,531,1.00971e-10,7.47188e-09,伞状泛化,,,ALK;BRAF;CAMK2B;GSK3B;IGF1R;MMP9;NFKB1;PIK3R1;PTGS2;TP53
+Neurotrophin signaling pathway,KEGG_2021_Human,6,119,3.05205e-09,1.50568e-07,未分类,,,BRAF;CAMK2B;GSK3B;NFKB1;PIK3R1;TP53
+Glioma,KEGG_2021_Human,5,75,1.78774e-08,6.61465e-07,未分类,,,BRAF;CAMK2B;IGF1R;PIK3R1;TP53
+IL-17 signaling pathway,KEGG_2021_Human,5,94,5.60736e-08,1.65978e-06,机制明确,,,GSK3B;MMP13;MMP9;NFKB1;PTGS2
+Proteoglycans in cancer,KEGG_2021_Human,6,205,7.9217e-08,1.95402e-06,未分类,,,BRAF;CAMK2B;IGF1R;MMP9;PIK3R1;TP53
+Lipid and atherosclerosis,KEGG_2021_Human,6,215,1.05036e-07,2.22076e-06,机制明确,,,CAMK2B;GSK3B;MMP9;NFKB1;PIK3R1;TP53
+Negative Regulation Of Programmed Cell Death (GO:0043069),GO_Biological_Process_2023,7,381,1.33247e-07,2.32946e-06,未分类,,,BRAF;GSK3B;IGF1R;MMP9;NFKB1;PIK3R1;TP53
+Response To Amyloid-Beta (GO:1904645),GO_Biological_Process_2023,4,43,1.41656e-07,2.32946e-06,未分类,,,GSK3B;IGF1R;MMP13;MMP9
+Reversible Hydration Of Carbon Dioxide R-HSA-1475029,Reactome_2022,3,12,2.65864e-07,3.93478e-06,未分类,,,CA2;CA4;CA5A
+Endometrial cancer,KEGG_2021_Human,4,58,4.81632e-07,6.40875e-06,未分类,,,BRAF;GSK3B;PIK3R1;TP53
+Breast cancer,KEGG_2021_Human,5,147,5.24806e-07,6.40875e-06,未分类,,,BRAF;GSK3B;IGF1R;PIK3R1;TP53
+Regulation Of Apoptotic Process (GO:0042981),GO_Biological_Process_2023,8,705,5.62931e-07,6.40875e-06,未分类,,,ALK;BRAF;GSK3B;IGF1R;MMP9;NFKB1;PIK3R1;TP53
+Negative Regulation Of Apoptotic Process (GO:0043066),GO_Biological_Process_2023,7,482,6.52128e-07,6.89393e-06,未分类,,,BRAF;GSK3B;IGF1R;MMP9;NFKB1;PIK3R1;TP53
+Hepatitis C,KEGG_2021_Human,5,157,7.27203e-07,7.17507e-06,背景性（感染类）,,,BRAF;GSK3B;NFKB1;PIK3R1;TP53
+Nitrogen metabolism,KEGG_2021_Human,3,17,8.18772e-07,7.39313e-06,未分类,,,CA2;CA4;CA5A
+Hepatitis B,KEGG_2021_Human,5,162,8.49211e-07,7.39313e-06,背景性（感染类）,,,BRAF;MMP9;NFKB1;PIK3R1;TP53
+Hepatocellular carcinoma,KEGG_2021_Human,5,168,1.01638e-06,8.35692e-06,未分类,,,BRAF;GSK3B;IGF1R;PIK3R1;TP53
+Melanoma,KEGG_2021_Human,4,72,1.15587e-06,8.55341e-06,未分类,,,BRAF;IGF1R;PIK3R1;TP53
+Non-small cell lung cancer,KEGG_2021_Human,4,72,1.15587e-06,8.55341e-06,未分类,,,ALK;BRAF;PIK3R1;TP53
+Chronic myeloid leukemia,KEGG_2021_Human,4,76,1.43719e-06,9.66839e-06,未分类,,,BRAF;NFKB1;PIK3R1;TP53
+Pancreatic cancer,KEGG_2021_Human,4,76,1.43719e-06,9.66839e-06,未分类,,,BRAF;NFKB1;PIK3R1;TP53
+Kaposi sarcoma-associated herpesvirus infection,KEGG_2021_Human,5,193,2.01262e-06,1.29508e-05,背景性（感染类）,,,GSK3B;NFKB1;PIK3R1;PTGS2;TP53
+ErbB signaling pathway,KEGG_2021_Human,4,85,2.25314e-06,1.38943e-05,未分类,,,BRAF;CAMK2B;GSK3B;PIK3R1
+Colorectal cancer,KEGG_2021_Human,4,86,2.3613e-06,1.39789e-05,未分类,,,BRAF;GSK3B;PIK3R1;TP53
+Alzheimer disease,KEGG_2021_Human,6,369,2.47722e-06,1.41011e-05,未分类,,,BRAF;GSK3B;MAPT;NFKB1;PIK3R1;PTGS2
+Diabetic cardiomyopathy,KEGG_2021_Human,5,203,2.57872e-06,1.41352e-05,未分类,,,CAMK2B;GSK3B;MMP9;NFKB1;PIK3R1
+Small cell lung cancer,KEGG_2021_Human,4,92,3.09323e-06,1.63499e-05,未分类,,,NFKB1;PIK3R1;PTGS2;TP53
+Human cytomegalovirus infection,KEGG_2021_Human,5,225,4.26546e-06,2.17685e-05,背景性（感染类）,,,GSK3B;NFKB1;PIK3R1;PTGS2;TP53
+Longevity regulating pathway,KEGG_2021_Human,4,102,4.6698e-06,2.30377e-05,未分类,,,IGF1R;NFKB1;PIK3R1;TP53
+Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,Reactome_2022,6,424,5.5109e-06,2.61313e-05,伞状泛化,,,ALK;BRAF;CAMK2B;GSK3B;HDAC6;PIK3R1
+Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807,Reactome_2022,4,107,5.65e-06,2.61313e-05,未分类,,,MMP9;PIK3R1;PTGS2;TP53
+HIF-1 signaling pathway,KEGG_2021_Human,4,109,6.08183e-06,2.72761e-05,机制明确,,,CAMK2B;IGF1R;NFKB1;PIK3R1
+TNF signaling pathway,KEGG_2021_Human,4,112,6.77472e-06,2.949e-05,机制明确,,,MMP9;NFKB1;PIK3R1;PTGS2
+Negative Regulation Of Transferase Activity (GO:0051348),GO_Biological_Process_2023,3,37,9.22036e-06,3.89889e-05,未分类,,,GSK3B;MAPT;TP53
+Pathways of neurodegeneration,KEGG_2021_Human,6,475,1.05434e-05,4.33452e-05,未分类,,,BRAF;CAMK2B;GSK3B;MAPT;NFKB1;PTGS2
+Relaxin signaling pathway,KEGG_2021_Human,4,129,1.1859e-05,4.74359e-05,未分类,,,MMP13;MMP9;NFKB1;PIK3R1
+Bladder cancer,KEGG_2021_Human,3,41,1.2613e-05,4.78647e-05,未分类,,,BRAF;MMP9;TP53
+Regulation Of Microtubule-Based Process (GO:0032886),GO_Biological_Process_2023,3,41,1.2613e-05,4.78647e-05,未分类,,,GSK3B;HDAC6;MAPT
+Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),GO_Biological_Process_2023,5,284,1.3211e-05,4.88808e-05,未分类,,,ALK;GSK3B;IGF1R;MMP9;PIK3R1
+MAPK signaling pathway,KEGG_2021_Human,5,294,1.56108e-05,5.48037e-05,机制明确,,,BRAF;IGF1R;MAPT;NFKB1;TP53
+Fluid shear stress and atherosclerosis,KEGG_2021_Human,4,139,1.59227e-05,5.48037e-05,未分类,,,MMP9;NFKB1;PIK3R1;TP53
+Measles,KEGG_2021_Human,4,139,1.59227e-05,5.48037e-05,背景性（感染类）,,,GSK3B;NFKB1;PIK3R1;TP53
+Insulin Receptor Signaling Pathway (GO:0008286),GO_Biological_Process_2023,3,47,1.91021e-05,6.42524e-05,未分类,,,GSK3B;IGF1R;PIK3R1
+MicroRNAs in cancer,KEGG_2021_Human,5,310,2.01452e-05,6.62553e-05,未分类,,,MMP9;NFKB1;PIK3R1;PTGS2;TP53
+Gastric cancer,KEGG_2021_Human,4,149,2.093e-05,6.73401e-05,未分类,,,BRAF;GSK3B;PIK3R1;TP53
+Regulation Of Mitochondrion Organization (GO:0010821),GO_Biological_Process_2023,3,50,2.30394e-05,7.25495e-05,未分类,,,GSK3B;HDAC6;MAPT
+mTOR signaling pathway,KEGG_2021_Human,4,154,2.38275e-05,7.34682e-05,机制明确,,,BRAF;GSK3B;IGF1R;PIK3R1
+Ovarian steroidogenesis,KEGG_2021_Human,3,51,2.44615e-05,7.38837e-05,未分类,,,CYP19A1;IGF1R;PTGS2
+Human papillomavirus infection,KEGG_2021_Human,5,331,2.75875e-05,8.16589e-05,背景性（感染类）,,,GSK3B;NFKB1;PIK3R1;PTGS2;TP53
+Protein Autophosphorylation (GO:0046777),GO_Biological_Process_2023,4,162,2.90626e-05,8.43387e-05,未分类,,,ALK;CAMK2B;GSK3B;IGF1R
+Cellular Response To Peptide (GO:1901653),GO_Biological_Process_2023,3,56,3.24422e-05,9.23354e-05,未分类,,,GSK3B;IGF1R;TP53
+Positive Regulation Of Mitochondrion Organization (GO:0010822),GO_Biological_Process_2023,3,58,3.60598e-05,0.000100695,未分类,,,GSK3B;MMP9;TP53
+PI3K-Akt signaling pathway,KEGG_2021_Human,5,354,3.80294e-05,0.000104229,机制明确,,,GSK3B;IGF1R;NFKB1;PIK3R1;TP53
+Acute myeloid leukemia,KEGG_2021_Human,3,67,5.56184e-05,0.00014648,未分类,,,BRAF;NFKB1;PIK3R1
+Chemokine signaling pathway,KEGG_2021_Human,4,192,5.64146e-05,0.00014648,未分类,,,BRAF;GSK3B;NFKB1;PIK3R1
+Transcriptional misregulation in cancer,KEGG_2021_Human,4,192,5.64146e-05,0.00014648,未分类,,,IGF1R;MMP9;NFKB1;TP53
+Disease R-HSA-1643685,Reactome_2022,9,1736,5.77193e-05,0.000147284,伞状泛化,,,ALK;BRAF;CAMK2B;CYP19A1;GSK3B;HDAC6;NFKB1;PIK3R1;TP53
+Prolactin signaling pathway,KEGG_2021_Human,3,70,6.34152e-05,0.000159076,未分类,,,GSK3B;NFKB1;PIK3R1
+Focal adhesion,KEGG_2021_Human,4,201,6.74054e-05,0.000166267,未分类,,,BRAF;GSK3B;IGF1R;PIK3R1
+Viral carcinogenesis,KEGG_2021_Human,4,203,7.00457e-05,0.000168585,未分类,,,HDAC6;NFKB1;PIK3R1;TP53
+Extra-nuclear Estrogen Signaling R-HSA-9009391,Reactome_2022,3,73,7.18957e-05,0.000168585,未分类,,,IGF1R;MMP9;PIK3R1
+Cellular Response To Reactive Oxygen Species (GO:0034614),GO_Biological_Process_2023,3,73,7.18957e-05,0.000168585,未分类,,,HDAC6;MAPT;MMP9
+Cellular Response To Oxygen-Containing Compound (GO:1901701),GO_Biological_Process_2023,5,406,7.29016e-05,0.000168585,未分类,,,BRAF;GSK3B;MAPT;MMP9;NFKB1
+cAMP signaling pathway,KEGG_2021_Human,4,216,8.90875e-05,0.000202845,未分类,,,BRAF;CAMK2B;NFKB1;PIK3R1
+Cytokine Signaling In Immune System R-HSA-1280215,Reactome_2022,6,702,9.42778e-05,0.000211411,伞状泛化,,,CAMK2B;MMP9;NFKB1;PIK3R1;PTGS2;TP53
+B cell receptor signaling pathway,KEGG_2021_Human,3,81,9.80531e-05,0.000216595,未分类,,,GSK3B;NFKB1;PIK3R1
+Signaling By Interleukins R-HSA-449147,Reactome_2022,5,453,0.0001221,0.000265747,伞状泛化,,,MMP9;NFKB1;PIK3R1;PTGS2;TP53
+PD-L1 expression and PD-1 checkpoint pathway in cancer,KEGG_2021_Human,3,89,0.000129754,0.000278313,未分类,,,ALK;NFKB1;PIK3R1
+Shigellosis,KEGG_2021_Human,4,246,0.000147092,0.000310994,背景性（感染类）,,,GSK3B;NFKB1;PIK3R1;TP53
+Signal Transduction R-HSA-162582,Reactome_2022,10,2465,0.000154235,0.000321504,伞状泛化,,,ALK;BRAF;CAMK2B;GSK3B;HDAC6;IGF1R;MMP9;NFKB1;PIK3R1;TP53
+Cellular Response To Heat Stress R-HSA-3371556,Reactome_2022,3,99,0.00017791,0.000360695,未分类,,,CAMK2B;GSK3B;HDAC6
+Cellular Response To Insulin Stimulus (GO:0032869),GO_Biological_Process_2023,3,99,0.00017791,0.000360695,未分类,,,GSK3B;IGF1R;PIK3R1
+Progesterone-mediated oocyte maturation,KEGG_2021_Human,3,100,0.000183279,0.000366558,未分类,,,BRAF;IGF1R;PIK3R1
+Signaling By Receptor Tyrosine Kinases R-HSA-9006934,Reactome_2022,5,496,0.000186524,0.000368073,未分类,,,ALK;BRAF;IGF1R;MMP9;PIK3R1
+Protein Phosphorylation (GO:0006468),GO_Biological_Process_2023,5,500,0.000193628,0.000377065,未分类,,,ALK;BRAF;CAMK2B;GSK3B;IGF1R
+C-type lectin receptor signaling pathway,KEGG_2021_Human,3,104,0.000205806,0.000390504,未分类,,,NFKB1;PIK3R1;PTGS2
+T cell receptor signaling pathway,KEGG_2021_Human,3,104,0.000205806,0.000390504,未分类,,,GSK3B;NFKB1;PIK3R1
+Metabolism R-HSA-1430728,Reactome_2022,9,2049,0.000209509,0.000392497,伞状泛化,,,ACHE;CA2;CA4;CA5A;CYP19A1;PIK3R1;PNLIP;PTGS2;XDH
+Insulin resistance,KEGG_2021_Human,3,108,0.000230057,0.000425606,未分类,,,GSK3B;NFKB1;PIK3R1
+Cholinergic synapse,KEGG_2021_Human,3,113,0.000262883,0.000474471,未分类,,,ACHE;CAMK2B;PIK3R1
+Positive Regulation Of Cellular Component Organization (GO:0051130),GO_Biological_Process_2023,3,113,0.000262883,0.000474471,未分类,,,CAMK2B;GSK3B;IGF1R
+Response To Endoplasmic Reticulum Stress (GO:0034976),GO_Biological_Process_2023,3,114,0.000269791,0.000481073,未分类,,,GSK3B;PIK3R1;TP53
+Cellular Response To Oxidative Stress (GO:0034599),GO_Biological_Process_2023,3,117,0.000291219,0.0005131,未分类,,,MAPT;MMP9;TP53
+Sphingolipid signaling pathway,KEGG_2021_Human,3,119,0.000306098,0.000526774,未分类,,,NFKB1;PIK3R1;TP53
+Transcriptional Regulation By RUNX2 R-HSA-8878166,Reactome_2022,3,119,0.000306098,0.000526774,未分类,,,GSK3B;HDAC6;MMP13
+Thyroid hormone signaling pathway,KEGG_2021_Human,3,121,0.00032146,0.000546852,未分类,,,GSK3B;PIK3R1;TP53
+Intracellular Signaling By Second Messengers R-HSA-9006925,Reactome_2022,4,306,0.000338487,0.000569274,未分类,,,CAMK2B;GSK3B;PIK3R1;TP53
+FoxO signaling pathway,KEGG_2021_Human,3,131,0.000405749,0.000674729,机制明确,,,BRAF;IGF1R;PIK3R1
+Insulin signaling pathway,KEGG_2021_Human,3,137,0.000462541,0.000752265,未分类,,,BRAF;GSK3B;PIK3R1
+Yersinia infection,KEGG_2021_Human,3,137,0.000462541,0.000752265,背景性（感染类）,,,GSK3B;NFKB1;PIK3R1
+Apoptosis,KEGG_2021_Human,3,142,0.000513586,0.000826203,机制明确,,,NFKB1;PIK3R1;TP53
+Signaling pathways regulating pluripotency of stem cells,KEGG_2021_Human,3,143,0.000524209,0.000834226,未分类,,,GSK3B;IGF1R;PIK3R1
+Neuron Development (GO:0048666),GO_Biological_Process_2023,3,150,0.000602544,0.000948686,未分类,,,ALK;GSK3B;MAPT
+Cushing syndrome,KEGG_2021_Human,3,155,0.000662848,0.00102189,未分类,,,BRAF;CAMK2B;GSK3B
+Non-alcoholic fatty liver disease,KEGG_2021_Human,3,155,0.000662848,0.00102189,未分类,,,GSK3B;NFKB1;PIK3R1
+Cellular senescence,KEGG_2021_Human,3,156,0.000675353,0.00103044,未分类,,,NFKB1;PIK3R1;TP53
+Positive Regulation Of Protein Phosphorylation (GO:0001934),GO_Biological_Process_2023,4,377,0.000742684,0.0011216,未分类,,,BRAF;HDAC6;MMP9;TP53
+Wnt signaling pathway,KEGG_2021_Human,3,166,0.00080878,0.00120909,机制明确,,,CAMK2B;GSK3B;TP53
+Cellular Responses To Stress R-HSA-2262752,Reactome_2022,5,722,0.00103849,0.00153696,伞状泛化,,,CAMK2B;GSK3B;HDAC6;NFKB1;TP53
+Axon guidance,KEGG_2021_Human,3,182,0.00105527,0.00154634,未分类,,,CAMK2B;GSK3B;PIK3R1
+Negative Regulation Of Macromolecule Metabolic Process (GO:0010605),GO_Biological_Process_2023,3,186,0.00112352,0.00162612,未分类,,,GSK3B;MAPT;NFKB1
+Cellular Responses To Stimuli R-HSA-8953897,Reactome_2022,5,736,0.00113169,0.00162612,未分类,,,CAMK2B;GSK3B;HDAC6;NFKB1;TP53
+ESR-mediated Signaling R-HSA-8939211,Reactome_2022,3,188,0.00115867,0.00164887,未分类,,,IGF1R;MMP9;PIK3R1
+Neutrophil extracellular trap formation,KEGG_2021_Human,3,189,0.0011765,0.0016583,未分类,,,HDAC6;NFKB1;PIK3R1
+Regulation Of Gene Expression (GO:0010468),GO_Biological_Process_2023,6,1127,0.00119563,0.00166058,未分类,,,BRAF;GSK3B;HDAC6;MAPT;NFKB1;TP53
+Phosphorylation (GO:0016310),GO_Biological_Process_2023,4,429,0.00120055,0.00166058,未分类,,,ALK;BRAF;CAMK2B;GSK3B
+Epstein-Barr virus infection,KEGG_2021_Human,3,202,0.0014243,0.00195182,背景性（感染类）,,,NFKB1;PIK3R1;TP53
+Generic Transcription Pathway R-HSA-212436,Reactome_2022,6,1190,0.00158373,0.00214189,伞状泛化,,,CAMK2B;GSK3B;HDAC6;MMP13;NFKB1;TP53
+Rap1 signaling pathway,KEGG_2021_Human,3,210,0.00159194,0.00214189,未分类,,,BRAF;IGF1R;PIK3R1
+Human T-cell leukemia virus 1 infection,KEGG_2021_Human,3,219,0.00179481,0.00239308,未分类,,,NFKB1;PIK3R1;TP53
+Positive Regulation Of Gene Expression (GO:0010628),GO_Biological_Process_2023,4,480,0.00181448,0.00239771,未分类,,,BRAF;GSK3B;PIK3R1;TP53
+Positive Regulation Of Phosphorylation (GO:0042327),GO_Biological_Process_2023,3,231,0.00208951,0.00273671,未分类,,,ALK;IGF1R;MMP9
+Ras signaling pathway,KEGG_2021_Human,3,232,0.00211535,0.00274624,未分类,,,IGF1R;NFKB1;PIK3R1
+Positive Regulation Of Developmental Process (GO:0051094),GO_Biological_Process_2023,3,233,0.00214138,0.00275587,未分类,,,ALK;CAMK2B;GSK3B
+Chemical carcinogenesis,KEGG_2021_Human,3,239,0.0023018,0.00293678,未分类,,,NFKB1;PIK3R1;PTGS2
+Regulation Of Autophagy (GO:0010506),GO_Biological_Process_2023,3,241,0.00235689,0.00298137,机制明确,,,GSK3B;HDAC6;MAPT
+Transmission Across Chemical Synapses R-HSA-112315,Reactome_2022,3,246,0.0024982,0.00313333,未分类,,,ACHE;CAMK2B;MAPT
+Parkinson disease,KEGG_2021_Human,3,249,0.00258546,0.00321257,未分类,,,CAMK2B;MAPT;TP53
+RNA Polymerase II Transcription R-HSA-73857,Reactome_2022,6,1312,0.00260479,0.00321257,未分类,,,CAMK2B;GSK3B;HDAC6;MMP13;NFKB1;TP53
+Signaling By Nuclear Receptors R-HSA-9006931,Reactome_2022,3,260,0.00292153,0.00357345,未分类,,,IGF1R;MMP9;PIK3R1
+PIP3 Activates AKT Signaling R-HSA-1257604,Reactome_2022,3,268,0.00318216,0.00386032,未分类,,,GSK3B;PIK3R1;TP53
+RAF/MAP Kinase Cascade R-HSA-5673001,Reactome_2022,3,271,0.00328347,0.00395084,未分类,,,BRAF;CAMK2B;PIK3R1
+MAPK1/MAPK3 Signaling R-HSA-5684996,Reactome_2022,3,277,0.00349202,0.00416789,机制明确,,,BRAF;CAMK2B;PIK3R1
+Positive Regulation Of Cellular Process (GO:0048522),GO_Biological_Process_2023,4,594,0.00391992,0.00464118,未分类,,,DPP4;GSK3B;IGF1R;MAPT
+Immune System R-HSA-168256,Reactome_2022,7,1943,0.00415289,0.00487799,伞状泛化,,,CAMK2B;MMP9;NFKB1;PIK3R1;PTGS2;TP53;XDH
+Gene Expression (Transcription) R-HSA-74160,Reactome_2022,6,1449,0.00427971,0.00498738,伞状泛化,,,CAMK2B;GSK3B;HDAC6;MMP13;NFKB1;TP53
+MAPK Family Signaling Cascades R-HSA-5683057,Reactome_2022,3,318,0.00513569,0.00593815,机制明确,,,BRAF;CAMK2B;PIK3R1
+Negative Regulation Of Gene Expression (GO:0010629),GO_Biological_Process_2023,3,336,0.0059825,0.00686364,未分类,,,GSK3B;MAPT;NFKB1
+Positive Regulation Of Macromolecule Metabolic Process (GO:0010604),GO_Biological_Process_2023,3,364,0.00745839,0.0084911,未分类,,,BRAF;GSK3B;TP53
+Metabolism Of Lipids R-HSA-556833,Reactome_2022,4,732,0.00817617,0.0092372,伞状泛化,,,ACHE;CYP19A1;PIK3R1;PTGS2
+Neuronal System R-HSA-112316,Reactome_2022,3,386,0.00875746,0.00981897,未分类,,,ACHE;CAMK2B;MAPT
+Regulation Of Cell Population Proliferation (GO:0042127),GO_Biological_Process_2023,4,766,0.00956365,0.0106423,未分类,,,ALK;DPP4;IGF1R;TP53
+Herpes simplex virus 1 infection,KEGG_2021_Human,3,498,0.017371,0.0191859,背景性（感染类）,,,NFKB1;PIK3R1;TP53
+Axon Guidance R-HSA-422475,Reactome_2022,3,519,0.0193707,0.021236,未分类,,,GSK3B;MMP9;PIK3R1
+Nervous System Development R-HSA-9675108,Reactome_2022,3,545,0.0220183,0.0239611,未分类,,,GSK3B;MMP9;PIK3R1
+Innate Immune System R-HSA-168249,Reactome_2022,4,1035,0.0261608,0.0282613,未分类,,,MMP9;NFKB1;PIK3R1;TP53
+Developmental Biology R-HSA-1266738,Reactome_2022,4,1073,0.0293852,0.0315146,伞状泛化,,,GSK3B;MMP9;NFKB1;PIK3R1
+Transport Of Small Molecules R-HSA-382551,Reactome_2022,3,706,0.0426643,0.0454267,伞状泛化,,,CA2;CA4;CAMK2B
+Protein Modification Process (GO:0036211),GO_Biological_Process_2023,3,711,0.0434217,0.0459029,未分类,,,BRAF;CAMK2B;GSK3B
+Adaptive Immune System R-HSA-1280218,Reactome_2022,3,733,0.0468359,0.0491611,未分类,,,NFKB1;PIK3R1;XDH
+Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122),GO_Biological_Process_2023,3,763,0.0517042,0.0538888,未分类,,,HDAC6;NFKB1;TP53
+Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944),GO_Biological_Process_2023,3,938,0.0847739,0.087738,未分类,,,NFKB1;PIK3R1;TP53
+Negative Regulation Of DNA-templated Transcription (GO:0045892),GO_Biological_Process_2023,3,1025,0.103963,0.106851,未分类,,,HDAC6;NFKB1;TP53
+Positive Regulation Of DNA-templated Transcription (GO:0045893),GO_Biological_Process_2023,3,1243,0.158785,0.16207,未分类,,,NFKB1;PIK3R1;TP53
+Regulation Of Transcription By RNA Polymerase II (GO:0006357),GO_Biological_Process_2023,4,2028,0.185345,0.187884,伞状泛化,,,HDAC6;NFKB1;PIK3R1;TP53
+Metabolism Of Proteins R-HSA-392499,Reactome_2022,3,1890,0.354508,0.35692,伞状泛化,,,ACHE;DPP4;TP53
+Regulation Of DNA-templated Transcription (GO:0006355),GO_Biological_Process_2023,3,1922,0.36465,0.36465,伞状泛化,,,HDAC6;NFKB1;TP53

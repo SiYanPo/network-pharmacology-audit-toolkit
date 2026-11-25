@@ -1,0 +1,5 @@
+smiles,mw,logp,tpsa
+CC(=O)Oc1ccccc1C(=O)O,180.16,1.19,63.6
+CN1C=NC2=C1C(=O)N(C(=O)N2C)C,194.19,-0.07,58.4
+CC(C)Cc1ccc(cc1)C(C)C(=O)O,206.28,3.97,37.3
+OC(=O)c1ccccc1O,138.12,2.26,57.5

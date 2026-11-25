@@ -1,0 +1,35 @@
+{
+ "gate": "G21",
+ "n_intersection": 3,
+ "n_ppi_nodes": 2,
+ "n_missing": 1,
+ "missing_genes": [
+  "ZZZ"
+ ],
+ "coverage": 0.6667,
+ "n_ppi_nodes_extended": null,
+ "n_missing_extended": 1,
+ "missing_genes_extended": [
+  "ZZZ"
+ ],
+ "coverage_extended": null,
+ "verdict": "FAIL",
+ "ppi_edge_file": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\audit\\pytest_tmp_cov\\test_g21_flags_missing_gene0\\np_out\\05_ppi\\ppi_edges_clean.tsv",
+ "hub_top10": [],
+ "intersection_rank_in_ppi": [
+  {
+   "gene": "A",
+   "hub_rank": null
+  },
+  {
+   "gene": "B",
+   "hub_rank": null
+  },
+  {
+   "gene": "ZZZ",
+   "hub_rank": null
+  }
+ ],
+ "ranking_note": "S4 交集表按支持成分数(n_compounds)排序，S5 hub 按拓扑中心性(degree/共识)排序，两者排序键不同，名单不完全重叠属预期；本门禁校验的是成员一致性，不是排名一致性。",
+ "fix_hint": "交集基因不在 PPI 中：①该基因在 STRING 无任何边（孤立节点）；②PPI 边表被 score 阈值过滤过严。处理：降低 --min-score 或换覆盖更全的边表后重跑 ppi，并在正文说明孤立节点数。"
+}

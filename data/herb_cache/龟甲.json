@@ -1,0 +1,12 @@
+{
+ "herb": "龟甲",
+ "herb_id": "GuiJia",
+ "source": "ETCM2",
+ "url": "http://www.tcmip.cn:18124/home/ingredient_target/",
+ "access_date": "2026-11-22T00:44:06+08:00",
+ "status": "unavailable",
+ "reason": "ETCM2 返回空 data（该药材可能为动物药/矿物药，无小分子成分-靶点表；或 id 未命中）。按诚信原则不编造。",
+ "records": [],
+ "n_records": 0,
+ "sha256_16": "c14c961da0d8a8e4"
+}

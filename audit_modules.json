@@ -1,0 +1,499 @@
+[
+ {
+  "module": "np_admet",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_alias",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_audit",
+  "in_dag": false,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": true
+ },
+ {
+  "module": "np_bench",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_benchloop",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_benchmark",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": true
+ },
+ {
+  "module": "np_compounds",
+  "in_dag": true,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_consensus",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_contraindication",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_corpus",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_cyto",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_db",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_decoy",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_defense",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_dock",
+  "in_dag": false,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_dockprep",
+  "in_dag": false,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_doctor",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": true
+ },
+ {
+  "module": "np_domain",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_dose",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_doseweight",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_enrich",
+  "in_dag": true,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_envcheck",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_evidence",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_export",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_fetch",
+  "in_dag": false,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_figcheck",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_figs",
+  "in_dag": false,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_finalcheck",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_funnel",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_goldfetch",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_goldtest",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_guard",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_herbcache",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_hpa",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_htmlreport",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_interactive",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_interpret",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_intersect",
+  "in_dag": true,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_intervention",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_lab",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_liana",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_ligand_top",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_lincs",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_lincs_local",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_md",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_mr",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_mr_plots",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_null",
+  "in_dag": true,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_omics",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_optimize",
+  "in_dag": false,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_ortholog",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_pdf",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_pipeline",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": true
+ },
+ {
+  "module": "np_pocket",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_ppi",
+  "in_dag": true,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_primer",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_prov",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_qa",
+  "in_dag": false,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_report",
+  "in_dag": true,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_repro_batch",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_run",
+  "in_dag": false,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": true
+ },
+ {
+  "module": "np_sens",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_singlecell",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_standardize",
+  "in_dag": true,
+  "in_evals": true,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_subnetwork",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ },
+ {
+  "module": "np_survival",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_synergy",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_tcmviz",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_toxpath",
+  "in_dag": false,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": false
+ },
+ {
+  "module": "np_uireport",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": true,
+  "in_readme": true
+ },
+ {
+  "module": "np_wetlab",
+  "in_dag": true,
+  "in_evals": false,
+  "in_skill": false,
+  "in_readme": false
+ }
+]

@@ -1,0 +1,11 @@
+{
+ "file": "resp.json",
+ "size": 12,
+ "sha256": "6bc0da1f42f96fc37b8bd7ed20ba57606d2a0da5cda2b135c7854fbdc985b8a3",
+ "sha256_16": "6bc0da1f42f96fc3",
+ "fetched_at": "2026-11-22T18:06:35",
+ "mtime": "2026-11-22 18:06:35",
+ "url": "https://example.org/x",
+ "release": "v1",
+ "etag": "abc"
+}

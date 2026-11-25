@@ -1,0 +1,4 @@
+rank,node,degree,verdict
+1,IL6,2,稳健
+2,AKT1,2,稳健
+3,MTOR,1,不稳定

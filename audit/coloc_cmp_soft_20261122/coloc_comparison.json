@@ -1,0 +1,164 @@
+{
+ "status": "OK",
+ "n_loci": 20,
+ "comparison": [
+  {
+   "locus": "L00",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L01",
+   "ours_pp4": 0.0118,
+   "r_pp4": 0.0117581294062187,
+   "ours_pp3": 0.2147,
+   "r_pp3": 0.214670110627665
+  },
+  {
+   "locus": "L02",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L03",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.78665354760072e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L04",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L05",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.19481667151629e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L06",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L07",
+   "ours_pp4": 0.0298,
+   "r_pp4": 0.029814146003495,
+   "ours_pp3": 0.2106,
+   "r_pp3": 0.210567403654491
+  },
+  {
+   "locus": "L08",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L09",
+   "ours_pp4": 0.0,
+   "r_pp4": 9.9248164629155e-46,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L10",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L11",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.75167499229864e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L12",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L13",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.19481667151629e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L14",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L15",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.48848351448625e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L16",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L17",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.00525811926774e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L18",
+   "ours_pp4": 1.0,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L19",
+   "ours_pp4": 0.0,
+   "r_pp4": 2.1015911312247e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  }
+ ],
+ "stats": {
+  "n": 20,
+  "pearson_r": 1.0,
+  "mae_pp4": 0.0,
+  "max_abs_diff": 0.0
+ },
+ "verdict": "PASS",
+ "method_ours": "ABF 近似（W=0.15², p1=p2=1e-4, p12=1e-5）",
+ "method_r": "coloc::coloc.abf（Wakefield ABF + 完整先验组合）",
+ "wording_rule": "PASS → Methods 可写 'colocalisation analysis (coloc.abf-equivalent)'；WARN/FAIL/NOT_ASSESSED → 只能写 'an ABF-based colocalisation approximation'",
+ "info": {
+  "rscript": "C:/Program Files/R\\R-4.6.2\\bin\\Rscript.exe",
+  "coloc_available": true,
+  "r_stdout": "f PP.H2.abf PP.H3.abf PP.H4.abf \n2.59e-104  7.48e-44  3.46e-61  1.00e+00  1.01e-45 \n[1] \"PP abf for shared variant: 1.01e-43%\"\nPP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf \n3.99e-101  1.15e-40  3.46e-64  0.00e+00  1.00e+00 \n[1] \"PP abf for shared variant: 100%\"\nPP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf \n2.59e-104  7.48e-44  3.46e-61  1.00e+00  2.10e-45 \n[1] \"PP abf for shared variant: 2.1e-43%\"\nR coloc done -> C:/Users/huawei/AppData/Local/Temp/np_coloc_run_gwqzimw1/r_coloc_pp.csv \n",
+  "r_stderr": "lem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette.\n2: In check_dataset(d = dataset1, 1) : minimum p value is: 6.7953e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette.\n",
+  "ascii_workdir": "C:\\Users\\huawei\\AppData\\Local\\Temp\\np_coloc_run_gwqzimw1"
+ },
+ "timestamp": "2026-11-22 18:03:56"
+}

@@ -1,0 +1,51 @@
+# ============================================================================
+# Dockerfile.slim — 5 分钟可复现 demo 的轻量镜像（审计层，离线可跑）
+#
+# 与根目录 Dockerfile 的分工：
+#   Dockerfile       全量环境（conda + GROMACS + BLAST + RDKit…），构建数 GB，用于跑完整流水线；
+#   Dockerfile.slim  仅标准库，镜像实测 185 MB（基础镜像占大头，零 pip 包）/ 构建数十秒，
+#                    用于**验证审计层可被第三方独立跑通**。
+#
+# 为什么审计层能零依赖：nf_scm0061 / np_contracts / np_report / npcore 全文只 import 标准库
+#   （csv/json/glob/os/re/html/math/random/hashlib…），已在 requirements.txt 中声明"核心零依赖"。
+#
+# 构建： docker build -f Dockerfile.slim -t np-pro-slim:latest .
+# 运行： docker run --rm np-pro-slim:latest
+# 或跑自己的案例：
+#   docker run --rm -v /your/np_out:/case np-pro-slim:latest \
+#     python scripts/np_scm0061.py --dir /case
+# ============================================================================
+# 基础镜像可用 ARG 覆盖（国内直连 Docker Hub 常被墙，可换镜像源）：
+#   docker build -f Dockerfile.slim --build-arg BASE_IMAGE=docker.m.daocloud.io/library/python:3.13-slim -t np-pro-slim .
+ARG BASE_IMAGE=python:3.12-slim
+FROM ${BASE_IMAGE}
+
+LABEL org.opencontainers.image.title="network-pharmacology-pro (audit layer, slim)" \
+      org.opencontainers.image.description="SCM0061-2021 scorecard + contract check + report, stdlib only" \
+      org.opencontainers.image.licenses="MIT"
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    NP_OFFLINE=1 \
+    MPLBACKEND=Agg
+
+WORKDIR /work
+
+# 只拷审计层需要的目录，镜像保持小
+COPY scripts/ ./scripts/
+COPY config/ ./config/
+COPY demo/ ./demo/
+
+# 构建期冒烟：不是只打印版本，而是**真跑一遍审计层**并要求 PASS
+RUN set -e && \
+    python -c "import sys; print('python', sys.version.split()[0])" && \
+    python scripts/np_contracts.py check --dir demo/case | tee /tmp/contracts.txt && \
+    grep -q "硬失败 0" /tmp/contracts.txt && \
+    python scripts/np_scm0061.py --dir demo/case | tee /tmp/scm.txt && \
+    grep -q "SCM0061 评分" /tmp/scm.txt && \
+    echo "BUILD SMOKE OK (audit layer runs offline)"
+
+HEALTHCHECK --interval=30s --timeout=10s --retries=2 \
+    CMD python scripts/np_scm0061.py --dir demo/case >/dev/null || exit 1
+
+CMD ["bash", "demo/run_demo.sh"]

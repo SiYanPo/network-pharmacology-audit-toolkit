@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "curated": "2026-11-22",
+  "schema": {
+    "core": "强证据靶点（≥2 个独立来源，或有人体/动物/体外实验直接支持）——严格指标只用 core",
+    "extended": "扩展靶点（单一来源 / 对接或反向药效团预测 L1）——宽松指标 core+extended",
+    "ev": "L0 数据库事实 / L1 计算预测 / L3 体外离体 / L4 体内临床"
+  },
+  "provenance": {
+    "primary": "DrugBank 5.x 已上市药物靶点、TTD、ChEMBL 机制记录（药理学类别层）",
+    "secondary": "PubMed 上各标志性成分（丹参酮IIA、三七皂苷R1/Rb1、小檗碱、黄芩苷、栀子苷、连翘苷、大黄素、川芎嗪、红花黄色素等）的药理实验文献",
+    "caution": [
+      "本表为人工整理的方剂层靶点先验，非系统评价/meta 分析产物；不同文献对同一方剂的靶点集合存在异质性",
+      "金标准必然偏向被研究得多的靶点（publication bias），会系统性抬高所有方法的 AUC；因此本基准仅用于方法间横向比较，不可解释为临床准确率",
+      "复方丹参滴丸的冰片为透皮/促吸收成分，其靶点证据弱，未计入 core",
+      "连花清瘟的 ACE2/TMPRSS2 主要来自分子对接与体外假病毒实验（L1），单列在 core 但在报告中标注 ev=L1，从严口径可用 --tier strict-l3 排除"
+    ]
+  },
+  "formulas": [
+    {
+      "id": "CDDP",
+      "name_zh": "复方丹参滴丸",
+      "name_en": "Compound Danshen Dripping Pill",
+      "herbs": ["丹参", "三七", "冰片"],
+      "indication_zh": "冠心病稳定型心绞痛（气滞血瘀证）",
+      "indication_en": "stable angina pectoris / coronary heart disease",
+      "key_compounds": ["Tanshinone IIA", "Salvianolic acid B", "Ginsenoside Rb1", "Notoginsenoside R1", "Borneol"],
+      "core": {
+        "PTGS2": "L3", "PTGS1": "L3", "TNF": "L3", "IL6": "L3", "IL1B": "L3",
+        "AKT1": "L3", "MAPK1": "L3", "MAPK3": "L3", "NOS3": "L3", "VEGFA": "L3",
+        "CASP3": "L3", "BCL2": "L3", "MMP9": "L3", "ICAM1": "L3", "VCAM1": "L3",
+        "NFKB1": "L3", "RELA": "L3", "PPARG": "L3", "F2": "L3", "HIF1A": "L3"
+      },
+      "extended": {
+        "HMGCR": "L3", "NFE2L2": "L3", "KEAP1": "L1", "TGFB1": "L3", "SMAD3": "L1",
+        "CCL2": "L3", "SELE": "L1", "PLA2G4A": "L3", "AGTR1": "L1", "ACE": "L1",
+        "SRC": "L1", "EGFR": "L1", "ESR1": "L1", "AR": "L1", "KDR": "L1",
+        "FLT1": "L1", "PIK3CA": "L1", "STAT3": "L1", "JUN": "L1", "FOS": "L1",
+        "MAPK14": "L3", "PTK2": "L1", "ITGB3": "L1", "SELP": "L1"
+      },
+      "kegg": ["hsa05417", "hsa04066", "hsa04210", "hsa04668", "hsa04010", "hsa04151", "hsa04370", "hsa04620"]
+    },
+    {
+      "id": "HLJDT",
+      "name_zh": "黄连解毒汤",
+      "name_en": "Huang-Lian-Jie-Du Decoction",
+      "herbs": ["黄连", "黄芩", "黄柏", "栀子"],
+      "indication_zh": "热毒证／脓毒症、炎症与代谢紊乱",
+      "indication_en": "heat-toxin syndrome / sepsis, inflammation, metabolic disorder",
+      "key_compounds": ["Berberine", "Baicalin", "Baicalein", "Geniposide", "Palmatine", "Wogonin"],
+      "core": {
+        "PTGS2": "L3", "PTGS1": "L3", "TNF": "L3", "IL6": "L3", "IL1B": "L3",
+        "NOS2": "L3", "NFKB1": "L3", "RELA": "L3", "MAPK1": "L3", "MAPK3": "L3",
+        "MAPK14": "L3", "AKT1": "L3", "TLR4": "L3", "MYD88": "L3", "STAT3": "L3",
+        "JUN": "L3", "FOS": "L3", "PPARG": "L3", "PRKAA1": "L3"
+      },
+      "extended": {
+        "CYP3A4": "L3", "CYP2D6": "L3", "CYP2C9": "L3", "CYP1A2": "L3", "CYP2E1": "L3",
+        "ABCB1": "L3", "SLC22A1": "L3", "HMGCR": "L1", "NOS3": "L3", "ICAM1": "L3",
+        "VCAM1": "L3", "CCL2": "L3", "IL10": "L3", "STAT1": "L1", "IRF3": "L1",
+        "NLRP3": "L3", "CASP1": "L3", "PIK3CA": "L1", "EGFR": "L1", "LDLR": "L3",
+        "PCSK9": "L1", "UGT1A1": "L1", "TOP1": "L1"
+      },
+      "kegg": ["hsa04668", "hsa04620", "hsa04630", "hsa00982", "hsa00980", "hsa04152", "hsa04920", "hsa04621"]
+    },
+    {
+      "id": "LHQW",
+      "name_zh": "连花清瘟胶囊",
+      "name_en": "Lianhua Qingwen Capsule",
+      "herbs": ["连翘", "金银花", "麻黄", "苦杏仁", "石膏", "板蓝根", "绵马贯众", "鱼腥草",
+                "广藿香", "大黄", "红景天", "薄荷", "甘草"],
+      "indication_zh": "流感／新型冠状病毒感染轻症（疫毒袭肺证）",
+      "indication_en": "influenza / mild COVID-19 (epidemic toxin attacking lung)",
+      "key_compounds": ["Forsythoside A", "Chlorogenic acid", "Rhein", "Emodin", "Glycyrrhizin", "Hesperidin", "Ephedrine"],
+      "core": {
+        "ACE2": "L1", "TMPRSS2": "L1", "IL6": "L3", "TNF": "L3", "PTGS2": "L3",
+        "IL1B": "L3", "CXCL8": "L3", "IFNG": "L3", "CCL5": "L3", "NFKB1": "L3",
+        "RELA": "L3", "MAPK1": "L3", "MAPK3": "L3", "AKT1": "L3", "NOS2": "L3",
+        "STAT1": "L3", "JAK2": "L1", "TLR4": "L3", "NLRP3": "L3", "CASP3": "L3"
+      },
+      "extended": {
+        "IL10": "L3", "IL2": "L3", "IL4": "L1", "CXCL10": "L3", "CCL2": "L3",
+        "ICAM1": "L3", "VCAM1": "L1", "IFNB1": "L1", "MX1": "L1", "OAS1": "L1",
+        "DDX58": "L1", "IFIH1": "L1", "MAPK14": "L3", "EGFR": "L1", "ACE": "L1",
+        "AGTR1": "L1", "FURIN": "L1", "NRP1": "L1", "CTSL": "L1", "TMPRSS4": "L1"
+      },
+      "kegg": ["hsa05171", "hsa04620", "hsa04630", "hsa04668", "hsa04060", "hsa04621", "hsa05164", "hsa04217"]
+    },
+    {
+      "id": "XFZYT",
+      "name_zh": "血府逐瘀汤",
+      "name_en": "Xue-Fu-Zhu-Yu Decoction",
+      "herbs": ["桃仁", "红花", "当归", "生地黄", "川芎", "赤芍", "牛膝", "桔梗", "柴胡", "枳壳", "甘草"],
+      "indication_zh": "血瘀证／冠心病、脑梗死",
+      "indication_en": "blood stasis syndrome / coronary heart disease, cerebral infarction",
+      "key_compounds": ["Hydroxysafflor yellow A", "Paeoniflorin", "Ligustrazine", "Ferulic acid", "Amygdalin", "Quercetin"],
+      "core": {
+        "VEGFA": "L3", "NOS3": "L3", "PTGS2": "L3", "TNF": "L3", "IL6": "L3",
+        "IL1B": "L3", "AKT1": "L3", "MAPK1": "L3", "MAPK3": "L3", "MMP9": "L3",
+        "MMP2": "L3", "ICAM1": "L3", "VCAM1": "L3", "F2": "L3", "SERPINE1": "L3",
+        "HIF1A": "L3", "CASP3": "L3", "BCL2": "L3", "TGFB1": "L3", "CCL2": "L3"
+      },
+      "extended": {
+        "PLAT": "L3", "PLAU": "L1", "PLAUR": "L1", "KDR": "L1", "FLT1": "L1",
+        "PIK3CA": "L1", "NFKB1": "L3", "RELA": "L1", "PPARG": "L1", "ESR1": "L1",
+        "AR": "L1", "JUN": "L1", "FOS": "L1", "MAPK14": "L3", "STAT3": "L1",
+        "SMAD3": "L1", "COL1A1": "L1", "COL3A1": "L1", "CCN2": "L1", "PDGFB": "L1",
+        "EDN1": "L3", "NFE2L2": "L1", "PTGS1": "L3", "SELP": "L1", "ITGB3": "L1"
+      },
+      "kegg": ["hsa05418", "hsa04370", "hsa04210", "hsa04668", "hsa04066", "hsa04151", "hsa05417", "hsa04611"]
+    }
+  ]
+}

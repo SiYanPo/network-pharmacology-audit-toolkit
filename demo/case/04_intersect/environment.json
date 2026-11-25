@@ -1,0 +1,19 @@
+{
+  "python": "3.13.14",
+  "implementation": "CPython",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "locale": "Chinese (Simplified)_China.936",
+  "filesystem_encoding": "utf-8",
+  "stdout_encoding": "utf-8",
+  "cwd": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro",
+  "tz": "中国标准时间",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "openpyxl": "3.1.5",
+    "networkx": "3.7",
+    "matplotlib": "3.11.2",
+    "rdkit": "2026.09.1"
+  }
+}

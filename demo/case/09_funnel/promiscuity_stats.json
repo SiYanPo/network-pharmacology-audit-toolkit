@@ -1,0 +1,13 @@
+{
+ "n_targets": 109,
+ "median_multiplicity": 1,
+ "max_multiplicity": 1,
+ "threshold": 200,
+ "pct": null,
+ "qcut": null,
+ "n_nonspecific": 0,
+ "n_disease_exempt": 0,
+ "disease_context_enabled": false,
+ "exemption_cut": 0.5,
+ "note": "多效性惩罚 w=1/(1+log2(m/m_median))；nonspecific_hub 为高连接假阳性候选，对接优先级须结合 penalty_weight 排序，不得仅按 multiplicity"
+}

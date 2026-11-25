@@ -1,0 +1,116 @@
+{
+ "schema": "fallback-policy/1.0",
+ "principle": "任何数据源失败必须显式降级或中止；禁止静默返回空（500 篇复现的核心教训）",
+ "degrade_levels": [
+  {
+   "level": 0,
+   "name": "full",
+   "desc": "TCMSP 老版可用，成分/靶点齐全"
+  },
+  {
+   "level": 1,
+   "name": "partial",
+   "desc": "TCMSP 失败→本地缓存(np_herbcache.py 动态填充)/ETCM2 在线；HERB 不可程序化获取故跳过；缺列写入 degraded_fields"
+  },
+  {
+   "level": 2,
+   "name": "manual",
+   "desc": "备源均失败→按 contracts/standard_tables.md 上传 CSV"
+  },
+  {
+   "level": 3,
+   "name": "abort",
+   "desc": "疾病靶点与成分靶点均缺→停止，报告缺口，不输出伪交集"
+  }
+ ],
+ "sources": [
+  {
+   "name": "tcmsp-old",
+   "url": "https://old.tcmsp-e.com/tcmsp.php",
+   "probe": "https://old.tcmsp-e.com/tcmsp.php",
+   "role": "成分/靶点主源",
+   "optional": false,
+   "backups": [
+    "local-cache",
+    "etcm2"
+   ],
+   "on_empty": "degrade",
+   "fields_required": [
+    "mol_id",
+    "ob",
+    "dl"
+   ]
+  },
+  {
+   "name": "local-cache",
+   "url": "",
+   "role": "本地缓存 data/herb_cache/*.json（由 np_herbcache.py fetch 动态填充；_index.json 记录状态）",
+   "fill_script": "scripts/np_herbcache.py fetch --herbs <药名> --source etcm",
+   "probe_script": "scripts/np_herbcache.py probe",
+   "optional": false,
+   "backups": [
+    "etcm2",
+    "manual"
+   ],
+   "on_empty": "degrade"
+  },
+  {
+   "name": "etcm2",
+   "url": "http://www.tcmip.cn:18124",
+   "probe": "http://www.tcmip.cn:18124/home/detail/?type=herb&id=ChuShiZi",
+   "role": "ETCM2 在线成分-靶点（POST /home/ingredient_target/，已实测可用，含动物药/矿物药）",
+   "fill_script": "scripts/np_herbcache.py fetch --herbs <药名> --source etcm",
+   "optional": false,
+   "backups": [
+    "manual"
+   ],
+   "on_empty": "degrade"
+  },
+  {
+   "name": "herb-ac-cn",
+   "url": "http://herb.ac.cn/",
+   "probe": "http://herb.ac.cn/",
+   "role": "备选成分库——实测站点可达但查询为 SPA 私有接口、批量下载返回 unavailable path，不可程序化获取；仅支持人工浏览器导出后手动导入",
+   "status": "spa_manual",
+   "optional": true,
+   "backups": [
+    "manual"
+   ],
+   "on_empty": "degrade"
+  },
+  {
+   "name": "opentargets",
+   "url": "https://api.platform.opentargets.org/api/v4/graphql",
+   "probe": "https://api.platform.opentargets.org/",
+   "role": "疾病靶点（替代 GeneCards）",
+   "optional": false,
+   "backups": [
+    "manual"
+   ],
+   "on_empty": "degrade"
+  },
+  {
+   "name": "cbioportal",
+   "url": "https://www.cbioportal.org/api/studies",
+   "probe": "https://www.cbioportal.org/api/studies?pageSize=1",
+   "role": "TCGA 生存",
+   "optional": true,
+   "backups": [
+    "abort"
+   ],
+   "on_empty": "degrade"
+  },
+  {
+   "name": "manual",
+   "url": "",
+   "role": "人工上传兜底",
+   "optional": false,
+   "backups": [],
+   "on_empty": "abort"
+  }
+ ],
+ "warnings": {
+  "empty_result": "命中 0：先查药名标准化（中文/拉丁/拼音/炮制品），矿物药与动物药多半无记录（牡蛎 101 篇实证）",
+  "partial_fields": "缺列必须写 meta.degraded_fields；TCMSP 靶点无基因符号时用 data/protein_symbols_extra.tsv 映射"
+ }
+}

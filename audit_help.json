@@ -1,0 +1,499 @@
+[
+ {
+  "module": "np_admet",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 8.06,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_alias",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.47,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_audit",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.39,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_bench",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.39,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_benchloop",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.42,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_benchmark",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.39,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_compounds",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.42,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_consensus",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_contraindication",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.46,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_corpus",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 3.73,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_cyto",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.79,
+  "tail": "  -h, --help  show this help message and exit"
+ },
+ {
+  "module": "np_db",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.93,
+  "tail": "  -h, --help          show this help message and exit"
+ },
+ {
+  "module": "np_decoy",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.52,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_defense",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.37,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_dock",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.78,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_dockprep",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.5,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_doctor",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.64,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_domain",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.75,
+  "tail": "  --json JSON"
+ },
+ {
+  "module": "np_dose",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.42,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_doseweight",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.7,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_enrich",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.57,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_envcheck",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.52,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_evidence",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.42,
+  "tail": "  --out OUT             校验报告 JSON 输出"
+ },
+ {
+  "module": "np_export",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.39,
+  "tail": "  -h, --help   show this help message and exit"
+ },
+ {
+  "module": "np_fetch",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.58,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_figcheck",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.98,
+  "tail": "  --list-checks  打印权威检查项清单（C01–C11）后退出"
+ },
+ {
+  "module": "np_figs",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 2.9,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_finalcheck",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.42,
+  "tail": "  --no-pdf         自动修复时不导出 PDF"
+ },
+ {
+  "module": "np_funnel",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.4,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_goldfetch",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.58,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_goldtest",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.39,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_guard",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.36,
+  "tail": "  -h, --help  show this help message and exit"
+ },
+ {
+  "module": "np_herbcache",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.54,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_hpa",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.55,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_htmlreport",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.39,
+  "tail": "  --print-pdf-hint  打印为 PDF 的操作提示"
+ },
+ {
+  "module": "np_interactive",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.41,
+  "tail": "  -o, --out OUT"
+ },
+ {
+  "module": "np_interpret",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  -h, --help  show this help message and exit"
+ },
+ {
+  "module": "np_intersect",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_intervention",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.39,
+  "tail": "  -h, --help        show this help message and exit"
+ },
+ {
+  "module": "np_lab",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.57,
+  "tail": "  -h, --help  show this help message and exit"
+ },
+ {
+  "module": "np_liana",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_ligand_top",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_lincs",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.41,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_lincs_local",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.68,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_md",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.4,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_mr",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.56,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_mr_plots",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  -h, --help   show this help message and exit"
+ },
+ {
+  "module": "np_null",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.44,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_omics",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.52,
+  "tail": "  -h, --help        show this help message and exit"
+ },
+ {
+  "module": "np_optimize",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.5,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_ortholog",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.61,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_pdf",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.37,
+  "tail": "  --check            只探测浏览器"
+ },
+ {
+  "module": "np_pipeline",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  --audit-notes        打印审计工具说明"
+ },
+ {
+  "module": "np_pocket",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.37,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_ppi",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.52,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_primer",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.51,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_prov",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_qa",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.52,
+  "tail": "  -h, --help  show this help message and exit"
+ },
+ {
+  "module": "np_report",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.4,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_repro_batch",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.79,
+  "tail": "  -h, --help         show this help message and exit"
+ },
+ {
+  "module": "np_run",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.49,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_sens",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 7.31,
+  "tail": "  -h, --help  show this help message and exit"
+ },
+ {
+  "module": "np_singlecell",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.38,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_standardize",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.67,
+  "tail": "  --quiet"
+ },
+ {
+  "module": "np_subnetwork",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.29,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_survival",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.55,
+  "tail": "  -h, --help          show this help message and exit"
+ },
+ {
+  "module": "np_synergy",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.04,
+  "tail": "  --selftest"
+ },
+ {
+  "module": "np_tcmviz",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.39,
+  "tail": "  -h, --help            show this help message and exit"
+ },
+ {
+  "module": "np_toxpath",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 1.51,
+  "tail": "  -h, --help  show this help message and exit"
+ },
+ {
+  "module": "np_uireport",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.45,
+  "tail": "  --pdf"
+ },
+ {
+  "module": "np_wetlab",
+  "help_ok": true,
+  "rc": 0,
+  "sec": 0.61,
+  "tail": "  -h, --help            show this help message and exit"
+ }
+]

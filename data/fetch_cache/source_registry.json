@@ -1,0 +1,135 @@
+{
+ "TCMSP": {
+  "status_at_probe": "api_session",
+  "url": "https://old.tcmsp-e.com/tcmsp.php",
+  "status": "api_session",
+  "access": "无需注册；动态 token+cookie 会话；tcmspsearch.php(成分)/molecule.php var tar(靶点)",
+  "coverage": "植物药为主；动物/矿物/糖苷覆盖差",
+  "register": null,
+  "note": "token 每次会话取；搜索偶发截断，需括号匹配 JSON 解析"
+ },
+ "HERB": {
+  "status_at_probe": "spa_manual",
+  "url": "http://herb.ac.cn/",
+  "status": "spa_manual",
+  "access": "免注册；SPA，后端 /chedi/api/ (POST func_name) + /download/file/；func_name 需抓包",
+  "coverage": "7263 味/49258 成分/12933 靶点，明确含动物药与矿物药",
+  "register": "http://herb.ac.cn/#/Download/",
+  "note": "实测首页 200；https 超时；API func_name 从 JS 反推不出，建议 Download 页手工下载后 import"
+ },
+ "ETCM2": {
+  "status_at_probe": "spa_manual",
+  "url": "http://www.tcmip.cn/ETCM2/front/#/",
+  "status": "spa_manual",
+  "access": "免注册；SPA 前端；动物药44/矿物药30；独创二维配体相似性靶点预测",
+  "coverage": "含动物药、矿物药",
+  "register": "http://www.tcmip.cn/ETCM2/front/#/",
+  "note": "实测 200；无开放 REST，需浏览器下载/交互"
+ },
+ "TCMID": {
+  "status_at_probe": "timeout",
+  "url": "http://www.megabionet.org/tcmid/",
+  "status": "timeout",
+  "access": "免注册；含动物药/矿物药但无靶点信息，需搭配其它库",
+  "register": null,
+  "note": "实测超时；可作为成分名同义词来源（配合 HERB）"
+ },
+ "NPASS": {
+  "status_at_probe": "ssl_fail",
+  "url": "https://bidd2.nus.edu.sg/NPASS/",
+  "status": "ssl_fail",
+  "access": "天然产物物种来源+生物活性，含动物药；提供批量下载",
+  "coverage": "动物药/天然产物",
+  "register": null,
+  "note": "实测 SSL 握手失败；建议浏览器访问 https://bidd2.nus.edu.sg/NPASS/"
+ },
+ "TCMDB_Taiwan": {
+  "status_at_probe": "timeout",
+  "url": "http://tcm.cmu.edu.tw/",
+  "status": "timeout",
+  "access": "含矿物/动物药，典籍汇编；有下载页",
+  "coverage": "矿物药/动物药",
+  "register": "http://tcm.cmu.edu.tw/",
+  "note": "实测超时；可能需从境内网络或镜像访问"
+ },
+ "SymMap": {
+  "status_at_probe": "web_ok",
+  "url": "http://www.symmap.org/",
+  "status": "web_ok",
+  "access": "免注册；SymMap 2.0 有在线查询与下载",
+  "coverage": "证候-中药-成分-靶点，含动物药",
+  "register": "http://www.symmap.org/",
+  "note": "实测 200"
+ },
+ "UniProt": {
+  "status_at_probe": "api_ok",
+  "url": "https://rest.uniprot.org/",
+  "status": "api_ok",
+  "access": "免注册；REST：/uniprotkb/search、/uniprotkb/{acc}、idmapping",
+  "coverage": "蛋白名/ID→HGNC 符号，物种限定",
+  "register": null,
+  "note": "实测 200；强制预处理步骤"
+ },
+ "ChEMBL": {
+  "status_at_probe": "api_flaky",
+  "url": "https://www.ebi.ac.uk/chembl/api/data/",
+  "status": "api_flaky",
+  "access": "免注册；REST API，实测活性（可被限流 500，需重试）",
+  "coverage": "实测活性靶点（非预测）",
+  "register": null,
+  "note": "偶发 500，指数退避重试"
+ },
+ "STRING": {
+  "status_at_probe": "api_ok",
+  "url": "https://string-db.org/api/json/network",
+  "status": "api_ok",
+  "access": "免注册；POST identifiers（长列表必须 POST）",
+  "coverage": "PPI",
+  "register": null,
+  "note": "species=9606, required_score=400"
+ },
+ "OpenTargets": {
+  "status_at_probe": "api_ok",
+  "url": "https://api.platform.opentargets.org/api/v4/graphql",
+  "status": "api_ok",
+  "access": "免注册；GraphQL",
+  "coverage": "疾病靶点",
+  "register": null,
+  "note": "分页参数 page:{index,size}"
+ },
+ "DrugBank": {
+  "status_at_probe": "auth_required",
+  "url": "https://go.drugbank.com/",
+  "status": "auth_required",
+  "access": "需注册账号；ADMET/已上市药靶点金标准",
+  "coverage": "药物靶点/ADMET",
+  "register": "https://go.drugbank.com/pricing",
+  "note": "实测 403；学术注册需机构邮箱+审核"
+ },
+ "TDC": {
+  "status_at_probe": "web_ok",
+  "url": "https://tdcommons.ai/",
+  "status": "api_ok",
+  "access": "免注册；Therapeutics Data Commons 基准数据集（ADMET/靶点）",
+  "coverage": "外部验证基准",
+  "register": "https://tdcommons.ai/",
+  "note": "dataverse.harvard.edu/zenodo.org 被沙箱代理 502 拦截; hf-mirror 为替代通路",
+  "mirror": "hf-mirror.com/datasets/maomlab/TDC (2026-11-20 实测 api_ok, ADME 4MB + Tox 79MB 含官方 scaffold split)",
+  "ml_module": "np_admet.py (v1.4.0)"
+ },
+ "BATMAN-TCM2": {
+  "status_at_probe": "api_flaky",
+  "url": "http://bionet.ncpsb.org.cn/batman-tcm/",
+  "status": "api_flaky",
+  "access": "免注册；在线提交；无稳定 API",
+  "coverage": "中药靶点预测",
+  "register": null,
+  "note": "实测 500"
+ },
+ "DeepChem-S3": {
+  "status": "api_ok",
+  "url": "https://deepchemdata.s3.amazonaws.com/datasets",
+  "note": "BBBP.csv/HIV.csv/tox21.csv.gz/clintox.csv.gz 可达; 用于跨库外部验证",
+  "ml_module": "np_admet.py external"
+ }
+}

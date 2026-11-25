@@ -1,0 +1,29 @@
+{
+ "何首乌": {
+  "access_date": "2026-11-22T00:44:06+08:00",
+  "file": "何首乌.json",
+  "n_records": 192,
+  "reason": "",
+  "sha256_16": "03cfa54355d292be",
+  "source": "ETCM2",
+  "status": "ok"
+ },
+ "楮实子": {
+  "access_date": "2026-11-22T00:44:06+08:00",
+  "file": "楮实子.json",
+  "n_records": 363,
+  "reason": "",
+  "sha256_16": "a218235ddf43b023",
+  "source": "ETCM2",
+  "status": "ok"
+ },
+ "龟甲": {
+  "access_date": "2026-11-22T00:44:06+08:00",
+  "file": "龟甲.json",
+  "n_records": 0,
+  "reason": "ETCM2 返回空 data（该药材可能为动物药/矿物药，无小分子成分-靶点表；或 id 未命中）。按诚信原则不编造。",
+  "sha256_16": "c14c961da0d8a8e4",
+  "source": "ETCM2",
+  "status": "unavailable"
+ }
+}

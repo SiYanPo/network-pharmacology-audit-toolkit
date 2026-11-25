@@ -1,0 +1,12 @@
+{
+ "n_targets": 1,
+ "n_severe": 1,
+ "n_warn": 0,
+ "n_consistent": 0,
+ "n_no_evidence": 0,
+ "verdict": "FAIL",
+ "rule": "MR β>0 → 需抑制靶点；MR β<0 → 需激活靶点；相反即 Mismatch",
+ "note": "SEVERE 仅在 Grade A 证据下抛出；Grade B 降为 WARN，避免弱 MR 一票否决全部分析",
+ "discussion_snippet": "Directional consistency check. For 1 target(s), genetic evidence indicated that increased expression was protective, whereas the compound–target network predicted inhibition: IL6（MR β=0.42, p=1e-06）. Such target–intervention mismatch argues against a causal reading of these nodes and they were therefore downgraded to hypothesis-generating only.",
+ "n_checked": 1
+}

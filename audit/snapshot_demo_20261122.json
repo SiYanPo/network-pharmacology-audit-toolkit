@@ -1,0 +1,32 @@
+{
+ "pack": {
+  "status": "OK",
+  "path": "C:\\Users\\huawei\\AppData\\Local\\Temp\\np_snap_demo_z5slteet\\snapshot.tar.gz",
+  "n_files": 1,
+  "bytes": 741,
+  "sha256_16": "8062c757bc765a69"
+ },
+ "mount": {
+  "status": "OK",
+  "cache": "C:\\Users\\huawei\\AppData\\Local\\Temp\\np_snap_demo_z5slteet\\mounted\\cache",
+  "n_files": 1,
+  "versions": {
+   "status": "OFFLINE"
+  },
+  "activate_sh": "C:\\Users\\huawei\\AppData\\Local\\Temp\\np_snap_demo_z5slteet\\mounted\\activate_snapshot.sh",
+  "activate_bat": "C:\\Users\\huawei\\AppData\\Local\\Temp\\np_snap_demo_z5slteet\\mounted\\activate_snapshot.bat"
+ },
+ "n_common": 2,
+ "hashes_identical": true,
+ "meta_fields": [
+  "etag",
+  "fetched_at",
+  "file",
+  "mtime",
+  "release",
+  "sha256",
+  "sha256_16",
+  "size",
+  "url"
+ ]
+}

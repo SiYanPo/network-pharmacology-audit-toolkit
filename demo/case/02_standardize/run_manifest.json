@@ -1,0 +1,99 @@
+{
+  "stages": [
+    {
+      "stage": "01_standardize",
+      "tool": "network-pharmacology-pro",
+      "tool_version": "1.0.0",
+      "python": "3.13.14",
+      "platform": "win32",
+      "started": "2026-11-23T14:11:23",
+      "argv": [
+        "scripts/np_pipeline.py",
+        "--inputs",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/inputs/Quercetin/inputs.json",
+        "-o",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/np_out/Quercetin_full",
+        "--offline",
+        "--enable-funnel",
+        "--enable-doseweight",
+        "--enable-louvain"
+      ],
+      "env": {
+        "python": "3.13.14",
+        "implementation": "CPython",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "machine": "AMD64",
+        "locale": "Chinese (Simplified)_China.936",
+        "filesystem_encoding": "utf-8",
+        "stdout_encoding": "utf-8",
+        "cwd": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro",
+        "tz": "中国标准时间",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "openpyxl": "3.1.5",
+          "networkx": "3.7",
+          "matplotlib": "3.11.2",
+          "rdkit": "2026.09.1"
+        }
+      },
+      "params": {
+        "input": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compound_targets.csv",
+        "outdir": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/02_standardize",
+        "col": null,
+        "online": false,
+        "keep_nonhuman": false,
+        "alias": null,
+        "quiet": false
+      },
+      "inputs": {
+        "raw": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compound_targets.csv",
+          "sha256_16": "b1df70bb4313454e",
+          "bytes": 7887,
+          "hash": "full"
+        }
+      },
+      "outputs": {
+        "std_table": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\02_standardize\\targets_standardized.csv",
+          "sha256_16": "11863cf2293e6cf2",
+          "bytes": 13807,
+          "hash": "full"
+        },
+        "unmatched": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\02_standardize\\targets_unmatched.csv",
+          "sha256_16": "5e99f16ed547d0ff",
+          "bytes": 785,
+          "hash": "full"
+        },
+        "gene_list": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\02_standardize\\targets_gene_list.txt",
+          "sha256_16": "dc68bc2bb6cdd770",
+          "bytes": 569,
+          "hash": "full"
+        },
+        "audit": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\02_standardize\\standardize_audit.md",
+          "sha256_16": "bf49833c82c3a6e2",
+          "bytes": 1535,
+          "hash": "full"
+        }
+      },
+      "warnings": [
+        "存在 8 条未命中，已在 D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/02_standardize\\targets_unmatched.csv 列出"
+      ],
+      "counts": {
+        "records": 109,
+        "genes": 101,
+        "map_rate": 0.9266,
+        "layers": {
+          "L1_exact": 98,
+          "L2_normalized": 3,
+          "unmatched": 8
+        }
+      },
+      "finished": "2026-11-23T14:11:28"
+    }
+  ]
+}

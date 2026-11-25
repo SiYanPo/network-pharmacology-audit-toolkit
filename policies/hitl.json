@@ -1,0 +1,38 @@
+{
+ "schema": "hitl-policy/1.0",
+ "principle": "以下节点一旦错，后续全部结论作废；必须停下来让人确认",
+ "nodes": [
+  {
+   "id": "threshold",
+   "step": "OB/DL 阈值",
+   "why": "直接决定成分与靶点规模；文献 97% 用 30/0.18",
+   "when": "用户未显式给阈值，或给出非 30/0.18",
+   "prompt": "将使用 OB≥{ob}%、DL≥{dl}（默认 30/0.18）。是否沿用？",
+   "default_action": "ask"
+  },
+  {
+   "id": "gene_symbol",
+   "step": "靶点基因符号映射",
+   "why": "TCMSP 只给蛋白名；映射错则交集错",
+   "when": "映射置信度低（mygene 返回 LOC/空）",
+   "prompt": "以下 X 个靶点无可靠基因符号：…是否剔除或手工指定？",
+   "default_action": "pause"
+  },
+  {
+   "id": "golden_update",
+   "step": "更新复现基线",
+   "why": "基线一改，历史对比失效",
+   "when": "forge_bench --update-golden",
+   "prompt": "将更新 N 条 golden，差异如下…",
+   "default_action": "pause"
+  },
+  {
+   "id": "publish_figures",
+   "step": "出投稿图",
+   "why": "尺寸/字号不合规会被退修",
+   "when": "np_figs 产出后",
+   "prompt": "已自检 45 项，是否按目标期刊改尺寸？",
+   "default_action": "ask"
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+# network-pharmacology-pro 流水线 DAG 配置（配置驱动，不硬编码）
+# 三节点类别：
+#   core   — 默认必经（数据清洗刚需，如 alias / ortholog）
+#   plugin — --enable-<name> 显式触发（大复方可选，避免默认卡死）
+#   audit  — 独立审计工具，不进入常规主流程（见 audit_tools 段）
+#
+# 依赖用 needs 声明，引擎做拓扑排序 + 环检测；产物 artifacts 供下游检查与 --resume 断点续跑。
+# 注意：cli 一律用 **单引号** 包裹（YAML 单引号内可安全使用双引号），
+#       路径与含空格的 label 必须加双引号，否则 split_cli 会切错。
+
+version: "2.0"
+defaults:
+  outdir: np_out
+  seed: 42
+  species: human
+
+stages:
+  - id: safety
+    name: 配伍禁忌与毒性药材质检（合规红线）
+    module: np_contraindication
+    kind: core
+    default: true
+    needs: []
+    cli: '--herbs-file "{inputs.herbs_file}" -o "{outdir}/00_safety"'
+    artifacts: ["00_safety/contraindication.json"]
+    note: 最前置红线——十八反/十九畏触发 ERROR 直接终止；毒性药材 WARN 并记录 Methods 声明
+
+  - id: alias
+    name: 中药名/靶点别名映射
+    module: np_alias
+    kind: core
+    default: true
+    needs: [safety]
+    cli: 'herbs --input "{inputs.herbs}" -o "{outdir}/01_alias"'
+    artifacts: ["01_alias/herb_alias_result.csv"]
+    note: 前置必经——生僻药/炮制品/矿物药不标准化，后续全错
+
+  - id: standardize
+    name: 靶点标准化
+    module: np_standardize
+    kind: core
+    default: true
+    needs: [alias]
+    cli: '-i "{inputs.targets}" -o "{outdir}/02_standardize"'
+    artifacts: ["02_standardize/targets_standardized.csv"]
+
+  - id: compounds
+    name: 成分筛选
+    module: np_compounds
+    kind: core
+    default: true
+    needs: []
+    cli: '-i "{inputs.compounds}" -o "{outdir}/03_compounds"'
+    artifacts: ["03_compounds/compounds_kept.csv"]
+
+  - id: intersect
+    name: 交集
+    module: np_intersect
+    kind: core
+    default: true
+    needs: [standardize, compounds]
+    cli: '--drug "{outdir}/02_standardize/targets_standardized.csv" --disease "{inputs.disease}" -o "{outdir}/04_intersect"'
+    artifacts: ["04_intersect/intersection_genes.txt"]
+
+  - id: ppi
+    name: PPI 拓扑
+    module: np_ppi
+    kind: core
+    default: true
+    needs: [intersect]
+    cli: '-e "{inputs.edges}" -o "{outdir}/05_ppi" --core "{outdir}/04_intersect/intersection_genes.txt" --expand-isolated --string-cache "{outdir}/string_cache"'
+    artifacts: ["05_ppi/hubs.csv", "05_ppi/topology.csv"]
+    note: 产物含 hubs.csv / topology.csv / network.svg / ppi_report.md；degree<3 的交集靶点自动补 STRING 一阶邻居生成 extended_ppi（离线时标 OFFLINE，不影响主网络）
+
+  - id: nullmodel
+    name: 零模型阴性对照
+    module: np_null
+    kind: core
+    default: true
+    needs: [intersect]
+    cli: '-g "{outdir}/04_intersect/intersection_genes.txt" -e "{inputs.edges}" -d "{inputs.disease}" -o "{outdir}/06_null"'
+    artifacts: ["06_null/null_report.md"]
+
+  - id: enrich
+    name: GO/KEGG 富集
+    module: np_enrich
+    kind: core
+    default: true
+    needs: [intersect]
+    cli: '-g "{outdir}/04_intersect/intersection_genes.txt" -m "{inputs.gmt}" --hpa-tissue "{params.tissue}" -o "{outdir}/07_enrich"'
+    artifacts: ["07_enrich/enrich_report.md"]
+    note: 未提供 DEGs 时自动使用 HPA 组织表达背景（params.tissue）；拿不到则回退全基因组并在报告打 P-value may be inflated
+
+  - id: doseweight
+    name: 剂量加权拓扑
+    module: np_doseweight
+    kind: plugin
+    default: false
+    enable_flag: enable-doseweight
+    needs: [intersect, compounds]
+    cli: '--edges "{inputs.compound_edges}" --dose "{inputs.dose}" -o "{outdir}/08_doseweight"'
+    artifacts: ["08_doseweight/dose_weighted_hubs.csv"]
+    note: 可选——需提供剂量表；大复方默认不跑
+
+  - id: funnel
+    name: 先筛选后对接漏斗
+    module: np_funnel
+    kind: plugin
+    default: false
+    enable_flag: enable-funnel
+    needs: [compounds, intersect]
+    cli: '--edges "{inputs.compound_edges}" -o "{outdir}/09_funnel"'
+    artifacts: ["09_funnel/final_docking_list.csv"]
+    note: 可选——生成对接候选清单，避免全量对接卡死
+
+  - id: subnetwork
+    name: Louvain 子网络拆解
+    module: np_subnetwork
+    kind: plugin
+    default: false
+    enable_flag: enable-louvain
+    needs: [ppi, enrich]
+    cli: '--edges "{inputs.edges}" --outdir "{outdir}/10_subnetworks"'
+    artifacts: ["10_subnetworks/subnetwork_manifest.json"]
+    note: 可选——需先有 PPI 与富集（KEGG 显著性过滤依赖富集结果）
+
+  - id: ortholog
+    name: Human→Mouse/Rat 同源转换
+    module: np_ortholog
+    kind: core
+    default: true
+    needs: [ppi]
+    cli: '--input "{outdir}/05_ppi/hubs.csv" --col node --organism {params.organism} -o "{outdir}/11_ortholog"'
+    artifacts: ["11_ortholog/mouse_orthologs.csv"]
+    note: 后置必经——湿实验衔接刚需；默认输出小鼠，需大鼠时单独跑 --organism rat
+
+  - id: report
+    name: 自包含 HTML 报告
+    module: np_report
+    kind: core
+    default: true
+    needs: [ppi, enrich, nullmodel]
+    cli: '--dir "{outdir}" --label "{params.label}"'
+    artifacts: ["np_report.html"]
+
+# 审计工具：不进主流程，单独命令调用（见 np_pipeline.py audit 子命令）
+audit_tools:
+  - id: goldtest
+    module: np_goldtest
+    note: 外部金标准盲测 Recall/FPR——需人工准备金标准文件，或用 --audit goldfetch 自动获取
+  - id: evidence
+    module: np_evidence
+    note: LLM 文本证据锚点校验——审稿前对 Discussion 单独跑
+  - id: goldfetch
+    module: np_goldfetch
+    note: 金标准自动获取——CTD bulk 断点续传 / ChEMBL ATC 严格匹配（DrugBank 平替）
+  - id: defense
+    module: np_defense
+    note: 三大盲区防御——soup 共溶效应 / temporal 时间偏倚 / dockstate 构象状态
+  - id: pocket
+    module: np_pocket
+    note: 精准对接口袋——共晶配体中心提取 / fpocket 预测（避免盲对接）
+  - id: primer
+    module: np_primer
+    note: 湿实验闭环——小鼠靶点 PCR 引物 F/R/Tm + Primer3 .p3 批处理
+  - id: finalcheck
+    module: np_finalcheck
+    note: 投稿门禁——硬性项(时间盲测/Apo-Holo/剂量/Decoy无RedFlag)全过才出 Ready 水印，否则 Draft
+  - id: singlecell
+    module: np_singlecell
+    note: 单细胞投影——核心靶点投射到 scRNA 细胞亚群，气泡/小提琴/UMAP（需 scanpy）
+  - id: decoy
+    module: np_decoy
+    note: "对接阴性对照——Z-score 判定，不显著标 Red Flag High False Positive Risk"
+  - id: wetlab
+    module: np_wetlab
+    note: 湿实验三件套——引物本地特异性/MD桥接模板/UniProt亚细胞定位分层
+  - id: envcheck
+    module: np_envcheck
+    note: 真实环境探测——纠正TOOL_MISSING误判，发现非PATH工具(D:/MDtools与WSL)
+  - id: ligandtop
+    module: np_ligand_top
+    note: 配体GAFF拓扑——acpype自动转Vina配体为GROMACS .itp/.gro（MD前置）
+  - id: consensus
+    module: np_consensus
+    note: 共识打分UQ——Vina+Vinardo+GNINA多打分，方差大标Unstable_Binding
+  - id: liana
+    module: np_liana
+    note: 细胞通讯——核心靶点配体/受体LR推断+热图（LIANA框架）
+  - id: hpa
+    module: np_hpa
+    note: HPA组织特异性——靶点在病变组织nTPM富集校验，排细胞系假阳性
+  - id: mr
+    module: np_mr
+    note: 孟德尔随机化——Steiger 方向过滤 + LD 去冗余 + COLOC，IVW/Egger/加权中位数
+  - id: intervention
+    module: np_intervention
+    note: 靶点-干预方向一致性——MR 方向 vs 成分作用方向，冲突抛 Target_Intervention_Mismatch
+  - id: synergy
+    module: np_synergy
+    note: 机制定向协同——通路上下游+方向兼容判协同；共享靶点强制 Competitive_Antagonism
+  - id: lincs
+    module: np_lincs
+    note: LINCS/CMap 签名构造与连通性打分（在线模板）
+  - id: lincs-local
+    module: np_lincs_local
+    note: LINCS L1000 gctx 本地流式比对——彻底摆脱外部 API（需 h5py + GEO 数据）
+  - id: snapshot
+    module: np_snapshot
+    cli: 'probe --save'
+    artifacts: ["versions.json"]
+    note: 版本探测 + 快照打包 + 离线挂载；投稿前必须 probe --save 并用 pack 发布快照
+  - id: contracts
+    module: np_contracts
+    cli: 'check --dir "{outdir}"'
+    artifacts: []
+    note: 产物契约校验——列名/类型/空表；改列名会立刻失败，而不是等到出图
+  - id: split
+    module: np_split
+    cli: 'run --edges "{outdir}/02_standardize/targets_standardized.csv" --gold-csv gold.csv --split complex'
+    artifacts: []
+    note: 基准切分（随机/家族/留一库）+ 外部工具对照；随机切分偏乐观，必须以 family 切分为主
+  - id: benchmark
+    module: np_benchmark
+    note: 金标准基准——AUC/Recall@K/EF + 跨库边级一致性 + benchmark_report.md
+  - id: fdr
+    module: np_fdr
+    cli: 'run --dir "{outdir}"'
+    artifacts: ["09_evidence/fdr_table.csv", "09_evidence/multiplicity_statement.json"]
+    note: 全局多重性控制——族内+全局 BH；q_global 是唯一可写结论的显著性口径
+  - id: evidence-ledger
+    module: np_evidence_ledger
+    cli: 'auto --dir "{outdir}"'
+    artifacts: ["09_evidence/evidence_ledger.csv", "09_evidence/decision_rules.json"]
+    note: 证据账本 + 单一排序函数；无校准器时输出 UNCALIBRATED（拒绝给概率）
+  - id: interactive
+    module: np_interactive
+    note: 交互式网络（Cytoscape.js 单文件 HTML）——缩放/拖拽/搜索/点节点看属性，替代静态 SVG
+  - id: pdf
+    module: np_pdf
+    note: HTML→PDF（系统 Edge/Chrome 无头模式，零 Python 依赖；不用 weasyprint）
+  - id: mrplots
+    module: np_mr_plots
+    note: MR/COLOC 出版级图——森林图/散点图/LocusZoom 区域图（300dpi PNG + SVG）
+  - id: interpret
+    module: np_interpret
+    note: 结果解读引擎——MR OR、COLOC PP.H4、协同评分的中英双语标准措辞
+  - id: selfaudit
+    module: np_selfaudit
+    note: 模块自审——死代码/自检矩阵/契约核对，提交前跑一次
+  - id: preflight
+    module: np_preflight
+    note: 换机体检——Python/数据/依赖/工具/缓存/路径/CLI 七类
+  - id: uireport
+    module: np_uireport
+    note: 一键交付报告——带 READY/DRAFT/UNVERIFIED 水印，可打印为 PDF

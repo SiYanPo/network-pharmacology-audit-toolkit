@@ -1,0 +1,20 @@
+{
+ "n_hypotheses": 148,
+ "n_families": 1,
+ "alpha": 0.05,
+ "n_raw": 141,
+ "n_family": 141,
+ "n_global": 141,
+ "per_family": {
+  "ENRICH": {
+   "n": 148,
+   "n_raw": 141,
+   "n_family": 141
+  }
+ },
+ "method": "Benjamini–Hochberg（族内与全局各一次）",
+ "n_non_p_endpoints": 0,
+ "statement_zh": "本流程共检测 148 个统计假设（1 类终点）。族内与全局均采用 Benjamini–Hochberg（BH）校正：未校正时 141 个达到 p<0.05；族内校正后 141 个（q_family<0.05）；全局校正后 141 个（q_global<0.05）。**q_global 是唯一可写入结论的显著性口径**；仅 p<0.05 而未通过 q 的结果只能表述为\"提示性关联\"。",
+ "statement_en": "A total of 148 statistical hypotheses across 1 endpoint families were tested. Multiplicity was controlled with Benjamini–Hochberg correction both within family and globally: 141 hypotheses reached p<0.05 before correction, 141 after within-family correction (q_family<0.05), and 141 after global correction (q_global<0.05). Only q_global<0.05 is reported as significant; results passing nominal p alone are described as suggestive.",
+ "generated_at": "2026-11-23 14:12:06"
+}

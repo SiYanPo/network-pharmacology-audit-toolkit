@@ -1,0 +1,2 @@
+﻿compound,mol_id,herb,category,OB,DL,HL,content,ubiquitous,n_herb,gate_used,gate_detail,qed,mw,clogp,hbd,hba,tpsa,rotb,veber_violations,pains,brenk,reason
+Quercetin,CHEMBL50,槐米|甘草|黄芪,黄酮（黄酮醇）,,,,,Y,3,druglike,QED=0.43; Veber 违例 0/1; MW=302; cLogP=2.0; TPSA=131; RotB=1,0.434,302.24,1.99,5,7,131.4,1,0,1,1,

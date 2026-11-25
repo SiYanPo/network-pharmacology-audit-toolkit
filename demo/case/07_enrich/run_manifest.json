@@ -1,0 +1,130 @@
+{
+  "stages": [
+    {
+      "stage": "06_enrich",
+      "tool": "network-pharmacology-pro",
+      "tool_version": "1.0.0",
+      "python": "3.13.14",
+      "platform": "win32",
+      "started": "2026-11-23T14:11:32",
+      "argv": [
+        "scripts/np_pipeline.py",
+        "--inputs",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/inputs/Quercetin/inputs.json",
+        "-o",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/np_out/Quercetin_full",
+        "--offline",
+        "--enable-funnel",
+        "--enable-doseweight",
+        "--enable-louvain"
+      ],
+      "env": {
+        "python": "3.13.14",
+        "implementation": "CPython",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "machine": "AMD64",
+        "locale": "Chinese (Simplified)_China.936",
+        "filesystem_encoding": "utf-8",
+        "stdout_encoding": "utf-8",
+        "cwd": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro",
+        "tz": "中国标准时间",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "openpyxl": "3.1.5",
+          "networkx": "3.7",
+          "matplotlib": "3.11.2",
+          "rdkit": "2026.09.1"
+        }
+      },
+      "params": {
+        "genes": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/04_intersect/intersection_genes.txt",
+        "gmt": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\KEGG_2021_Human.gmt,D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\Reactome_2022.gmt,D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\GO_Biological_Process_2023.gmt",
+        "gprofiler": false,
+        "organism": "hsa",
+        "sources": "GO:BP,GO:CC,GO:MF,KEGG,REAC",
+        "background": null,
+        "background_mode": "genome",
+        "hpa_tsv": null,
+        "hpa_cache": null,
+        "hpa_tissue": "liver",
+        "hpa_min_ntpm": 1.0,
+        "universe": 20596,
+        "outdir": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/07_enrich",
+        "min_hit": 3,
+        "q": 0.05,
+        "collapse": 0.5,
+        "top": 20,
+        "calibrate": 0,
+        "quiet": false,
+        "selftest": false
+      },
+      "inputs": {
+        "genes": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\04_intersect\\intersection_genes.txt",
+          "sha256_16": "106d50441d41098d",
+          "bytes": 125,
+          "hash": "full"
+        },
+        "gmt_KEGG_2021_Human.gmt": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\_research\\realdata\\gmt\\KEGG_2021_Human.gmt",
+          "sha256_16": "566763b3402ee1f0",
+          "bytes": 209631,
+          "hash": "full"
+        },
+        "gmt_Reactome_2022.gmt": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\_research\\realdata\\gmt\\Reactome_2022.gmt",
+          "sha256_16": "cfe1adc75aa3137b",
+          "bytes": 778913,
+          "hash": "full"
+        },
+        "gmt_GO_Biological_Process_2023.gmt": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\_research\\realdata\\gmt\\GO_Biological_Process_2023.gmt",
+          "sha256_16": "4be7e1b5ed62ab3a",
+          "bytes": 1374880,
+          "hash": "full"
+        }
+      },
+      "outputs": {
+        "all": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\07_enrich\\enrich_all.csv",
+          "sha256_16": "88d852a93884af45",
+          "bytes": 18134,
+          "hash": "full"
+        },
+        "sig": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\07_enrich\\enrich_significant.csv",
+          "sha256_16": "1a445c3af1361669",
+          "bytes": 4845,
+          "hash": "full"
+        },
+        "bubble": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\07_enrich\\enrich_bubble.svg",
+          "sha256_16": "524a0a4683e3552e",
+          "bytes": 4678,
+          "hash": "full"
+        },
+        "report": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\07_enrich\\enrich_report.md",
+          "sha256_16": "300378735bc9516c",
+          "bytes": 3588,
+          "hash": "full"
+        }
+      },
+      "warnings": [
+        "背景来源：全基因组（未使用疾病/组织表达背景）（N=20596）——未使用疾病表达谱背景，P 值可能膨胀"
+      ],
+      "counts": {
+        "input_genes": 23,
+        "significant": 141,
+        "collapsed": 23,
+        "tiers": {
+          "未分类": 18,
+          "机制明确": 2,
+          "伞状泛化": 3
+        }
+      },
+      "finished": "2026-11-23T14:11:32"
+    }
+  ]
+}

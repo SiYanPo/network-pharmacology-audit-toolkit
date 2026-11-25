@@ -1,0 +1,18 @@
+{
+ "inputs": {
+  "herbs": "丹参,三七,冰片",
+  "herbs_file": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\audit\\pytest_tmp_final3\\test_build_inputs_writes_resol0\\run\\herbs.txt",
+  "compounds": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\examples\\compounds.csv",
+  "compound_edges": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\examples\\compound_targets.csv",
+  "targets": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\examples\\compound_targets.csv",
+  "disease": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\examples\\disease_targets.tsv",
+  "edges": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\examples\\string_edges.tsv",
+  "dose": "",
+  "gmt": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\examples\\pathways.gmt"
+ },
+ "params": {
+  "label": "丹参,三七,冰片 — 冠心病",
+  "organism": "mouse",
+  "tissue": ""
+ }
+}

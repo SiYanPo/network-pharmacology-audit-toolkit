@@ -1,0 +1,40 @@
+{
+ "adapter": "TcmspAdapter",
+ "source": "TCMSP",
+ "schema_version": "1.0",
+ "dropped_rows": 2,
+ "missing_fields": {
+  "gene": 2,
+  "herb_pinyin": 1,
+  "herb_latin": 1,
+  "n_comp": 1,
+  "n_active": 1
+ },
+ "resolved_columns": {
+  "mol_id": "MOL-ID",
+  "name": "molecule_name",
+  "ob": "OB(%)",
+  "dl": "DL",
+  "herb": "Herbs",
+  "target": "target_name"
+ },
+ "warnings": [],
+ "produced": {
+  "compounds": {
+   "file": "standard_compounds.csv",
+   "n_rows": 2
+  },
+  "targets": {
+   "file": "standard_targets.csv",
+   "n_rows": 2
+  },
+  "edges": {
+   "file": "standard_edges.csv",
+   "n_rows": 2
+  },
+  "herbs": {
+   "file": "standard_herbs.csv",
+   "n_rows": 1
+  }
+ }
+}

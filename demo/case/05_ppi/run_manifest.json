@@ -1,0 +1,122 @@
+{
+  "stages": [
+    {
+      "stage": "04_ppi",
+      "tool": "network-pharmacology-pro",
+      "tool_version": "1.0.0",
+      "python": "3.13.14",
+      "platform": "win32",
+      "started": "2026-11-23T14:11:29",
+      "argv": [
+        "scripts/np_pipeline.py",
+        "--inputs",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/inputs/Quercetin/inputs.json",
+        "-o",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/np_out/Quercetin_full",
+        "--offline",
+        "--enable-funnel",
+        "--enable-doseweight",
+        "--enable-louvain"
+      ],
+      "env": {
+        "python": "3.13.14",
+        "implementation": "CPython",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "machine": "AMD64",
+        "locale": "Chinese (Simplified)_China.936",
+        "filesystem_encoding": "utf-8",
+        "stdout_encoding": "utf-8",
+        "cwd": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro",
+        "tz": "中国标准时间",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "openpyxl": "3.1.5",
+          "networkx": "3.7",
+          "matplotlib": "3.11.2",
+          "rdkit": "2026.09.1"
+        }
+      },
+      "params": {
+        "edges": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\string_edges.tsv",
+        "outdir": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/05_ppi",
+        "min_score": 0.4,
+        "top": 15,
+        "largest_only": false,
+        "bootstrap": 200,
+        "drop": 0.1,
+        "max_clique": 12,
+        "null": 0,
+        "seed": 42,
+        "label": "PPI 网络",
+        "core": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/04_intersect/intersection_genes.txt",
+        "expand_isolated": true,
+        "expand_min_degree": 3,
+        "expand_top": 10,
+        "string_score": 400,
+        "species": 9606,
+        "string_cache": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/string_cache",
+        "offline": true,
+        "quiet": false,
+        "selftest": false
+      },
+      "inputs": {
+        "edges": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\_research\\realdata\\dataset\\string_edges.tsv",
+          "sha256_16": "0cf7528f3a810eb6",
+          "bytes": 60266,
+          "hash": "full"
+        }
+      },
+      "outputs": {
+        "edges_clean": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\05_ppi\\ppi_edges_clean.tsv",
+          "sha256_16": "09f8a0bb1ea66c12",
+          "bytes": 63715,
+          "hash": "full"
+        },
+        "topology": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\05_ppi\\topology.csv",
+          "sha256_16": "8ec730cda31bac8c",
+          "bytes": 20651,
+          "hash": "full"
+        },
+        "hubs": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\05_ppi\\hubs.csv",
+          "sha256_16": "4706303830ceda0b",
+          "bytes": 28525,
+          "hash": "full"
+        },
+        "network": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\05_ppi\\network.svg",
+          "sha256_16": "34ad9cfb8b809948",
+          "bytes": 412910,
+          "hash": "full"
+        },
+        "report": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\05_ppi\\ppi_report.md",
+          "sha256_16": "52842b6658d3b559",
+          "bytes": 3597,
+          "hash": "full"
+        }
+      },
+      "warnings": [
+        "扩展子网未生成（OFFLINE）：主网络不受影响，但孤立靶点仍无结构基础",
+        "bc_excess_z 有 1/281 个节点为 NA（该度分箱方差为 0 或样本不足）",
+        "MCC 极大团被截断 181 次（上限 12），建议调大 --max-clique 复核"
+      ],
+      "counts": {
+        "expand_status": "OFFLINE",
+        "expand_seeds": 1,
+        "bc_z_bins": 11,
+        "bc_z_na": 1,
+        "nodes": 281,
+        "edges": 3453,
+        "modules": 17,
+        "modularity": 0.286,
+        "robust_hubs": 10
+      },
+      "finished": "2026-11-23T14:11:32"
+    }
+  ]
+}

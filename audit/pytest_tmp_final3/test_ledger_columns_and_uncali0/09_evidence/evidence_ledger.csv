@@ -1,0 +1,7 @@
+﻿gene,source,evidence_type,level,level_name,direction,effect_size,uncertainty,detail,provenance_hash
+IL6,compound_target_network,compound_support,L2,database,support,3.0,,3 个成分支持,8402543c1d96963f
+IL6,disease_targets,disease_association,L2,database,association,2.0,,疾病侧得分 2,8402543c1d96963f
+TNF,compound_target_network,compound_support,L2,database,support,2.0,,2 个成分支持,8402543c1d96963f
+TNF,disease_targets,disease_association,L2,database,association,1.0,,疾病侧得分 1,8402543c1d96963f
+IL6,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=稳健,f39804d6672d3a79
+TNF,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=稳健,f39804d6672d3a79

@@ -1,0 +1,11 @@
+# 基准基线预注册（评审 §2.4）
+# 目的：禁止在看到结果后从 B0/B1 中挑一个“好看”的作为主基线。
+# 规则：primary 在运行基准前固定；若要改，必须新开 prereg_id 并保留旧记录。
+prereg_id: "NP-BENCH-2026-11-22"
+locked_at: "2026-11-22"
+primary: "B1"          # 支持成分数 × promiscuity 降权（方法学主基线）
+secondary: "B0"        # 支持成分数（最弱基线；必须同时报告）
+metrics_primary: ["top20_hits", "AUPRC", "ECE", "Brier"]
+metrics_secondary: ["AUC", "Recall@K", "EF@K", "hypergeom_p"]
+splits_required: ["random", "complex", "lodo"]
+rule: "primary 不得在看到 test 结果后更换；B0/B1 必须同表报告，不得只报胜者。"

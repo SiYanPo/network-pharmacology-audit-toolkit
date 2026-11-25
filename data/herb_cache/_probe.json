@@ -1,0 +1,32 @@
+{
+ "ETCM2": {
+  "herb": "楮实子",
+  "herb_id": "ChuShiZi",
+  "source": "ETCM2",
+  "url": "http://www.tcmip.cn:18124/home/ingredient_target/",
+  "access_date": "2026-11-22T00:43:23+08:00",
+  "status": "unavailable",
+  "reason": "ETCM2 返回记录但无法解析出 compound/gene 字段，未臆造。",
+  "n_records": 0
+ },
+ "HERB": {
+  "source": "HERB",
+  "access_date": "2026-11-22T00:43:25+08:00",
+  "status": "unavailable",
+  "reason": "站点可达但查询为 SPA 私有接口、批量下载被禁用；需人工浏览器导出后手动导入（npm_ import 接口）。",
+  "checks": [
+   {
+    "url": "http://herb.ac.cn/",
+    "http": 200,
+    "usable": true,
+    "detail": ""
+   },
+   {
+    "url": "http://herb.ac.cn/download/file/?file_path=HERB_herb_info.txt",
+    "http": 200,
+    "usable": false,
+    "detail": "下载端点禁用/需交互验证"
+   }
+  ]
+ }
+}

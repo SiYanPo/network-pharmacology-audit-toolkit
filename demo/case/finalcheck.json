@@ -1,0 +1,169 @@
+{
+ "verdict": "DRAFT",
+ "results": [
+  {
+   "id": "G1",
+   "name": "时间切分盲测",
+   "level": "hard",
+   "pass": false,
+   "reason": "缺文件 temporal_validation.json"
+  },
+  {
+   "id": "G2",
+   "name": "Apo/Holo 状态标注",
+   "level": "hard",
+   "pass": false,
+   "reason": "缺文件 dock_state_annotated.tsv"
+  },
+  {
+   "id": "G3",
+   "name": "剂量权重",
+   "level": "hard",
+   "pass": false,
+   "reason": "缺文件 dose_weighted_hubs.csv"
+  },
+  {
+   "id": "G4",
+   "name": "配伍禁忌质检",
+   "level": "soft",
+   "pass": true,
+   "file": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\00_safety\\contraindication.json"
+  },
+  {
+   "id": "G5",
+   "name": "外部金标准盲测",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 goldtest_result.json"
+  },
+  {
+   "id": "G6",
+   "name": "图件自检 FAIL=0",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 figure_qa.md"
+  },
+  {
+   "id": "G7",
+   "name": "证据锚点校验",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 evidence_report.json"
+  },
+  {
+   "id": "G8",
+   "name": "Decoy 阴性对照(无 Red Flag)",
+   "level": "hard",
+   "pass": false,
+   "reason": "缺文件 decoy_summary.json"
+  },
+  {
+   "id": "G9",
+   "name": "单细胞投影",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 singlecell_manifest.json"
+  },
+  {
+   "id": "G10",
+   "name": "亚细胞定位分层",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 localization_layers.csv"
+  },
+  {
+   "id": "G11",
+   "name": "引物特异性验证",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 specificity_plan.json"
+  },
+  {
+   "id": "G12",
+   "name": "MD 桥接",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 md_bridge_meta.json"
+  },
+  {
+   "id": "G13",
+   "name": "共识打分UQ(无Unstable)",
+   "level": "hard",
+   "pass": false,
+   "reason": "缺文件 consensus_summary.json"
+  },
+  {
+   "id": "G14",
+   "name": "生理屏障过滤",
+   "level": "soft",
+   "pass": true,
+   "file": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\09_funnel\\funnel_trace.json"
+  },
+  {
+   "id": "G15",
+   "name": "组织特异性校验",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 hpa_summary.json"
+  },
+  {
+   "id": "G16",
+   "name": "细胞通讯(LIANA)",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 liana_status.json"
+  },
+  {
+   "id": "G17",
+   "name": "配体拓扑就绪",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 ligand_top_result.json"
+  },
+  {
+   "id": "G18",
+   "name": "MR 因果证据",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 mr_result.json"
+  },
+  {
+   "id": "G19",
+   "name": "协同拮抗分析",
+   "level": "soft",
+   "pass": false,
+   "reason": "缺文件 synergy_manifest.json"
+  },
+  {
+   "id": "G20",
+   "name": "LINCS 重定位",
+   "level": "soft",
+   "pass": true,
+   "file": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\repurposing_candidates.json"
+  },
+  {
+   "id": "G21",
+   "name": "基因数据流一致性(交集⊆PPI)",
+   "level": "hard",
+   "pass": true,
+   "reason": "22/23 个交集基因在 PPI 节点中（主网络 coverage 0.9565）；缺失：MGAM2",
+   "file": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\dataflow_check.json"
+  },
+  {
+   "id": "G23",
+   "name": "证据聚合与校准(ECE<0.10)",
+   "level": "soft",
+   "pass": false,
+   "reason": "有账本但无校准器：概率不可报告（UNCALIBRATED），只能给先验排序",
+   "fix": "python scripts/np_evidence_ledger.py fit --ledger <outdir>/09_evidence/evidence_ledger.csv --gold gold.txt -o <outdir>/09_evidence"
+  },
+  {
+   "id": "G22",
+   "name": "同源类型隔离(FuncRep≠直系同源)",
+   "level": "hard",
+   "pass": true,
+   "reason": "3 个功能替代均带 (FuncRep) 标记，且警示文件齐备",
+   "file": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\11_ortholog\\func_rep_warning.md"
+  }
+ ]
+}

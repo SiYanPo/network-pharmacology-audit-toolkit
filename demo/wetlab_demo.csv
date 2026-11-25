@@ -1,0 +1,5 @@
+experiment,model,readout,value,unit,n_replicates,p_value,direction
+CCK-8 增殖抑制,HCT116 细胞,IC50,42.3,uM,3,0.002,down
+克隆形成,SW480 细胞,克隆数,58,count,3,0.011,down
+划痕迁移,HCT116 细胞,愈合率,31.5,%,2,0.08,down
+Western blot,HCT116 细胞,PTGS2 蛋白,0.62,fold,1,,down

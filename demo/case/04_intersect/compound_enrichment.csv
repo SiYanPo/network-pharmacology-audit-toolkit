@@ -1,0 +1,2 @@
+﻿compound,n_targets,n_shared,expected,fold,pvalue,qvalue,expected_tested,fold_tested,pvalue_tested,qvalue_tested
+Quercetin,101,23,11,2.09,0.000449487,0.000449487,23,1,1,1

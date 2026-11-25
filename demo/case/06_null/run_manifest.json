@@ -1,0 +1,106 @@
+{
+  "stages": [
+    {
+      "stage": "05_null",
+      "tool": "network-pharmacology-pro",
+      "tool_version": "1.0.0",
+      "python": "3.13.14",
+      "platform": "win32",
+      "started": "2026-11-23T14:11:32",
+      "argv": [
+        "scripts/np_pipeline.py",
+        "--inputs",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/inputs/Quercetin/inputs.json",
+        "-o",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/np_out/Quercetin_full",
+        "--offline",
+        "--enable-funnel",
+        "--enable-doseweight",
+        "--enable-louvain"
+      ],
+      "env": {
+        "python": "3.13.14",
+        "implementation": "CPython",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "machine": "AMD64",
+        "locale": "Chinese (Simplified)_China.936",
+        "filesystem_encoding": "utf-8",
+        "stdout_encoding": "utf-8",
+        "cwd": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro",
+        "tz": "中国标准时间",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "openpyxl": "3.1.5",
+          "networkx": "3.7",
+          "matplotlib": "3.11.2",
+          "rdkit": "2026.09.1"
+        }
+      },
+      "params": {
+        "genes": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/04_intersect/intersection_genes.txt",
+        "edges": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\string_edges.tsv",
+        "disease": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\disease_targets.tsv",
+        "drug": null,
+        "ref": null,
+        "outdir": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/06_null",
+        "iterations": 1000,
+        "seed": 42,
+        "min_score": 0.4,
+        "quiet": false
+      },
+      "inputs": {
+        "genes": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\04_intersect\\intersection_genes.txt",
+          "sha256_16": "106d50441d41098d",
+          "bytes": 125,
+          "hash": "full"
+        },
+        "edges": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\_research\\realdata\\dataset\\string_edges.tsv",
+          "sha256_16": "0cf7528f3a810eb6",
+          "bytes": 60266,
+          "hash": "full"
+        },
+        "disease": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\_research\\realdata\\dataset\\disease_targets.tsv",
+          "sha256_16": "d09ddef4e32fd8bc",
+          "bytes": 90152,
+          "hash": "full"
+        }
+      },
+      "outputs": {
+        "tests": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\06_null\\null_tests.csv",
+          "sha256_16": "e8ab281131975880",
+          "bytes": 405,
+          "hash": "full"
+        },
+        "ecdf": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\06_null\\null_ecdf.svg",
+          "sha256_16": "dfdfd3c0ecf7d4d1",
+          "bytes": 40526,
+          "hash": "full"
+        },
+        "report": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\06_null\\null_report.md",
+          "sha256_16": "475b4d027d2c950b",
+          "bytes": 2476,
+          "hash": "full"
+        }
+      },
+      "warnings": [
+        "B 组零模型不显著：交集不构成超出随机的功能模块",
+        "C 组度匹配零模型不显著：紧密性可由度分布解释"
+      ],
+      "counts": {
+        "genes": 23,
+        "iterations": 1000,
+        "p_A_全基因组": 0.001998001998001998,
+        "p_B_疾病集内": 0.07792207792207792,
+        "p_C_度匹配": 0.26573426573426573
+      },
+      "finished": "2026-11-23T14:11:32"
+    }
+  ]
+}

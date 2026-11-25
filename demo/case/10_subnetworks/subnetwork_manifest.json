@@ -1,0 +1,135 @@
+{
+ "seed": 42,
+ "resolution": 1.0,
+ "n_communities": 8,
+ "n_nodes": 281,
+ "n_edges": 3453,
+ "enrich_filter": false,
+ "adjp_cut": null,
+ "merged_low_support": [],
+ "orphan_modules": [],
+ "keep_orphan": false,
+ "note": "biological_support=false 的社区无显著富集通路；keep_orphan=0 时合并，=1 时单独作 Unknown module；勿据此声称功能模块",
+ "communities": [
+  {
+   "id": 1,
+   "n_nodes": 77,
+   "n_edges": 608,
+   "file": "subnetwork_1.svg",
+   "top_degree": [
+    "TP53",
+    "CTNNB1",
+    "HSP90AA1",
+    "PARP1",
+    "BRCA1"
+   ],
+   "enriched_term": "",
+   "enrich_p": 1.0,
+   "n_sig_pathways": 0,
+   "biological_support": false
+  },
+  {
+   "id": 2,
+   "n_nodes": 57,
+   "n_edges": 442,
+   "file": "subnetwork_2.svg",
+   "top_degree": [
+    "SRC",
+    "STAT3",
+    "PIK3CA",
+    "PIK3CB",
+    "EGFR"
+   ],
+   "enriched_term": "",
+   "enrich_p": 1.0,
+   "n_sig_pathways": 0,
+   "biological_support": false
+  },
+  {
+   "id": 3,
+   "n_nodes": 49,
+   "n_edges": 360,
+   "file": "subnetwork_3.svg",
+   "top_degree": [
+    "CYP3A4",
+    "UGT1A1",
+    "CYP2C9",
+    "CYP1A2",
+    "CYP2B6"
+   ],
+   "enriched_term": "",
+   "enrich_p": 1.0,
+   "n_sig_pathways": 0,
+   "biological_support": false
+  },
+  {
+   "id": 4,
+   "n_nodes": 45,
+   "n_edges": 141,
+   "file": "subnetwork_4.svg",
+   "top_degree": [
+    "MAOB",
+    "MAOA",
+    "SLC6A4",
+    "ACHE",
+    "SLC6A3"
+   ],
+   "enriched_term": "",
+   "enrich_p": 1.0,
+   "n_sig_pathways": 0,
+   "biological_support": false
+  },
+  {
+   "id": 5,
+   "n_nodes": 21,
+   "n_edges": 76,
+   "file": "subnetwork_5.svg",
+   "top_degree": [
+    "MTOR",
+    "PPARG",
+    "AKT1",
+    "PPARA",
+    "NFE2L2"
+   ],
+   "enriched_term": "",
+   "enrich_p": 1.0,
+   "n_sig_pathways": 0,
+   "biological_support": false
+  },
+  {
+   "id": 6,
+   "n_nodes": 18,
+   "n_edges": 47,
+   "file": "subnetwork_6.svg",
+   "top_degree": [
+    "MAPK3",
+    "MAPK1",
+    "MAPK14",
+    "ATP1A2",
+    "ATP1A1"
+   ],
+   "enriched_term": "",
+   "enrich_p": 1.0,
+   "n_sig_pathways": 0,
+   "biological_support": false
+  },
+  {
+   "id": 7,
+   "n_nodes": 12,
+   "n_edges": 22,
+   "file": "subnetwork_7.svg",
+   "top_degree": [
+    "CA4",
+    "CA7",
+    "CA1",
+    "CA2",
+    "CA3"
+   ],
+   "enriched_term": "",
+   "enrich_p": 1.0,
+   "n_sig_pathways": 0,
+   "biological_support": false
+  }
+ ],
+ "overview": "overview.svg"
+}

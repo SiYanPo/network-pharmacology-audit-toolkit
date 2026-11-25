@@ -1,0 +1,67 @@
+{
+ "schema": "bench/1.0",
+ "runner": "python evals/integrity.py --input {input} --out {out}",
+ "output_contract": "contracts/output.schema.json",
+ "cases": [
+  {
+   "id": "empty-input",
+   "category": "empty",
+   "why": "空药名表",
+   "input_rows": 0,
+   "expect": {
+    "exit_code_not": 0,
+    "stderr_contains": "advice"
+   }
+  },
+  {
+   "id": "malformed-row",
+   "category": "malformed",
+   "why": "多余逗号",
+   "input_rows": 2,
+   "malformed": true,
+   "expect": {
+    "exit_code_not": 0
+   }
+  },
+  {
+   "id": "nonstandard-name",
+   "category": "nonstandard",
+   "why": "矿物药/拉丁名混写",
+   "input_rows": 3,
+   "expect": {
+    "status_in": [
+     "ok"
+    ]
+   }
+  },
+  {
+   "id": "typical",
+   "category": "typical",
+   "why": "典型药对",
+   "input_rows": 5,
+   "expect": {
+    "status_in": [
+     "ok"
+    ],
+    "golden": "golden/typical.json"
+   }
+  },
+  {
+   "id": "idempotent-rerun",
+   "category": "regression",
+   "why": "两次一致",
+   "input_rows": 5,
+   "expect": {
+    "status_in": [
+     "ok"
+    ],
+    "same_as": "typical"
+   }
+  }
+ ],
+ "tolerances": {
+  "float_rel": 1e-06,
+  "row_order": "ignore"
+ },
+ "input_header": "herb"
+}

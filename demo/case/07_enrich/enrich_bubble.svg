@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="622" viewBox="0 0 760 622" font-family="-apple-system,Segoe UI,Microsoft YaHei,SimHei,sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="26" font-size="16" font-weight="600" fill="#1f2937">富集（折叠后 top20）</text>
+<circle cx="610.0" cy="69.0" r="16.6" fill="#5e96a0" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="73.0" font-size="11.5" fill="#374151" text-anchor="end">Prostate cancer</text>
+<circle cx="530.0" cy="95.0" r="14.9" fill="#878180" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="99.0" font-size="11.5" fill="#374151" text-anchor="end">IL-17 signaling pathway</text>
+<circle cx="450.0" cy="121.0" r="12.9" fill="#8c7e7c" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="125.0" font-size="11.5" fill="#374151" text-anchor="end">Reversible Hydration Of Carbon Dioxide R-HSA-1475029</text>
+<circle cx="490.0" cy="147.0" r="14.0" fill="#917c79" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="151.0" font-size="11.5" fill="#374151" text-anchor="end">Non-small cell lung cancer</text>
+<circle cx="490.0" cy="173.0" r="14.0" fill="#947a77" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="177.0" font-size="11.5" fill="#374151" text-anchor="end">ErbB signaling pathway</text>
+<circle cx="570.0" cy="199.0" r="15.8" fill="#947a77" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="203.0" font-size="11.5" fill="#374151" text-anchor="end">Alzheimer disease</text>
+<circle cx="490.0" cy="225.0" r="14.0" fill="#957a76" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="229.0" font-size="11.5" fill="#374151" text-anchor="end">Small cell lung cancer</text>
+<circle cx="490.0" cy="251.0" r="14.0" fill="#987874" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="255.0" font-size="11.5" fill="#374151" text-anchor="end">HIF-1 signaling pathway</text>
+<circle cx="450.0" cy="277.0" r="12.9" fill="#9a7772" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="281.0" font-size="11.5" fill="#374151" text-anchor="end">Negative Regulation Of Transferase Activity (GO:0051</text>
+<circle cx="450.0" cy="303.0" r="12.9" fill="#9b7771" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="307.0" font-size="11.5" fill="#374151" text-anchor="end">Bladder cancer</text>
+<circle cx="450.0" cy="329.0" r="12.9" fill="#9d7670" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="333.0" font-size="11.5" fill="#374151" text-anchor="end">Insulin Receptor Signaling Pathway (GO:0008286)</text>
+<circle cx="450.0" cy="355.0" r="12.9" fill="#9d7670" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="359.0" font-size="11.5" fill="#374151" text-anchor="end">Ovarian steroidogenesis</text>
+<circle cx="490.0" cy="381.0" r="14.0" fill="#9e756f" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="385.0" font-size="11.5" fill="#374151" text-anchor="end">Protein Autophosphorylation (GO:0046777)</text>
+<circle cx="690.0" cy="407.0" r="18.0" fill="#a2736c" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="411.0" font-size="11.5" fill="#374151" text-anchor="end">Disease R-HSA-1643685</text>
+<circle cx="450.0" cy="433.0" r="12.9" fill="#a2736c" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="437.0" font-size="11.5" fill="#374151" text-anchor="end">Cellular Response To Reactive Oxygen Species (GO:003</text>
+<circle cx="450.0" cy="459.0" r="12.9" fill="#a5726a" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="463.0" font-size="11.5" fill="#374151" text-anchor="end">PD-L1 expression and PD-1 checkpoint pathway in canc</text>
+<circle cx="450.0" cy="485.0" r="12.9" fill="#a77169" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="489.0" font-size="11.5" fill="#374151" text-anchor="end">Cellular Response To Heat Stress R-HSA-3371556</text>
+<circle cx="690.0" cy="511.0" r="18.0" fill="#a77168" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="515.0" font-size="11.5" fill="#374151" text-anchor="end">Metabolism R-HSA-1430728</text>
+<circle cx="450.0" cy="537.0" r="12.9" fill="#a87067" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="541.0" font-size="11.5" fill="#374151" text-anchor="end">Cholinergic synapse</text>
+<circle cx="450.0" cy="563.0" r="12.9" fill="#b36b60" fill-opacity="0.72" stroke="#ffffff"/>
+<text x="320" y="567.0" font-size="11.5" fill="#374151" text-anchor="end">Positive Regulation Of Phosphorylation (GO:0042327)</text>
+<text x="330" y="608" font-size="11" fill="#6b7280">气泡大小=命中基因数；颜色越红=−log10(q) 越大</text>
+<line x1="330" y1="588" x2="690" y2="588" stroke="#d1d5db"/>
+</svg>

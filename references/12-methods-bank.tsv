@@ -1,0 +1,32 @@
+﻿ref_id	category	cite	used_for	verify
+M01	规范	《网络药理学评价方法指南》(SCM0061-2021). 世界中医药学会联合会, 2021. 英文版 World J Tradit Chin Med 2021;7(1):146-154; 中文版《世界中医药》2021.	可靠性/规范性/合理性三类评价框架；本平台"证据分级 + 红线审计"的设计依据	国际标准号 SCM0061-2021，2021-03-09 通过
+M02	规范	李梢, 肖伟. 网络药理学应用于中药新药研发专家共识总论. 中国中药杂志 2024;49(18):5055-5068. PMID:39701688	"计算预测→实验验证→临床反馈→模型迭代"闭环；本平台证据分级 L0–L4	PMID 已核验（2024 Sep, Zhongguo Zhong Yao Za Zhi）
+M03	理论	Hopkins AL. Network pharmacology. Nat Biotechnol 2007;25(10):1110-1111. PMID:17921993（同年另有 Hopkins AL. Network pharmacology: the next paradigm in drug discovery. Nat Chem Biol 2008;4(11):682-690. PMID:18936753）	网络药理学概念起点与范式表述	两条 PMID 均已核验
+M04	理论	Network pharmacology: curing causal mechanisms instead of treating symptoms. Trends Pharmacol Sci 2022;43(2):136-150. PMID:34895945	"网络药理学应针对因果机制模块，而非症状"——本平台强调机制锚点	PMID 已核验
+M05	方法·偏倚	On the limits of active module identification. Brief Bioinform 2021;22(6):bbab211. PMID:33782690	多数模块识别算法在度匹配随机网络上表现不降 → 必须做度匹配零模型	PMID 已核验
+M06	方法·偏倚	Emergence of power law distributions in protein-protein interaction networks through study bias. eLife 2024;12:RP94075. PMID:39660719	PPI 幂律度分布可由研究偏倚解释 → "度最高=最重要"不成立	PMID 已核验
+M07	方法·偏倚	Online bias-aware disease module mining with ROBUST-Web. Bioinformatics 2023;39(6):btad351. PMID:37233198	偏倚感知的边代价；疾病模块挖掘的稳健做法	PMID 已核验
+M08	方法·富集	Benchmarking enrichment analysis methods with the disease pathway network. Brief Bioinform 2024;25(1):bbad468. PMID:38436561	多数富集方法在随机数据上 P 值偏斜 → 需报告背景并做零模型校准	PMID 已核验
+M09	方法·富集	g:Profiler: a web server for functional enrichment analysis and conversions of gene lists (2019 update). Nucleic Acids Res 2019;47(W1):W191-W198. PMID:31066453	本平台在线富集默认后端（一次拿 GO/KEGG/REAC/WP，自带 FDR）	PMID 已核验
+M10	方法·富集	clusterProfiler: an R package for comparing biological themes among gene clusters. OMICS 2012;16(5):284-287. PMID:22455463	R 侧标准富集实现，用于交叉验证	PMID 已核验
+M11	工具·PPI	The STRING database in 2023: protein-protein association networks and functional enrichment analyses. Nucleic Acids Res 2023;51(D1):D638-D646. PMID:36370105	PPI 边来源；必须声明物种、边类型、score 阈值	PMID 已核验
+M12	工具·PPI	STRING v11: protein-protein association networks with increased coverage. Nucleic Acids Res 2019;47(D1):D607-D613. PMID:30476243	版本沿革与覆盖度变化（跨版本结果不可直接比较）	PMID 已核验
+M13	工具·hub	cytoHubba: identifying hub objects and sub-networks from complex interactome. BMC Syst Biol 2014;8(Suppl 4):S11. PMID:25521941	MCC/Degree/EPC 等 hub 算法来源；本平台 MCC 近似实现参照其思路	PMID 已核验
+M14	工具·模块	An automated method for finding molecular complexes in large protein interaction networks. BMC Bioinformatics 2003;4:2. PMID:12525261	MCODE 原始方法；已知缺陷：易吞并整个网络，故本平台默认 Louvain	PMID 已核验
+M15	数据·中药	TCMSP: a database of systems pharmacology for drug discovery from herbal medicines. J Cheminform 2014;6:13. DOI:10.1186/1758-2946-6-13	OB/DL 阈值的原始来源（注意：OB/DL 是预测值）	CrossRef 已核验（2014-04-16）
+M16	数据·靶点预测	SwissTargetPrediction: a web server for target prediction of bioactive small molecules. Nucleic Acids Res 2014;42(W1):W32-W38. PMID:24792161	成分靶点预测的主要来源之一；建议多库交叉	PMID 已核验
+M17	工具·对接	AutoDock Vina: improving the speed and accuracy of docking with a new scoring function. J Comput Chem 2010;31(2):455-461. PMID:19499576	对接引擎；打分是相对值，不是亲和力	PMID 已核验
+M18	工具·对接	AutoDock4 and AutoDockTools4: automated docking with selective receptor flexibility. J Comput Chem 2009;30(16):2785-2791. PMID:19399780	受体准备与柔性设置	PMID 已核验
+M19	方法·对接可靠性	Redocking the PDB. J Chem Inf Model 2024;64(3):950-961. PMID:38108627	全 PDB 自动流程 top-1 重对接成功率 30.1%（高质量结构 61.8%）→ 逐靶点验证不可省	PMID 已核验
+M20	方法·对接可靠性	Benchmarking AlphaFold-enabled molecular docking predictions for antibiotic discovery. Mol Syst Biol 2022;18(9):e11081. PMID:36065847	前瞻性对接靶点预测 auROC≈0.48（重打分后 0.63）→ 对接不能当靶点证据	PMID 已核验
+M21	方法·对接不确定性	An ensemble-based approach to estimate confidence of predicted protein-ligand binding affinity values. Mol Inform 2024;43(3):e202300284. PMID:38358080	用 conformal prediction 给对接打分加置信区间；本平台"打分分级+门禁"的进阶方向	PMID 已核验
+M22	工具·MD	OpenMM 7: rapid development of high performance algorithms for molecular dynamics. PLoS Comput Biol 2017;13(7):e1005659. PMID:28746339	MD 引擎；RMSD/RMSF/Rg/氢键是稳定性指标，不是活性	PMID 已核验
+M23	方法·网络传播	The effect of statistical normalization on network propagation scores. Bioinformatics 2021;37(9):1271-1278. PMID:33070187	网络扩散分数存在拓扑偏倚，需统计归一化 → 本平台零模型的依据之一	PMID 已核验
+M24	方法·零模型	Network Analysis of Predicted Therapeutic Symptoms in National Health Insurance Herbal Prescriptions. Life (Basel) 2025;15(11):1789. PMID:41302193	用 permutation 零模型检验"网络预测疾病集与已知临床用途的重叠"——可直接借用的验证范式	PMID 已核验
+M25	方法·空间偏倚	A cyclic permutation approach to removing spatial dependency between clustered Gene Ontology terms. Biology (Basel) 2024;13(4):220. PMID:38534445	环状置换去除空间依赖 → 富集零模型的另一思路	PMID 已核验
+M26	统计	Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc B 1995;57(1):289-300.	BH 校正原始文献；本平台所有 q 值均为此法	经典文献，无需 PMID
+M27	统计	Assessing the performance of prediction models: a framework for traditional and novel measures. Epidemiology 2010;21(1):128-138. PMID:20010215	区分度/校准框架，用于解释为何「P 小」不等于「预测好」	PMID 已核验
+M28	方法·剂量	Physiologically based pharmacokinetic modeling of herbal medicines: current status and future perspectives. （综述类，引用前请自行检索最新版本）	PBPK 用于把饮片剂量换算为暴露量；本平台 np_dose.py 的简化模型参照此思路	⚠ 未锁定单一文献，引用前须检索确认
+M29	方法·对接可靠性	Li H, et al. Delta Machine Learning to Improve Scoring-Ranking-Screening Performances of Protein-Ligand Scoring Functions. J Chem Inf Model 2022;62(11):2696-2712. PMID:35579568	原始打分函数的排序/筛选能力有限，需专门改进 → 支持"Vina 打分不得直接用于排序药效"的门禁	DOI 10.1021/acs.jcim.2c00485，Crossref 已核验（2026-11-19）
+M30	方法·对接可靠性	Zheng S, et al. Computing the relative binding affinity of ligands based on a pairwise binding comparison network. Nat Comput Sci 2023;3(10):860-872. PMID:38177766	用成对比较网络估相对亲和力优于绝对打分 → 支持"对接应报相对序/阴性对照，不报绝对亲和力"	DOI 10.1038/s43588-023-00529-9，Crossref 已核验（2026-11-19）
+M31	规范·稳健性	Recommendations for robust and reproducible preclinical research in personalised medicine. BMC Med 2023;21:14. PMID:36617553	稳健性与可复现的实操建议 → 支持本平台"零模型+bootstrap+环境快照+复现校验"整体设计	DOI 10.1186/s12916-022-02719-0，Crossref 已核验（2026-11-19）

@@ -1,0 +1,14 @@
+{
+ "status": "ok",
+ "input_rows": 5,
+ "checks": {
+  "scripts_ok": true,
+  "data_dir": true,
+  "references": true,
+  "fallback": true,
+  "hitl": true,
+  "contracts": true,
+  "selftest": true
+ },
+ "artifacts": []
+}

@@ -1,0 +1,24 @@
+﻿gene,n_compounds,compounds,disease_score,disease_sources,evidence_tier,evidence_weight
+DPP4,1,Quercetin,0.641,Open Targets MONDO_0005148, curated 关联,2
+FTO,1,Quercetin,0.6289,Open Targets MONDO_0005148, curated 关联,2
+MGAM2,1,Quercetin,0.5684,Open Targets MONDO_0005148, curated 关联,2
+IGF1R,1,Quercetin,0.5067,Open Targets MONDO_0005148, curated 关联,2
+CAMK2B,1,Quercetin,0.4664,Open Targets MONDO_0005148, curated 关联,2
+PTGS2,1,Quercetin,0.42,Open Targets MONDO_0005148, curated 关联,2
+PNLIP,1,Quercetin,0.417,Open Targets MONDO_0005148, curated 关联,2
+CA2,1,Quercetin,0.3762,Open Targets MONDO_0005148, curated 关联,2
+CA4,1,Quercetin,0.3656,Open Targets MONDO_0005148, curated 关联,2
+PIK3R1,1,Quercetin,0.3513,Open Targets MONDO_0005148, curated 关联,2
+CYP19A1,1,Quercetin,0.3367,Open Targets MONDO_0005148, curated 关联,2
+XDH,1,Quercetin,0.3154,Open Targets MONDO_0005148, curated 关联,2
+MMP13,1,Quercetin,0.3153,Open Targets MONDO_0005148, curated 关联,2
+ALK,1,Quercetin,0.3071,Open Targets MONDO_0005148, curated 关联,2
+BRAF,1,Quercetin,0.2956,Open Targets MONDO_0005148, curated 关联,2
+HDAC6,1,Quercetin,0.2601,Open Targets MONDO_0005148, curated 关联,2
+GSK3B,1,Quercetin,0.1201,Open Targets MONDO_0005148, curated 关联,2
+NFKB1,1,Quercetin,0.1181,Open Targets MONDO_0005148, curated 关联,2
+MAPT,1,Quercetin,0.1171,Open Targets MONDO_0005148, curated 关联,2
+TP53,1,Quercetin,0.1104,Open Targets MONDO_0005148, curated 关联,2
+ACHE,1,Quercetin,0.1102,Open Targets MONDO_0005148, curated 关联,2
+MMP9,1,Quercetin,0.1089,Open Targets MONDO_0005148, curated 关联,2
+CA5A,1,Quercetin,0.1002,Open Targets MONDO_0005148, curated 关联,2

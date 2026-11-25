@@ -1,0 +1,14 @@
+# This repository is a byte-exact mirror of the archived release.
+#
+# Disabling text conversion is deliberate. ARCHIVE_MANIFEST.tsv records the
+# SHA-256 of every file exactly as archived. On a Windows checkout with the
+# default core.autocrlf=true, git would rewrite the 460 CRLF files to LF and
+# every hash in the manifest would fail. `* -text` turns that conversion off,
+# so a fresh clone reproduces the archived bytes on any platform:
+#
+#     git clone <this repo> && cd <repo>
+#     python verify_download.py ../network-pharmacology-audit-toolkit-v3.0.19.zip ../ARCHIVE_MANIFEST.tsv
+#     python verify_archive.py ARCHIVE_MANIFEST.tsv .
+#
+# Syntax highlighting and diffs still work: -text disables conversion, not diffing.
+* -text

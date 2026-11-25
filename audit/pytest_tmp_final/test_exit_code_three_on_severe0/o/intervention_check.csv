@@ -1,0 +1,2 @@
+﻿gene,mr_beta,mr_p,mr_F,mr_grade,grade_caveats,coloc_pp4,required_action,predicted_action,n_compounds_inhibit,n_compounds_activate,compounds,verdict,severity,message
+IL6,0.42,1e-06,55.0,A,,,inhibit,activate,0,1,X,Target_Intervention_Mismatch,SEVERE,"遗传证据提示该靶点表达升高与疾病风险升高相关（β=0.420, p=1e-06），起效干预应为【抑制】；而成分网络预测为【激活】→ 方向相反，临床结论会南辕北辙"

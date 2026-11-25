@@ -1,0 +1,1357 @@
+{
+ "herb": "何首乌",
+ "herb_id": "HeShouWu",
+ "source": "ETCM2",
+ "url": "http://www.tcmip.cn:18124/home/ingredient_target/",
+ "access_date": "2026-11-22T00:44:06+08:00",
+ "status": "ok",
+ "reason": "",
+ "records": [
+  {
+   "compound": "1,3-Dihydroxy-2-methoxy xanthone",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "1,3-Dihydroxy-6,7-dimethylxanthone-1-O-beta-D-glucoside",
+   "gene": "EGFR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "TRPV1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "SREBF2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "NR1H3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "NR1H3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "ITGB3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "GRIN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "GRIN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "F10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "CYP17A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "CYP17A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "BCHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "22,23-Dihydrostigmasterol",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "TUBB1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "TPPP",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "SYK",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "POLA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "NQO2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "DPP4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CYP1B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CYP1A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CYP1A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA9",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA5B",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA5A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA14",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA12",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "CA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "BCHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "APP",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "ALOX5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "AHR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "3,5-Dihydroxy-4'-methoxystilbene",
+   "gene": "ACHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "4,4'-Dihydroxydiphenyl methane",
+   "gene": "GPR55",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "4,4'-Dihydroxydiphenyl methane",
+   "gene": "ESRRG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "4,4'-Dihydroxydiphenyl methane",
+   "gene": "CA4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "4,4'-Dihydroxydiphenyl methane",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "4,4'-Dihydroxydiphenyl methane",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "4,4'-Dihydroxydiphenyl methane",
+   "gene": "ALOX5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "6-Methoxyluteolin-7-glucoside",
+   "gene": "XDH",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "6-Methoxyluteolin-7-glucoside",
+   "gene": "TNF",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "6-Methoxyluteolin-7-glucoside",
+   "gene": "SENP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "6-Methoxyluteolin-7-glucoside",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "6-Methoxyluteolin-7-glucoside",
+   "gene": "MAPK10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "6-Methoxyluteolin-7-glucoside",
+   "gene": "KDM1A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "6-Methoxyluteolin-7-glucoside",
+   "gene": "AURKB",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "TEK",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "SERPINE1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "PTP4A3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "PSMB5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "PSMB1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "PSIP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "MCL1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "KDR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "IGF1R",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "HSP90AB1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "HPN",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "FLT4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "FLT3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "ELANE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "EGFR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "CYP1B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "CYP1A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "CSNK2A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "AURKB",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "AURKA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "ALOX5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Emodin anthrone",
+   "gene": "ACHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "TDP2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "SLC6A4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "SLC6A3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "SLC6A2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "SENP8",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "SENP6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "HTR7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "HTR6",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "HTR2C",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "HTR2B",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "CASP9",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "CASP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "APOBEC3G",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "APOBEC3A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "APAF1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Fetidine",
+   "gene": "ADRB2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Polygalacic acid",
+   "gene": "PTGER2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Polygalacic acid",
+   "gene": "HSD11B1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Polygalacic acid",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "TERT",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "STAT1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "SERPINE1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "PTGS2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "PTGES",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "PSMB5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "PRKCA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "PGD",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "MMP9",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "MMP7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "MET",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "MAPKAPK5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "MAPK14",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "MAPK10",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "KCNH2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "DYRK1A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "BACE1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Procyanidin B1 3'-O-gallate",
+   "gene": "APP",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "PLAU",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "PDE5A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "PDE5A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "PDE5A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "MMP9",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "CA7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "CA4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "CA12",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "CA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "AURKB",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-3-O-arabinoside",
+   "gene": "ACHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "XDH",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "PTPN1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "PLAU",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "PDE5A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "PDE5A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "PDE5A",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "MMP9",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "CA7",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "CA4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "CA2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "CA12",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "CA1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "AURKB",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Quercetin-5,3-di-D-galactoside",
+   "gene": "ACHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "TEK",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "PTP4A3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "PSMB5",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "PSMB1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "LIMK1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "KDR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "IGF1R",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "FLT4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "FLT3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "ELANE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "EGFR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "DUSP3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "CSNK2A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "AURKB",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questin",
+   "gene": "AURKA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "TEK",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "PSIP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "LIMK1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "KDR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "IGF1R",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "FLT4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "FLT3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "ELANE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "EGFR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "AURKB",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Questinol",
+   "gene": "AURKA",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Rhein diglucoside",
+   "gene": "PSIP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Rhein diglucoside",
+   "gene": "HKDC1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "XBP1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "SRD5A2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "SLC22A3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "SLC22A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "SIGMAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "SHBG",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "P2RX3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "NR3C2",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "NR1H4",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "HSD17B3",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "GPR55",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "BindingDB"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "GPBAR1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "CYP2C9",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "CYP19A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "CYP17A1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "CTSD",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "BCHE",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tadeonal",
+   "gene": "AR",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  },
+  {
+   "compound": "Tetrahydroxytaxadiene",
+   "gene": "NPC1L1",
+   "target_name": "",
+   "uniprot": "",
+   "evidence": "DOI"
+  }
+ ],
+ "n_records": 192,
+ "sha256_16": "03cfa54355d292be"
+}

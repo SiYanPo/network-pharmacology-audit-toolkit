@@ -1,0 +1,1186 @@
+﻿gene,source,evidence_type,level,level_name,direction,effect_size,uncertainty,detail,provenance_hash
+DPP4,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+DPP4,disease_targets,disease_association,L2,database,association,0.641,,疾病侧得分 0.641,2f19ff993aac34fb
+FTO,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+FTO,disease_targets,disease_association,L2,database,association,0.6289,,疾病侧得分 0.6289,2f19ff993aac34fb
+MGAM2,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+MGAM2,disease_targets,disease_association,L2,database,association,0.5684,,疾病侧得分 0.5684,2f19ff993aac34fb
+IGF1R,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+IGF1R,disease_targets,disease_association,L2,database,association,0.5067,,疾病侧得分 0.5067,2f19ff993aac34fb
+CAMK2B,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+CAMK2B,disease_targets,disease_association,L2,database,association,0.4664,,疾病侧得分 0.4664,2f19ff993aac34fb
+PTGS2,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+PTGS2,disease_targets,disease_association,L2,database,association,0.42,,疾病侧得分 0.42,2f19ff993aac34fb
+PNLIP,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+PNLIP,disease_targets,disease_association,L2,database,association,0.417,,疾病侧得分 0.417,2f19ff993aac34fb
+CA2,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+CA2,disease_targets,disease_association,L2,database,association,0.3762,,疾病侧得分 0.3762,2f19ff993aac34fb
+CA4,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+CA4,disease_targets,disease_association,L2,database,association,0.3656,,疾病侧得分 0.3656,2f19ff993aac34fb
+PIK3R1,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+PIK3R1,disease_targets,disease_association,L2,database,association,0.3513,,疾病侧得分 0.3513,2f19ff993aac34fb
+CYP19A1,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+CYP19A1,disease_targets,disease_association,L2,database,association,0.3367,,疾病侧得分 0.3367,2f19ff993aac34fb
+XDH,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+XDH,disease_targets,disease_association,L2,database,association,0.3154,,疾病侧得分 0.3154,2f19ff993aac34fb
+MMP13,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+MMP13,disease_targets,disease_association,L2,database,association,0.3153,,疾病侧得分 0.3153,2f19ff993aac34fb
+ALK,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+ALK,disease_targets,disease_association,L2,database,association,0.3071,,疾病侧得分 0.3071,2f19ff993aac34fb
+BRAF,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+BRAF,disease_targets,disease_association,L2,database,association,0.2956,,疾病侧得分 0.2956,2f19ff993aac34fb
+HDAC6,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+HDAC6,disease_targets,disease_association,L2,database,association,0.2601,,疾病侧得分 0.2601,2f19ff993aac34fb
+GSK3B,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+GSK3B,disease_targets,disease_association,L2,database,association,0.1201,,疾病侧得分 0.1201,2f19ff993aac34fb
+NFKB1,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+NFKB1,disease_targets,disease_association,L2,database,association,0.1181,,疾病侧得分 0.1181,2f19ff993aac34fb
+MAPT,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+MAPT,disease_targets,disease_association,L2,database,association,0.1171,,疾病侧得分 0.1171,2f19ff993aac34fb
+TP53,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+TP53,disease_targets,disease_association,L2,database,association,0.1104,,疾病侧得分 0.1104,2f19ff993aac34fb
+ACHE,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+ACHE,disease_targets,disease_association,L2,database,association,0.1102,,疾病侧得分 0.1102,2f19ff993aac34fb
+MMP9,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+MMP9,disease_targets,disease_association,L2,database,association,0.1089,,疾病侧得分 0.1089,2f19ff993aac34fb
+CA5A,compound_target_network,compound_support,L2,database,support,1.0,,1 个成分支持,2f19ff993aac34fb
+CA5A,disease_targets,disease_association,L2,database,association,0.1002,,疾病侧得分 0.1002,2f19ff993aac34fb
+AKT1,string_ppi,network_topology,L2,database,,131.0,,degree=131 verdict=稳健,4706303830ceda0b
+CTNNB1,string_ppi,network_topology,L2,database,,106.0,,degree=106 verdict=稳健,4706303830ceda0b
+EGFR,string_ppi,network_topology,L2,database,,95.0,,degree=95 verdict=稳健,4706303830ceda0b
+MTOR,string_ppi,network_topology,L2,database,,111.0,,degree=111 verdict=稳健,4706303830ceda0b
+HIF1A,string_ppi,network_topology,L2,database,,94.0,,degree=94 verdict=稳健,4706303830ceda0b
+PIK3CA,string_ppi,network_topology,L2,database,,110.0,,degree=110 verdict=稳健,4706303830ceda0b
+TP53,string_ppi,network_topology,L2,database,,135.0,,degree=135 verdict=稳健,4706303830ceda0b
+PIK3CB,string_ppi,network_topology,L2,database,,99.0,,degree=99 verdict=稳健,4706303830ceda0b
+STAT3,string_ppi,network_topology,L2,database,,104.0,,degree=104 verdict=稳健,4706303830ceda0b
+ESR1,string_ppi,network_topology,L2,database,,80.0,,degree=80 verdict=不稳定,4706303830ceda0b
+HSP90AA1,string_ppi,network_topology,L2,database,,93.0,,degree=93 verdict=稳健,4706303830ceda0b
+NFKB1,string_ppi,network_topology,L2,database,,94.0,,degree=94 verdict=中等,4706303830ceda0b
+JUN,string_ppi,network_topology,L2,database,,84.0,,degree=84 verdict=中等,4706303830ceda0b
+GSK3B,string_ppi,network_topology,L2,database,,76.0,,degree=76 verdict=不稳定,4706303830ceda0b
+MAPK3,string_ppi,network_topology,L2,database,,82.0,,degree=82 verdict=不稳定,4706303830ceda0b
+SRC,string_ppi,network_topology,L2,database,,99.0,,degree=99 verdict=稳健,4706303830ceda0b
+EP300,string_ppi,network_topology,L2,database,,73.0,,degree=73 verdict=不稳定,4706303830ceda0b
+MMP9,string_ppi,network_topology,L2,database,,73.0,,degree=73 verdict=不稳定,4706303830ceda0b
+PARP1,string_ppi,network_topology,L2,database,,74.0,,degree=74 verdict=不稳定,4706303830ceda0b
+BRCA1,string_ppi,network_topology,L2,database,,66.0,,degree=66 verdict=不稳定,4706303830ceda0b
+PTGS2,string_ppi,network_topology,L2,database,,87.0,,degree=87 verdict=中等,4706303830ceda0b
+PPARG,string_ppi,network_topology,L2,database,,86.0,,degree=86 verdict=中等,4706303830ceda0b
+MAPK1,string_ppi,network_topology,L2,database,,65.0,,degree=65 verdict=不稳定,4706303830ceda0b
+APP,string_ppi,network_topology,L2,database,,51.0,,degree=51 verdict=不稳定,4706303830ceda0b
+HDAC1,string_ppi,network_topology,L2,database,,56.0,,degree=56 verdict=不稳定,4706303830ceda0b
+MAPK14,string_ppi,network_topology,L2,database,,50.0,,degree=50 verdict=不稳定,4706303830ceda0b
+MAPT,string_ppi,network_topology,L2,database,,79.0,,degree=79 verdict=不稳定,4706303830ceda0b
+NFE2L2,string_ppi,network_topology,L2,database,,67.0,,degree=67 verdict=不稳定,4706303830ceda0b
+RELA,string_ppi,network_topology,L2,database,,69.0,,degree=69 verdict=不稳定,4706303830ceda0b
+KDR,string_ppi,network_topology,L2,database,,49.0,,degree=49 verdict=不稳定,4706303830ceda0b
+ABCG2,string_ppi,network_topology,L2,database,,54.0,,degree=54 verdict=不稳定,4706303830ceda0b
+BRAF,string_ppi,network_topology,L2,database,,47.0,,degree=47 verdict=不稳定,4706303830ceda0b
+PTPN1,string_ppi,network_topology,L2,database,,41.0,,degree=41 verdict=不稳定,4706303830ceda0b
+AR,string_ppi,network_topology,L2,database,,50.0,,degree=50 verdict=不稳定,4706303830ceda0b
+ABCB1,string_ppi,network_topology,L2,database,,53.0,,degree=53 verdict=不稳定,4706303830ceda0b
+IGF1R,string_ppi,network_topology,L2,database,,41.0,,degree=41 verdict=不稳定,4706303830ceda0b
+PIK3R1,string_ppi,network_topology,L2,database,,50.0,,degree=50 verdict=不稳定,4706303830ceda0b
+SNCA,string_ppi,network_topology,L2,database,,50.0,,degree=50 verdict=不稳定,4706303830ceda0b
+AHR,string_ppi,network_topology,L2,database,,50.0,,degree=50 verdict=不稳定,4706303830ceda0b
+MMP2,string_ppi,network_topology,L2,database,,49.0,,degree=49 verdict=不稳定,4706303830ceda0b
+HMGB1,string_ppi,network_topology,L2,database,,45.0,,degree=45 verdict=不稳定,4706303830ceda0b
+CDK1,string_ppi,network_topology,L2,database,,49.0,,degree=49 verdict=不稳定,4706303830ceda0b
+PPARA,string_ppi,network_topology,L2,database,,55.0,,degree=55 verdict=不稳定,4706303830ceda0b
+PTPN11,string_ppi,network_topology,L2,database,,41.0,,degree=41 verdict=不稳定,4706303830ceda0b
+TERT,string_ppi,network_topology,L2,database,,42.0,,degree=42 verdict=不稳定,4706303830ceda0b
+FYN,string_ppi,network_topology,L2,database,,38.0,,degree=38 verdict=不稳定,4706303830ceda0b
+PGR,string_ppi,network_topology,L2,database,,40.0,,degree=40 verdict=不稳定,4706303830ceda0b
+PTK2,string_ppi,network_topology,L2,database,,35.0,,degree=35 verdict=不稳定,4706303830ceda0b
+SLC2A1,string_ppi,network_topology,L2,database,,40.0,,degree=40 verdict=不稳定,4706303830ceda0b
+CYP3A4,string_ppi,network_topology,L2,database,,55.0,,degree=55 verdict=不稳定,4706303830ceda0b
+HDAC6,string_ppi,network_topology,L2,database,,38.0,,degree=38 verdict=不稳定,4706303830ceda0b
+CYP19A1,string_ppi,network_topology,L2,database,,45.0,,degree=45 verdict=不稳定,4706303830ceda0b
+ESR2,string_ppi,network_topology,L2,database,,35.0,,degree=35 verdict=不稳定,4706303830ceda0b
+STAT6,string_ppi,network_topology,L2,database,,37.0,,degree=37 verdict=不稳定,4706303830ceda0b
+CCR2,string_ppi,network_topology,L2,database,,36.0,,degree=36 verdict=不稳定,4706303830ceda0b
+IDO1,string_ppi,network_topology,L2,database,,34.0,,degree=34 verdict=不稳定,4706303830ceda0b
+MPO,string_ppi,network_topology,L2,database,,38.0,,degree=38 verdict=不稳定,4706303830ceda0b
+HTT,string_ppi,network_topology,L2,database,,32.0,,degree=32 verdict=不稳定,4706303830ceda0b
+CYP1A1,string_ppi,network_topology,L2,database,,41.0,,degree=41 verdict=不稳定,4706303830ceda0b
+USP7,string_ppi,network_topology,L2,database,,35.0,,degree=35 verdict=不稳定,4706303830ceda0b
+PLK1,string_ppi,network_topology,L2,database,,37.0,,degree=37 verdict=不稳定,4706303830ceda0b
+MET,string_ppi,network_topology,L2,database,,36.0,,degree=36 verdict=不稳定,4706303830ceda0b
+XPO1,string_ppi,network_topology,L2,database,,31.0,,degree=31 verdict=不稳定,4706303830ceda0b
+CYP1A2,string_ppi,network_topology,L2,database,,40.0,,degree=40 verdict=不稳定,4706303830ceda0b
+ALDH1A1,string_ppi,network_topology,L2,database,,34.0,,degree=34 verdict=不稳定,4706303830ceda0b
+HMGCR,string_ppi,network_topology,L2,database,,35.0,,degree=35 verdict=不稳定,4706303830ceda0b
+ALK,string_ppi,network_topology,L2,database,,28.0,,degree=28 verdict=不稳定,4706303830ceda0b
+ITGB3,string_ppi,network_topology,L2,database,,30.0,,degree=30 verdict=不稳定,4706303830ceda0b
+KDM1A,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+CYP2C9,string_ppi,network_topology,L2,database,,40.0,,degree=40 verdict=不稳定,4706303830ceda0b
+NOS2,string_ppi,network_topology,L2,database,,29.0,,degree=29 verdict=不稳定,4706303830ceda0b
+CSNK2A1,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+LMNA,string_ppi,network_topology,L2,database,,31.0,,degree=31 verdict=不稳定,4706303830ceda0b
+TLR9,string_ppi,network_topology,L2,database,,28.0,,degree=28 verdict=不稳定,4706303830ceda0b
+MMP3,string_ppi,network_topology,L2,database,,28.0,,degree=28 verdict=不稳定,4706303830ceda0b
+CDK5,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+UGT1A1,string_ppi,network_topology,L2,database,,35.0,,degree=35 verdict=不稳定,4706303830ceda0b
+CXCR2,string_ppi,network_topology,L2,database,,26.0,,degree=26 verdict=不稳定,4706303830ceda0b
+PTPN6,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+SYK,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+NR1H4,string_ppi,network_topology,L2,database,,31.0,,degree=31 verdict=不稳定,4706303830ceda0b
+CYP2C19,string_ppi,network_topology,L2,database,,34.0,,degree=34 verdict=不稳定,4706303830ceda0b
+NOX4,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+MAOA,string_ppi,network_topology,L2,database,,35.0,,degree=35 verdict=不稳定,4706303830ceda0b
+ELAVL1,string_ppi,network_topology,L2,database,,28.0,,degree=28 verdict=不稳定,4706303830ceda0b
+NR1I2,string_ppi,network_topology,L2,database,,32.0,,degree=32 verdict=不稳定,4706303830ceda0b
+RPS6KA3,string_ppi,network_topology,L2,database,,24.0,,degree=24 verdict=不稳定,4706303830ceda0b
+FLT3,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+MAOB,string_ppi,network_topology,L2,database,,36.0,,degree=36 verdict=不稳定,4706303830ceda0b
+BACE1,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+CYP2B6,string_ppi,network_topology,L2,database,,33.0,,degree=33 verdict=不稳定,4706303830ceda0b
+CYP2D6,string_ppi,network_topology,L2,database,,32.0,,degree=32 verdict=不稳定,4706303830ceda0b
+SIRT3,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+ALOX5,string_ppi,network_topology,L2,database,,29.0,,degree=29 verdict=不稳定,4706303830ceda0b
+CYP1B1,string_ppi,network_topology,L2,database,,28.0,,degree=28 verdict=不稳定,4706303830ceda0b
+METTL3,string_ppi,network_topology,L2,database,,24.0,,degree=24 verdict=不稳定,4706303830ceda0b
+CYP2C8,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+XDH,string_ppi,network_topology,L2,database,,28.0,,degree=28 verdict=不稳定,4706303830ceda0b
+AURKB,string_ppi,network_topology,L2,database,,27.0,,degree=27 verdict=不稳定,4706303830ceda0b
+MMP13,string_ppi,network_topology,L2,database,,22.0,,degree=22 verdict=不稳定,4706303830ceda0b
+SIRT6,string_ppi,network_topology,L2,database,,23.0,,degree=23 verdict=不稳定,4706303830ceda0b
+CA9,string_ppi,network_topology,L2,database,,21.0,,degree=21 verdict=不稳定,4706303830ceda0b
+DPP4,string_ppi,network_topology,L2,database,,25.0,,degree=25 verdict=不稳定,4706303830ceda0b
+AXL,string_ppi,network_topology,L2,database,,22.0,,degree=22 verdict=不稳定,4706303830ceda0b
+ABCC1,string_ppi,network_topology,L2,database,,24.0,,degree=24 verdict=不稳定,4706303830ceda0b
+GSK3A,string_ppi,network_topology,L2,database,,21.0,,degree=21 verdict=不稳定,4706303830ceda0b
+CYP2A6,string_ppi,network_topology,L2,database,,24.0,,degree=24 verdict=不稳定,4706303830ceda0b
+PTGS1,string_ppi,network_topology,L2,database,,25.0,,degree=25 verdict=不稳定,4706303830ceda0b
+NR1I3,string_ppi,network_topology,L2,database,,22.0,,degree=22 verdict=不稳定,4706303830ceda0b
+APEX1,string_ppi,network_topology,L2,database,,22.0,,degree=22 verdict=不稳定,4706303830ceda0b
+CD38,string_ppi,network_topology,L2,database,,22.0,,degree=22 verdict=不稳定,4706303830ceda0b
+NFKB2,string_ppi,network_topology,L2,database,,22.0,,degree=22 verdict=不稳定,4706303830ceda0b
+TRPV1,string_ppi,network_topology,L2,database,,21.0,,degree=21 verdict=不稳定,4706303830ceda0b
+ACHE,string_ppi,network_topology,L2,database,,23.0,,degree=23 verdict=不稳定,4706303830ceda0b
+SLC6A4,string_ppi,network_topology,L2,database,,26.0,,degree=26 verdict=不稳定,4706303830ceda0b
+BCHE,string_ppi,network_topology,L2,database,,24.0,,degree=24 verdict=不稳定,4706303830ceda0b
+SLCO1B1,string_ppi,network_topology,L2,database,,20.0,,degree=20 verdict=不稳定,4706303830ceda0b
+ABCB11,string_ppi,network_topology,L2,database,,21.0,,degree=21 verdict=不稳定,4706303830ceda0b
+F3,string_ppi,network_topology,L2,database,,22.0,,degree=22 verdict=不稳定,4706303830ceda0b
+APAF1,string_ppi,network_topology,L2,database,,19.0,,degree=19 verdict=不稳定,4706303830ceda0b
+KLF5,string_ppi,network_topology,L2,database,,18.0,,degree=18 verdict=不稳定,4706303830ceda0b
+SPHK1,string_ppi,network_topology,L2,database,,17.0,,degree=17 verdict=不稳定,4706303830ceda0b
+HSPD1,string_ppi,network_topology,L2,database,,20.0,,degree=20 verdict=不稳定,4706303830ceda0b
+PSMB5,string_ppi,network_topology,L2,database,,20.0,,degree=20 verdict=不稳定,4706303830ceda0b
+ALOX15,string_ppi,network_topology,L2,database,,18.0,,degree=18 verdict=不稳定,4706303830ceda0b
+PSMB1,string_ppi,network_topology,L2,database,,19.0,,degree=19 verdict=不稳定,4706303830ceda0b
+MEN1,string_ppi,network_topology,L2,database,,16.0,,degree=16 verdict=不稳定,4706303830ceda0b
+PRKCE,string_ppi,network_topology,L2,database,,16.0,,degree=16 verdict=不稳定,4706303830ceda0b
+CXCR1,string_ppi,network_topology,L2,database,,16.0,,degree=16 verdict=不稳定,4706303830ceda0b
+SLCO1B3,string_ppi,network_topology,L2,database,,17.0,,degree=17 verdict=不稳定,4706303830ceda0b
+DYRK1A,string_ppi,network_topology,L2,database,,14.0,,degree=14 verdict=不稳定,4706303830ceda0b
+AKR1C3,string_ppi,network_topology,L2,database,,20.0,,degree=20 verdict=不稳定,4706303830ceda0b
+YES1,string_ppi,network_topology,L2,database,,14.0,,degree=14 verdict=不稳定,4706303830ceda0b
+PAX8,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+AKR1B1,string_ppi,network_topology,L2,database,,17.0,,degree=17 verdict=不稳定,4706303830ceda0b
+DAPK1,string_ppi,network_topology,L2,database,,14.0,,degree=14 verdict=不稳定,4706303830ceda0b
+FTO,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+BLM,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+CES1,string_ppi,network_topology,L2,database,,16.0,,degree=16 verdict=不稳定,4706303830ceda0b
+ACP1,string_ppi,network_topology,L2,database,,14.0,,degree=14 verdict=不稳定,4706303830ceda0b
+PLA2G1B,string_ppi,network_topology,L2,database,,16.0,,degree=16 verdict=不稳定,4706303830ceda0b
+RAD52,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+PTPN2,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+SLCO2B1,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+F2,string_ppi,network_topology,L2,database,,17.0,,degree=17 verdict=不稳定,4706303830ceda0b
+HSD17B2,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+SLC6A3,string_ppi,network_topology,L2,database,,18.0,,degree=18 verdict=不稳定,4706303830ceda0b
+CSNK2B,string_ppi,network_topology,L2,database,,13.0,,degree=13 verdict=不稳定,4706303830ceda0b
+ATP2A2,string_ppi,network_topology,L2,database,,17.0,,degree=17 verdict=不稳定,4706303830ceda0b
+HSD17B1,string_ppi,network_topology,L2,database,,17.0,,degree=17 verdict=不稳定,4706303830ceda0b
+TSHR,string_ppi,network_topology,L2,database,,14.0,,degree=14 verdict=不稳定,4706303830ceda0b
+PRKAA2,string_ppi,network_topology,L2,database,,12.0,,degree=12 verdict=不稳定,4706303830ceda0b
+SETD7,string_ppi,network_topology,L2,database,,12.0,,degree=12 verdict=不稳定,4706303830ceda0b
+HSD11B1,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+ATP1A1,string_ppi,network_topology,L2,database,,12.0,,degree=12 verdict=不稳定,4706303830ceda0b
+MGAM,string_ppi,network_topology,L2,database,,16.0,,degree=16 verdict=不稳定,4706303830ceda0b
+TUBB4B,string_ppi,network_topology,L2,database,,14.0,,degree=14 verdict=不稳定,4706303830ceda0b
+ALOX12,string_ppi,network_topology,L2,database,,13.0,,degree=13 verdict=不稳定,4706303830ceda0b
+TYR,string_ppi,network_topology,L2,database,,15.0,,degree=15 verdict=不稳定,4706303830ceda0b
+THRB,string_ppi,network_topology,L2,database,,11.0,,degree=11 verdict=不稳定,4706303830ceda0b
+ELANE,string_ppi,network_topology,L2,database,,14.0,,degree=14 verdict=不稳定,4706303830ceda0b
+ESRRA,string_ppi,network_topology,L2,database,,11.0,,degree=11 verdict=不稳定,4706303830ceda0b
+TTR,string_ppi,network_topology,L2,database,,14.0,,degree=14 verdict=不稳定,4706303830ceda0b
+ALKBH5,string_ppi,network_topology,L2,database,,11.0,,degree=11 verdict=不稳定,4706303830ceda0b
+HTR2A,string_ppi,network_topology,L2,database,,16.0,,degree=16 verdict=不稳定,4706303830ceda0b
+CNR1,string_ppi,network_topology,L2,database,,13.0,,degree=13 verdict=不稳定,4706303830ceda0b
+PIM1,string_ppi,network_topology,L2,database,,13.0,,degree=13 verdict=不稳定,4706303830ceda0b
+PTGES,string_ppi,network_topology,L2,database,,12.0,,degree=12 verdict=不稳定,4706303830ceda0b
+HDAC8,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+NOD2,string_ppi,network_topology,L2,database,,13.0,,degree=13 verdict=不稳定,4706303830ceda0b
+HPGD,string_ppi,network_topology,L2,database,,12.0,,degree=12 verdict=不稳定,4706303830ceda0b
+NEK2,string_ppi,network_topology,L2,database,,11.0,,degree=11 verdict=不稳定,4706303830ceda0b
+TNKS2,string_ppi,network_topology,L2,database,,11.0,,degree=11 verdict=不稳定,4706303830ceda0b
+FABP4,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+POLA1,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+GPBAR1,string_ppi,network_topology,L2,database,,13.0,,degree=13 verdict=不稳定,4706303830ceda0b
+TBXAS1,string_ppi,network_topology,L2,database,,11.0,,degree=11 verdict=不稳定,4706303830ceda0b
+GSTM2,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+NSD1,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+TUBB3,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+RHOC,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+ATP1B1,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+TNKS,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+POLB,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+KCNH2,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+MMP12,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+SENP1,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+PTPRF,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+RECQL,string_ppi,network_topology,L2,database,,11.0,,degree=11 verdict=不稳定,4706303830ceda0b
+DYRK2,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+CAMK2B,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+RORC,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+ATP1A2,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+PKN1,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+TRPA1,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+MT-CO2,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+PTGES2,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+TDO2,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+CA1,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+CA4,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+CA2,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+SLC6A2,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+ATP1B2,string_ppi,network_topology,L2,database,,6.0,,degree=6 verdict=不稳定,4706303830ceda0b
+PYGL,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+CA3,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+HSD17B10,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+MERTK,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+CES2,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+ADAMTS4,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+AKR1C2,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+NR4A2,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+MKNK2,string_ppi,network_topology,L2,database,,6.0,,degree=6 verdict=不稳定,4706303830ceda0b
+PRSS1,string_ppi,network_topology,L2,database,,10.0,,degree=10 verdict=不稳定,4706303830ceda0b
+USP2,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+PNLIP,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+AVPR2,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+DRD4,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+ADRB3,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+TDP1,string_ppi,network_topology,L2,database,,6.0,,degree=6 verdict=不稳定,4706303830ceda0b
+HTR2B,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+GLO1,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+DRD1,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+GMNN,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+CA12,string_ppi,network_topology,L2,database,,6.0,,degree=6 verdict=不稳定,4706303830ceda0b
+CCR4,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+GABRA1,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+MKNK1,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+ANPEP,string_ppi,network_topology,L2,database,,9.0,,degree=9 verdict=不稳定,4706303830ceda0b
+CA7,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+GRK6,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+SLC16A1,string_ppi,network_topology,L2,database,,6.0,,degree=6 verdict=不稳定,4706303830ceda0b
+HSD11B2,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+NPC1,string_ppi,network_topology,L2,database,,7.0,,degree=7 verdict=不稳定,4706303830ceda0b
+OPRD1,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+CNR2,string_ppi,network_topology,L2,database,,8.0,,degree=8 verdict=不稳定,4706303830ceda0b
+ABHD5,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+NUAK1,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+CA13,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+SMN1,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+PDE5A,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+NPSR1,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+ALKBH2,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+DHODH,string_ppi,network_topology,L2,database,,3.0,,degree=3 verdict=不稳定,4706303830ceda0b
+CA5A,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+AKR1B10,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+PKMYT1,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+CHRM2,string_ppi,network_topology,L2,database,,6.0,,degree=6 verdict=不稳定,4706303830ceda0b
+CA14,string_ppi,network_topology,L2,database,,3.0,,degree=3 verdict=不稳定,4706303830ceda0b
+DYRK1B,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+ADORA3,string_ppi,network_topology,L2,database,,2.0,,degree=2 verdict=不稳定,4706303830ceda0b
+MLNR,string_ppi,network_topology,L2,database,,3.0,,degree=3 verdict=不稳定,4706303830ceda0b
+GPR35,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+IP6K2,string_ppi,network_topology,L2,database,,2.0,,degree=2 verdict=不稳定,4706303830ceda0b
+L3MBTL1,string_ppi,network_topology,L2,database,,2.0,,degree=2 verdict=不稳定,4706303830ceda0b
+CLK1,string_ppi,network_topology,L2,database,,2.0,,degree=2 verdict=不稳定,4706303830ceda0b
+NAPRT,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+ALKBH3,string_ppi,network_topology,L2,database,,5.0,,degree=5 verdict=不稳定,4706303830ceda0b
+ADRA2B,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+CA6,string_ppi,network_topology,L2,database,,2.0,,degree=2 verdict=不稳定,4706303830ceda0b
+CCKAR,string_ppi,network_topology,L2,database,,3.0,,degree=3 verdict=不稳定,4706303830ceda0b
+CISD1,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+ALPI,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+TBXA2R,string_ppi,network_topology,L2,database,,4.0,,degree=4 verdict=不稳定,4706303830ceda0b
+ELAVL3,string_ppi,network_topology,L2,database,,3.0,,degree=3 verdict=不稳定,4706303830ceda0b
+MC5R,string_ppi,network_topology,L2,database,,3.0,,degree=3 verdict=不稳定,4706303830ceda0b
+ADRA1A,string_ppi,network_topology,L2,database,,3.0,,degree=3 verdict=不稳定,4706303830ceda0b
+CA5B,string_ppi,network_topology,L2,database,,2.0,,degree=2 verdict=不稳定,4706303830ceda0b
+CTDSP1,string_ppi,network_topology,L2,database,,2.0,,degree=2 verdict=不稳定,4706303830ceda0b
+CLK4,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+ATP2A3,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+AMY1A,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+DYRK3,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+KDM4E,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+NEK6,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+MRGPRX2,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+PTP4A3,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+NQO2,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+PMP22,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+QPCTL,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+TACR2,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+TRPC5,string_ppi,network_topology,L2,database,,1.0,,degree=1 verdict=不稳定,4706303830ceda0b
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Prostate cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Prostate cancer,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Prostate cancer,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Prostate cancer,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Prostate cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Prostate cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Prostate cancer,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Pathways in cancer,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Neurotrophin signaling pathway,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Neurotrophin signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Neurotrophin signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Neurotrophin signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Neurotrophin signaling pathway,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.0,,term=Neurotrophin signaling pathway,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,1e-06,,term=Glioma,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,1e-06,,term=Glioma,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,1e-06,,term=Glioma,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1e-06,,term=Glioma,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,1e-06,,term=Glioma,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=IL-17 signaling pathway,88d852a93884af45
+MMP13,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=IL-17 signaling pathway,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=IL-17 signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=IL-17 signaling pathway,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=IL-17 signaling pathway,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Proteoglycans in cancer,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Proteoglycans in cancer,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Proteoglycans in cancer,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Proteoglycans in cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Proteoglycans in cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Proteoglycans in cancer,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Lipid and atherosclerosis,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Lipid and atherosclerosis,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Lipid and atherosclerosis,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Lipid and atherosclerosis,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Lipid and atherosclerosis,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Lipid and atherosclerosis,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Negative Regulation Of Programmed Cell Death (GO:0043069),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Negative Regulation Of Programmed Cell Death (GO:0043069),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Negative Regulation Of Programmed Cell Death (GO:0043069),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Negative Regulation Of Programmed Cell Death (GO:0043069),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Negative Regulation Of Programmed Cell Death (GO:0043069),88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Negative Regulation Of Programmed Cell Death (GO:0043069),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Negative Regulation Of Programmed Cell Death (GO:0043069),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Response To Amyloid-Beta (GO:1904645),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Response To Amyloid-Beta (GO:1904645),88d852a93884af45
+MMP13,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Response To Amyloid-Beta (GO:1904645),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,2e-06,,term=Response To Amyloid-Beta (GO:1904645),88d852a93884af45
+CA2,pathway_enrichment,pathway_membership,L2,database,,4e-06,,term=Reversible Hydration Of Carbon Dioxide R-HSA-1475029,88d852a93884af45
+CA4,pathway_enrichment,pathway_membership,L2,database,,4e-06,,term=Reversible Hydration Of Carbon Dioxide R-HSA-1475029,88d852a93884af45
+CA5A,pathway_enrichment,pathway_membership,L2,database,,4e-06,,term=Reversible Hydration Of Carbon Dioxide R-HSA-1475029,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Endometrial cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Endometrial cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Endometrial cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Endometrial cancer,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Breast cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Breast cancer,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Breast cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Breast cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Breast cancer,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Regulation Of Apoptotic Process (GO:0042981),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Regulation Of Apoptotic Process (GO:0042981),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Regulation Of Apoptotic Process (GO:0042981),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Regulation Of Apoptotic Process (GO:0042981),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Regulation Of Apoptotic Process (GO:0042981),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Regulation Of Apoptotic Process (GO:0042981),88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Regulation Of Apoptotic Process (GO:0042981),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,6e-06,,term=Regulation Of Apoptotic Process (GO:0042981),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Negative Regulation Of Apoptotic Process (GO:0043066),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Negative Regulation Of Apoptotic Process (GO:0043066),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Negative Regulation Of Apoptotic Process (GO:0043066),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Negative Regulation Of Apoptotic Process (GO:0043066),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Negative Regulation Of Apoptotic Process (GO:0043066),88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Negative Regulation Of Apoptotic Process (GO:0043066),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Negative Regulation Of Apoptotic Process (GO:0043066),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis C,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis C,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis C,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis C,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis C,88d852a93884af45
+CA2,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Nitrogen metabolism,88d852a93884af45
+CA4,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Nitrogen metabolism,88d852a93884af45
+CA5A,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Nitrogen metabolism,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis B,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis B,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis B,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis B,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,7e-06,,term=Hepatitis B,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,8e-06,,term=Hepatocellular carcinoma,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,8e-06,,term=Hepatocellular carcinoma,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,8e-06,,term=Hepatocellular carcinoma,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,8e-06,,term=Hepatocellular carcinoma,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,8e-06,,term=Hepatocellular carcinoma,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,9e-06,,term=Melanoma,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,9e-06,,term=Melanoma,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,9e-06,,term=Melanoma,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,9e-06,,term=Melanoma,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,9e-06,,term=Non-small cell lung cancer,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,9e-06,,term=Non-small cell lung cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,9e-06,,term=Non-small cell lung cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,9e-06,,term=Non-small cell lung cancer,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,1e-05,,term=Chronic myeloid leukemia,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,1e-05,,term=Chronic myeloid leukemia,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1e-05,,term=Chronic myeloid leukemia,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,1e-05,,term=Chronic myeloid leukemia,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,1e-05,,term=Pancreatic cancer,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,1e-05,,term=Pancreatic cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1e-05,,term=Pancreatic cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,1e-05,,term=Pancreatic cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,1.3e-05,,term=Kaposi sarcoma-associated herpesvirus infection,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,1.3e-05,,term=Kaposi sarcoma-associated herpesvirus infection,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1.3e-05,,term=Kaposi sarcoma-associated herpesvirus infection,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,1.3e-05,,term=Kaposi sarcoma-associated herpesvirus infection,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,1.3e-05,,term=Kaposi sarcoma-associated herpesvirus infection,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=ErbB signaling pathway,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=ErbB signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=ErbB signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=ErbB signaling pathway,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Colorectal cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Colorectal cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Colorectal cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Colorectal cancer,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Alzheimer disease,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Alzheimer disease,88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Alzheimer disease,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Alzheimer disease,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Alzheimer disease,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Alzheimer disease,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Diabetic cardiomyopathy,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Diabetic cardiomyopathy,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Diabetic cardiomyopathy,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Diabetic cardiomyopathy,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1.4e-05,,term=Diabetic cardiomyopathy,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,1.6e-05,,term=Small cell lung cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,1.6e-05,,term=Small cell lung cancer,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,1.6e-05,,term=Small cell lung cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,1.6e-05,,term=Small cell lung cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,2.2e-05,,term=Human cytomegalovirus infection,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,2.2e-05,,term=Human cytomegalovirus infection,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2.2e-05,,term=Human cytomegalovirus infection,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,2.2e-05,,term=Human cytomegalovirus infection,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,2.2e-05,,term=Human cytomegalovirus infection,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,2.3e-05,,term=Longevity regulating pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,2.3e-05,,term=Longevity regulating pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2.3e-05,,term=Longevity regulating pathway,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,2.3e-05,,term=Longevity regulating pathway,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,2.6e-05,,term=Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,2.7e-05,,term=HIF-1 signaling pathway,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,2.7e-05,,term=HIF-1 signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,2.7e-05,,term=HIF-1 signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2.7e-05,,term=HIF-1 signaling pathway,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,2.9e-05,,term=TNF signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,2.9e-05,,term=TNF signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,2.9e-05,,term=TNF signaling pathway,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,2.9e-05,,term=TNF signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,3.9e-05,,term=Negative Regulation Of Transferase Activity (GO:0051348),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,3.9e-05,,term=Negative Regulation Of Transferase Activity (GO:0051348),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,3.9e-05,,term=Negative Regulation Of Transferase Activity (GO:0051348),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,4.3e-05,,term=Pathways of neurodegeneration,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,4.3e-05,,term=Pathways of neurodegeneration,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,4.3e-05,,term=Pathways of neurodegeneration,88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,4.3e-05,,term=Pathways of neurodegeneration,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,4.3e-05,,term=Pathways of neurodegeneration,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,4.3e-05,,term=Pathways of neurodegeneration,88d852a93884af45
+MMP13,pathway_enrichment,pathway_membership,L2,database,,4.7e-05,,term=Relaxin signaling pathway,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,4.7e-05,,term=Relaxin signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,4.7e-05,,term=Relaxin signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,4.7e-05,,term=Relaxin signaling pathway,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,4.8e-05,,term=Bladder cancer,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,4.8e-05,,term=Bladder cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,4.8e-05,,term=Bladder cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,4.8e-05,,term=Regulation Of Microtubule-Based Process (GO:0032886),88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,4.8e-05,,term=Regulation Of Microtubule-Based Process (GO:0032886),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,4.8e-05,,term=Regulation Of Microtubule-Based Process (GO:0032886),88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,4.9e-05,,term=Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,4.9e-05,,term=Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,4.9e-05,,term=Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,4.9e-05,,term=Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,4.9e-05,,term=Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=MAPK signaling pathway,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=MAPK signaling pathway,88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=MAPK signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=MAPK signaling pathway,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=MAPK signaling pathway,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=Fluid shear stress and atherosclerosis,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=Fluid shear stress and atherosclerosis,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=Fluid shear stress and atherosclerosis,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=Fluid shear stress and atherosclerosis,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=Measles,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=Measles,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=Measles,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,5.5e-05,,term=Measles,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,6.4e-05,,term=Insulin Receptor Signaling Pathway (GO:0008286),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,6.4e-05,,term=Insulin Receptor Signaling Pathway (GO:0008286),88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,6.4e-05,,term=Insulin Receptor Signaling Pathway (GO:0008286),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,6.6e-05,,term=MicroRNAs in cancer,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,6.6e-05,,term=MicroRNAs in cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,6.6e-05,,term=MicroRNAs in cancer,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,6.6e-05,,term=MicroRNAs in cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,6.6e-05,,term=MicroRNAs in cancer,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,6.7e-05,,term=Gastric cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,6.7e-05,,term=Gastric cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,6.7e-05,,term=Gastric cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,6.7e-05,,term=Gastric cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,7.3e-05,,term=Regulation Of Mitochondrion Organization (GO:0010821),88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,7.3e-05,,term=Regulation Of Mitochondrion Organization (GO:0010821),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,7.3e-05,,term=Regulation Of Mitochondrion Organization (GO:0010821),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,7.3e-05,,term=mTOR signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,7.3e-05,,term=mTOR signaling pathway,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,7.3e-05,,term=mTOR signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,7.3e-05,,term=mTOR signaling pathway,88d852a93884af45
+CYP19A1,pathway_enrichment,pathway_membership,L2,database,,7.4e-05,,term=Ovarian steroidogenesis,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,7.4e-05,,term=Ovarian steroidogenesis,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,7.4e-05,,term=Ovarian steroidogenesis,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,8.2e-05,,term=Human papillomavirus infection,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,8.2e-05,,term=Human papillomavirus infection,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,8.2e-05,,term=Human papillomavirus infection,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,8.2e-05,,term=Human papillomavirus infection,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,8.2e-05,,term=Human papillomavirus infection,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,8.4e-05,,term=Protein Autophosphorylation (GO:0046777),88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,8.4e-05,,term=Protein Autophosphorylation (GO:0046777),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,8.4e-05,,term=Protein Autophosphorylation (GO:0046777),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,8.4e-05,,term=Protein Autophosphorylation (GO:0046777),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,9.2e-05,,term=Cellular Response To Peptide (GO:1901653),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,9.2e-05,,term=Cellular Response To Peptide (GO:1901653),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,9.2e-05,,term=Cellular Response To Peptide (GO:1901653),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000101,,term=Positive Regulation Of Mitochondrion Organization (GO:0010822),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000101,,term=Positive Regulation Of Mitochondrion Organization (GO:0010822),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000101,,term=Positive Regulation Of Mitochondrion Organization (GO:0010822),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000104,,term=PI3K-Akt signaling pathway,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000104,,term=PI3K-Akt signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000104,,term=PI3K-Akt signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000104,,term=PI3K-Akt signaling pathway,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000104,,term=PI3K-Akt signaling pathway,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Acute myeloid leukemia,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Acute myeloid leukemia,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Acute myeloid leukemia,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Chemokine signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Chemokine signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Chemokine signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Chemokine signaling pathway,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Transcriptional misregulation in cancer,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Transcriptional misregulation in cancer,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Transcriptional misregulation in cancer,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000146,,term=Transcriptional misregulation in cancer,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+CYP19A1,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000147,,term=Disease R-HSA-1643685,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000159,,term=Prolactin signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000159,,term=Prolactin signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000159,,term=Prolactin signaling pathway,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000166,,term=Focal adhesion,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000166,,term=Focal adhesion,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000166,,term=Focal adhesion,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000166,,term=Focal adhesion,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Viral carcinogenesis,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Viral carcinogenesis,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Viral carcinogenesis,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Viral carcinogenesis,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Extra-nuclear Estrogen Signaling R-HSA-9009391,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Extra-nuclear Estrogen Signaling R-HSA-9009391,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Extra-nuclear Estrogen Signaling R-HSA-9009391,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Cellular Response To Reactive Oxygen Species (GO:0034614),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Cellular Response To Reactive Oxygen Species (GO:0034614),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Cellular Response To Reactive Oxygen Species (GO:0034614),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Cellular Response To Oxygen-Containing Compound (GO:1901701),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Cellular Response To Oxygen-Containing Compound (GO:1901701),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Cellular Response To Oxygen-Containing Compound (GO:1901701),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Cellular Response To Oxygen-Containing Compound (GO:1901701),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000169,,term=Cellular Response To Oxygen-Containing Compound (GO:1901701),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000203,,term=cAMP signaling pathway,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000203,,term=cAMP signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000203,,term=cAMP signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000203,,term=cAMP signaling pathway,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000211,,term=Cytokine Signaling In Immune System R-HSA-1280215,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000211,,term=Cytokine Signaling In Immune System R-HSA-1280215,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000211,,term=Cytokine Signaling In Immune System R-HSA-1280215,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000211,,term=Cytokine Signaling In Immune System R-HSA-1280215,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,0.000211,,term=Cytokine Signaling In Immune System R-HSA-1280215,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000211,,term=Cytokine Signaling In Immune System R-HSA-1280215,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000217,,term=B cell receptor signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000217,,term=B cell receptor signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000217,,term=B cell receptor signaling pathway,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000266,,term=Signaling By Interleukins R-HSA-449147,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000266,,term=Signaling By Interleukins R-HSA-449147,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000266,,term=Signaling By Interleukins R-HSA-449147,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,0.000266,,term=Signaling By Interleukins R-HSA-449147,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000266,,term=Signaling By Interleukins R-HSA-449147,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.000278,,term=PD-L1 expression and PD-1 checkpoint pathway in cancer,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000278,,term=PD-L1 expression and PD-1 checkpoint pathway in cancer,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000278,,term=PD-L1 expression and PD-1 checkpoint pathway in cancer,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000311,,term=Shigellosis,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000311,,term=Shigellosis,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000311,,term=Shigellosis,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000311,,term=Shigellosis,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000322,,term=Signal Transduction R-HSA-162582,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000361,,term=Cellular Response To Heat Stress R-HSA-3371556,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000361,,term=Cellular Response To Heat Stress R-HSA-3371556,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.000361,,term=Cellular Response To Heat Stress R-HSA-3371556,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000361,,term=Cellular Response To Insulin Stimulus (GO:0032869),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000361,,term=Cellular Response To Insulin Stimulus (GO:0032869),88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000361,,term=Cellular Response To Insulin Stimulus (GO:0032869),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000367,,term=Progesterone-mediated oocyte maturation,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000367,,term=Progesterone-mediated oocyte maturation,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000367,,term=Progesterone-mediated oocyte maturation,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.000368,,term=Signaling By Receptor Tyrosine Kinases R-HSA-9006934,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000368,,term=Signaling By Receptor Tyrosine Kinases R-HSA-9006934,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000368,,term=Signaling By Receptor Tyrosine Kinases R-HSA-9006934,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000368,,term=Signaling By Receptor Tyrosine Kinases R-HSA-9006934,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000368,,term=Signaling By Receptor Tyrosine Kinases R-HSA-9006934,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.000377,,term=Protein Phosphorylation (GO:0006468),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000377,,term=Protein Phosphorylation (GO:0006468),88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000377,,term=Protein Phosphorylation (GO:0006468),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000377,,term=Protein Phosphorylation (GO:0006468),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000377,,term=Protein Phosphorylation (GO:0006468),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000391,,term=C-type lectin receptor signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000391,,term=C-type lectin receptor signaling pathway,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,0.000391,,term=C-type lectin receptor signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000391,,term=T cell receptor signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000391,,term=T cell receptor signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000391,,term=T cell receptor signaling pathway,88d852a93884af45
+ACHE,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+CA2,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+CA4,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+CA5A,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+CYP19A1,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+PNLIP,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+XDH,pathway_enrichment,pathway_membership,L2,database,,0.000392,,term=Metabolism R-HSA-1430728,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000426,,term=Insulin resistance,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000426,,term=Insulin resistance,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000426,,term=Insulin resistance,88d852a93884af45
+ACHE,pathway_enrichment,pathway_membership,L2,database,,0.000474,,term=Cholinergic synapse,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000474,,term=Cholinergic synapse,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000474,,term=Cholinergic synapse,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000474,,term=Positive Regulation Of Cellular Component Organization (GO:0051130),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000474,,term=Positive Regulation Of Cellular Component Organization (GO:0051130),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000474,,term=Positive Regulation Of Cellular Component Organization (GO:0051130),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000481,,term=Response To Endoplasmic Reticulum Stress (GO:0034976),88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000481,,term=Response To Endoplasmic Reticulum Stress (GO:0034976),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000481,,term=Response To Endoplasmic Reticulum Stress (GO:0034976),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.000513,,term=Cellular Response To Oxidative Stress (GO:0034599),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.000513,,term=Cellular Response To Oxidative Stress (GO:0034599),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000513,,term=Cellular Response To Oxidative Stress (GO:0034599),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000527,,term=Sphingolipid signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000527,,term=Sphingolipid signaling pathway,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000527,,term=Sphingolipid signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000527,,term=Transcriptional Regulation By RUNX2 R-HSA-8878166,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.000527,,term=Transcriptional Regulation By RUNX2 R-HSA-8878166,88d852a93884af45
+MMP13,pathway_enrichment,pathway_membership,L2,database,,0.000527,,term=Transcriptional Regulation By RUNX2 R-HSA-8878166,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000547,,term=Thyroid hormone signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000547,,term=Thyroid hormone signaling pathway,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000547,,term=Thyroid hormone signaling pathway,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.000569,,term=Intracellular Signaling By Second Messengers R-HSA-9006925,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000569,,term=Intracellular Signaling By Second Messengers R-HSA-9006925,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000569,,term=Intracellular Signaling By Second Messengers R-HSA-9006925,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000569,,term=Intracellular Signaling By Second Messengers R-HSA-9006925,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000675,,term=FoxO signaling pathway,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000675,,term=FoxO signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000675,,term=FoxO signaling pathway,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.000752,,term=Insulin signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000752,,term=Insulin signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000752,,term=Insulin signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000752,,term=Yersinia infection,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000752,,term=Yersinia infection,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000752,,term=Yersinia infection,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.000826,,term=Apoptosis,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000826,,term=Apoptosis,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.000826,,term=Apoptosis,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000834,,term=Signaling pathways regulating pluripotency of stem cells,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.000834,,term=Signaling pathways regulating pluripotency of stem cells,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.000834,,term=Signaling pathways regulating pluripotency of stem cells,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.000949,,term=Neuron Development (GO:0048666),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.000949,,term=Neuron Development (GO:0048666),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.000949,,term=Neuron Development (GO:0048666),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.001022,,term=Cushing syndrome,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.001022,,term=Cushing syndrome,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001022,,term=Cushing syndrome,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001022,,term=Non-alcoholic fatty liver disease,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.001022,,term=Non-alcoholic fatty liver disease,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.001022,,term=Non-alcoholic fatty liver disease,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.00103,,term=Cellular senescence,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.00103,,term=Cellular senescence,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.00103,,term=Cellular senescence,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.001122,,term=Positive Regulation Of Protein Phosphorylation (GO:0001934),88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.001122,,term=Positive Regulation Of Protein Phosphorylation (GO:0001934),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.001122,,term=Positive Regulation Of Protein Phosphorylation (GO:0001934),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.001122,,term=Positive Regulation Of Protein Phosphorylation (GO:0001934),88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.001209,,term=Wnt signaling pathway,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001209,,term=Wnt signaling pathway,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.001209,,term=Wnt signaling pathway,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.001537,,term=Cellular Responses To Stress R-HSA-2262752,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001537,,term=Cellular Responses To Stress R-HSA-2262752,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.001537,,term=Cellular Responses To Stress R-HSA-2262752,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.001537,,term=Cellular Responses To Stress R-HSA-2262752,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.001537,,term=Cellular Responses To Stress R-HSA-2262752,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.001546,,term=Axon guidance,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001546,,term=Axon guidance,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.001546,,term=Axon guidance,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001626,,term=Negative Regulation Of Macromolecule Metabolic Process (GO:0010605),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.001626,,term=Negative Regulation Of Macromolecule Metabolic Process (GO:0010605),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.001626,,term=Negative Regulation Of Macromolecule Metabolic Process (GO:0010605),88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.001626,,term=Cellular Responses To Stimuli R-HSA-8953897,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001626,,term=Cellular Responses To Stimuli R-HSA-8953897,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.001626,,term=Cellular Responses To Stimuli R-HSA-8953897,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.001626,,term=Cellular Responses To Stimuli R-HSA-8953897,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.001626,,term=Cellular Responses To Stimuli R-HSA-8953897,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.001649,,term=ESR-mediated Signaling R-HSA-8939211,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.001649,,term=ESR-mediated Signaling R-HSA-8939211,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.001649,,term=ESR-mediated Signaling R-HSA-8939211,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.001658,,term=Neutrophil extracellular trap formation,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.001658,,term=Neutrophil extracellular trap formation,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.001658,,term=Neutrophil extracellular trap formation,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Regulation Of Gene Expression (GO:0010468),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Regulation Of Gene Expression (GO:0010468),88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Regulation Of Gene Expression (GO:0010468),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Regulation Of Gene Expression (GO:0010468),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Regulation Of Gene Expression (GO:0010468),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Regulation Of Gene Expression (GO:0010468),88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Phosphorylation (GO:0016310),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Phosphorylation (GO:0016310),88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Phosphorylation (GO:0016310),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.001661,,term=Phosphorylation (GO:0016310),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.001952,,term=Epstein-Barr virus infection,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.001952,,term=Epstein-Barr virus infection,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.001952,,term=Epstein-Barr virus infection,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Generic Transcription Pathway R-HSA-212436,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Generic Transcription Pathway R-HSA-212436,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Generic Transcription Pathway R-HSA-212436,88d852a93884af45
+MMP13,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Generic Transcription Pathway R-HSA-212436,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Generic Transcription Pathway R-HSA-212436,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Generic Transcription Pathway R-HSA-212436,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Rap1 signaling pathway,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Rap1 signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.002142,,term=Rap1 signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.002393,,term=Human T-cell leukemia virus 1 infection,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.002393,,term=Human T-cell leukemia virus 1 infection,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.002393,,term=Human T-cell leukemia virus 1 infection,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.002398,,term=Positive Regulation Of Gene Expression (GO:0010628),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.002398,,term=Positive Regulation Of Gene Expression (GO:0010628),88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.002398,,term=Positive Regulation Of Gene Expression (GO:0010628),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.002398,,term=Positive Regulation Of Gene Expression (GO:0010628),88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.002737,,term=Positive Regulation Of Phosphorylation (GO:0042327),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.002737,,term=Positive Regulation Of Phosphorylation (GO:0042327),88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.002737,,term=Positive Regulation Of Phosphorylation (GO:0042327),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.002746,,term=Ras signaling pathway,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.002746,,term=Ras signaling pathway,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.002746,,term=Ras signaling pathway,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.002756,,term=Positive Regulation Of Developmental Process (GO:0051094),88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.002756,,term=Positive Regulation Of Developmental Process (GO:0051094),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.002756,,term=Positive Regulation Of Developmental Process (GO:0051094),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.002937,,term=Chemical carcinogenesis,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.002937,,term=Chemical carcinogenesis,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,0.002937,,term=Chemical carcinogenesis,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.002981,,term=Regulation Of Autophagy (GO:0010506),88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.002981,,term=Regulation Of Autophagy (GO:0010506),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.002981,,term=Regulation Of Autophagy (GO:0010506),88d852a93884af45
+ACHE,pathway_enrichment,pathway_membership,L2,database,,0.003133,,term=Transmission Across Chemical Synapses R-HSA-112315,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.003133,,term=Transmission Across Chemical Synapses R-HSA-112315,88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.003133,,term=Transmission Across Chemical Synapses R-HSA-112315,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=Parkinson disease,88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=Parkinson disease,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=Parkinson disease,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=RNA Polymerase II Transcription R-HSA-73857,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=RNA Polymerase II Transcription R-HSA-73857,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=RNA Polymerase II Transcription R-HSA-73857,88d852a93884af45
+MMP13,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=RNA Polymerase II Transcription R-HSA-73857,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=RNA Polymerase II Transcription R-HSA-73857,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.003213,,term=RNA Polymerase II Transcription R-HSA-73857,88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.003573,,term=Signaling By Nuclear Receptors R-HSA-9006931,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.003573,,term=Signaling By Nuclear Receptors R-HSA-9006931,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.003573,,term=Signaling By Nuclear Receptors R-HSA-9006931,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.00386,,term=PIP3 Activates AKT Signaling R-HSA-1257604,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.00386,,term=PIP3 Activates AKT Signaling R-HSA-1257604,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.00386,,term=PIP3 Activates AKT Signaling R-HSA-1257604,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.003951,,term=RAF/MAP Kinase Cascade R-HSA-5673001,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.003951,,term=RAF/MAP Kinase Cascade R-HSA-5673001,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.003951,,term=RAF/MAP Kinase Cascade R-HSA-5673001,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.004168,,term=MAPK1/MAPK3 Signaling R-HSA-5684996,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.004168,,term=MAPK1/MAPK3 Signaling R-HSA-5684996,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.004168,,term=MAPK1/MAPK3 Signaling R-HSA-5684996,88d852a93884af45
+DPP4,pathway_enrichment,pathway_membership,L2,database,,0.004641,,term=Positive Regulation Of Cellular Process (GO:0048522),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.004641,,term=Positive Regulation Of Cellular Process (GO:0048522),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.004641,,term=Positive Regulation Of Cellular Process (GO:0048522),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.004641,,term=Positive Regulation Of Cellular Process (GO:0048522),88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.004878,,term=Immune System R-HSA-168256,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.004878,,term=Immune System R-HSA-168256,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.004878,,term=Immune System R-HSA-168256,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.004878,,term=Immune System R-HSA-168256,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,0.004878,,term=Immune System R-HSA-168256,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.004878,,term=Immune System R-HSA-168256,88d852a93884af45
+XDH,pathway_enrichment,pathway_membership,L2,database,,0.004878,,term=Immune System R-HSA-168256,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.004987,,term=Gene Expression (Transcription) R-HSA-74160,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.004987,,term=Gene Expression (Transcription) R-HSA-74160,88d852a93884af45
+HDAC6,pathway_enrichment,pathway_membership,L2,database,,0.004987,,term=Gene Expression (Transcription) R-HSA-74160,88d852a93884af45
+MMP13,pathway_enrichment,pathway_membership,L2,database,,0.004987,,term=Gene Expression (Transcription) R-HSA-74160,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.004987,,term=Gene Expression (Transcription) R-HSA-74160,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.004987,,term=Gene Expression (Transcription) R-HSA-74160,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.005938,,term=MAPK Family Signaling Cascades R-HSA-5683057,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.005938,,term=MAPK Family Signaling Cascades R-HSA-5683057,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.005938,,term=MAPK Family Signaling Cascades R-HSA-5683057,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.006864,,term=Negative Regulation Of Gene Expression (GO:0010629),88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.006864,,term=Negative Regulation Of Gene Expression (GO:0010629),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.006864,,term=Negative Regulation Of Gene Expression (GO:0010629),88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.008491,,term=Positive Regulation Of Macromolecule Metabolic Process (GO:0010604),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.008491,,term=Positive Regulation Of Macromolecule Metabolic Process (GO:0010604),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.008491,,term=Positive Regulation Of Macromolecule Metabolic Process (GO:0010604),88d852a93884af45
+ACHE,pathway_enrichment,pathway_membership,L2,database,,0.009237,,term=Metabolism Of Lipids R-HSA-556833,88d852a93884af45
+CYP19A1,pathway_enrichment,pathway_membership,L2,database,,0.009237,,term=Metabolism Of Lipids R-HSA-556833,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.009237,,term=Metabolism Of Lipids R-HSA-556833,88d852a93884af45
+PTGS2,pathway_enrichment,pathway_membership,L2,database,,0.009237,,term=Metabolism Of Lipids R-HSA-556833,88d852a93884af45
+ACHE,pathway_enrichment,pathway_membership,L2,database,,0.009819,,term=Neuronal System R-HSA-112316,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.009819,,term=Neuronal System R-HSA-112316,88d852a93884af45
+MAPT,pathway_enrichment,pathway_membership,L2,database,,0.009819,,term=Neuronal System R-HSA-112316,88d852a93884af45
+ALK,pathway_enrichment,pathway_membership,L2,database,,0.010642,,term=Regulation Of Cell Population Proliferation (GO:0042127),88d852a93884af45
+DPP4,pathway_enrichment,pathway_membership,L2,database,,0.010642,,term=Regulation Of Cell Population Proliferation (GO:0042127),88d852a93884af45
+IGF1R,pathway_enrichment,pathway_membership,L2,database,,0.010642,,term=Regulation Of Cell Population Proliferation (GO:0042127),88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.010642,,term=Regulation Of Cell Population Proliferation (GO:0042127),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.019186,,term=Herpes simplex virus 1 infection,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.019186,,term=Herpes simplex virus 1 infection,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.019186,,term=Herpes simplex virus 1 infection,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.021236,,term=Axon Guidance R-HSA-422475,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.021236,,term=Axon Guidance R-HSA-422475,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.021236,,term=Axon Guidance R-HSA-422475,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.023961,,term=Nervous System Development R-HSA-9675108,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.023961,,term=Nervous System Development R-HSA-9675108,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.023961,,term=Nervous System Development R-HSA-9675108,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.028261,,term=Innate Immune System R-HSA-168249,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.028261,,term=Innate Immune System R-HSA-168249,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.028261,,term=Innate Immune System R-HSA-168249,88d852a93884af45
+TP53,pathway_enrichment,pathway_membership,L2,database,,0.028261,,term=Innate Immune System R-HSA-168249,88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.031515,,term=Developmental Biology R-HSA-1266738,88d852a93884af45
+MMP9,pathway_enrichment,pathway_membership,L2,database,,0.031515,,term=Developmental Biology R-HSA-1266738,88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.031515,,term=Developmental Biology R-HSA-1266738,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.031515,,term=Developmental Biology R-HSA-1266738,88d852a93884af45
+CA2,pathway_enrichment,pathway_membership,L2,database,,0.045427,,term=Transport Of Small Molecules R-HSA-382551,88d852a93884af45
+CA4,pathway_enrichment,pathway_membership,L2,database,,0.045427,,term=Transport Of Small Molecules R-HSA-382551,88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.045427,,term=Transport Of Small Molecules R-HSA-382551,88d852a93884af45
+BRAF,pathway_enrichment,pathway_membership,L2,database,,0.045903,,term=Protein Modification Process (GO:0036211),88d852a93884af45
+CAMK2B,pathway_enrichment,pathway_membership,L2,database,,0.045903,,term=Protein Modification Process (GO:0036211),88d852a93884af45
+GSK3B,pathway_enrichment,pathway_membership,L2,database,,0.045903,,term=Protein Modification Process (GO:0036211),88d852a93884af45
+NFKB1,pathway_enrichment,pathway_membership,L2,database,,0.049161,,term=Adaptive Immune System R-HSA-1280218,88d852a93884af45
+PIK3R1,pathway_enrichment,pathway_membership,L2,database,,0.049161,,term=Adaptive Immune System R-HSA-1280218,88d852a93884af45
+XDH,pathway_enrichment,pathway_membership,L2,database,,0.049161,,term=Adaptive Immune System R-HSA-1280218,88d852a93884af45
+AKT1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+CTNNB1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+EGFR,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+MTOR,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+HIF1A,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+PIK3CA,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+TP53,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+PIK3CB,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+STAT3,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+ESR1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+HSP90AA1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+NFKB1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+JUN,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+GSK3B,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+MAPK3,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+SRC,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+EP300,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MMP9,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+PARP1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+BRCA1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTGS2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+PPARG,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+MAPK1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+APP,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+HDAC1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MAPK14,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+MAPT,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+NFE2L2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+RELA,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+KDR,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+ABCG2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+BRAF,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTPN1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AR,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+ABCB1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+IGF1R,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+PIK3R1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+SNCA,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+AHR,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MMP2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+HMGB1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CDK1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PPARA,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+PTPN11,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TERT,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+FYN,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PGR,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+PTK2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SLC2A1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP3A4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=no_direct_ortholog type=functional_analog,d4c667f1776db83b
+HDAC6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP19A1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ESR2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+STAT6,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+CCR2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+IDO1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MPO,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+HTT,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP1A1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+USP7,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PLK1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MET,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+XPO1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP1A2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+ALDH1A1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HMGCR,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+ALK,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ITGB3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+KDM1A,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP2C9,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=no_direct_ortholog type=functional_analog,d4c667f1776db83b
+NOS2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+CSNK2A1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+LMNA,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TLR9,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MMP3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CDK5,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+UGT1A1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+CXCR2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTPN6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SYK,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NR1H4,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+CYP2C19,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NOX4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MAOA,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+ELAVL1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NR1I2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+RPS6KA3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+FLT3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MAOB,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+BACE1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP2B6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP2D6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=no_direct_ortholog type=functional_analog,d4c667f1776db83b
+SIRT3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ALOX5,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+CYP1B1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+METTL3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP2C8,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+XDH,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AURKB,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MMP13,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SIRT6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA9,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+DPP4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AXL,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ABCC1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+GSK3A,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CYP2A6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTGS1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+NR1I3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+APEX1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CD38,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NFKB2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TRPV1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ACHE,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SLC6A4,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+BCHE,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SLCO1B1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ABCB11,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+F3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+APAF1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+KLF5,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SPHK1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HSPD1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PSMB5,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ALOX15,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PSMB1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MEN1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PRKCE,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CXCR1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SLCO1B3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+DYRK1A,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AKR1C3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+YES1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PAX8,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AKR1B1,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_online type=ortholog,d4c667f1776db83b
+DAPK1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+FTO,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+BLM,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CES1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ACP1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PLA2G1B,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+RAD52,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTPN2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SLCO2B1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+F2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+HSD17B2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SLC6A3,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+CSNK2B,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ATP2A2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HSD17B1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TSHR,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PRKAA2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SETD7,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HSD11B1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ATP1A1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MGAM,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TUBB4B,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ALOX12,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+TYR,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+THRB,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ELANE,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+ESRRA,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TTR,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ALKBH5,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HTR2A,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CNR1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PIM1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTGES,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HDAC8,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NOD2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HPGD,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NEK2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TNKS2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+FABP4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+POLA1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+GPBAR1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TBXAS1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+GSTM2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NSD1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TUBB3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+RHOC,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ATP1B1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TNKS,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+POLB,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+KCNH2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MMP12,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SENP1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTPRF,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+RECQL,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+DYRK2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CAMK2B,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+RORC,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ATP1A2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PKN1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TRPA1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MT-CO2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTGES2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TDO2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SLC6A2,ortholog_mapping,wetlab_feasibility,L1,computational,direct,1.0,,status=resolved_local type=ortholog,d4c667f1776db83b
+ATP1B2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PYGL,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HSD17B10,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MERTK,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CES2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ADAMTS4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AKR1C2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NR4A2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MKNK2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PRSS1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+USP2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PNLIP,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AVPR2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+DRD4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ADRB3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TDP1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HTR2B,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+GLO1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+DRD1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+GMNN,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA12,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CCR4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+GABRA1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MKNK1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ANPEP,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA7,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+GRK6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SLC16A1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+HSD11B2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NPC1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+OPRD1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CNR2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ABHD5,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NUAK1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA13,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+SMN1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PDE5A,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NPSR1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ALKBH2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+DHODH,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA5A,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AKR1B10,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PKMYT1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CHRM2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA14,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+DYRK1B,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ADORA3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MLNR,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+GPR35,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+IP6K2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+L3MBTL1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CLK1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NAPRT,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ALKBH3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ADRA2B,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CCKAR,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CISD1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ALPI,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TBXA2R,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ELAVL3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MC5R,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ADRA1A,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CA5B,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CTDSP1,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+CLK4,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+ATP2A3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+AMY1A,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+DYRK3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+KDM4E,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NEK6,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+MRGPRX2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PTP4A3,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+NQO2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+PMP22,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+QPCTL,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TACR2,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b
+TRPC5,ortholog_mapping,wetlab_feasibility,L1,computational,analog,0.0,,status=unresolved_offline type=,d4c667f1776db83b

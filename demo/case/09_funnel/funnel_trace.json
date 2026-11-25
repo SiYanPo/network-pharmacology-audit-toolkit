@@ -1,0 +1,22 @@
+[
+ {
+  "stage": "0_all",
+  "n": 1,
+  "rule": "全量成分"
+ },
+ {
+  "stage": "1_topology",
+  "n": 1,
+  "rule": "degree≥109 (top 30%)"
+ },
+ {
+  "stage": "4_scaffold",
+  "n": 1,
+  "rule": "骨架去重（每骨架留度值最高；白名单豁免）"
+ },
+ {
+  "stage": "5_final",
+  "n": 1,
+  "rule": "Top 40 进入对接（含 0 白名单豁免）"
+ }
+]

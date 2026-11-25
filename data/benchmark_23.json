@@ -1,0 +1,47 @@
+{
+  "schema": "np-repro-benchmark/1.0",
+  "created": "2026-11-20",
+  "n_cases": 23,
+  "note": "23 篇论文复现基准集。原文参数/结果来自 PDF 文字层；复现结果来自本机真实执行；归因标签由复现日志聚类。yanghe 出现两次（batch5 与 batch11 复用，按用户口径计 2 例）。",
+  "dimensions": {
+    "compound": "成分层一致性 0-1",
+    "intersection": "交集层接近度 0-1",
+    "hub": "hub 命中率 0-1",
+    "pathway": "核心通路复现率 0-1",
+    "docking": "对接可对照性 0-1"
+  },
+  "weights": {"compound": 0.15, "intersection": 0.15, "hub": 0.25, "pathway": 0.30, "docking": 0.15},
+  "failure_modes": {
+    "FM1_compound_gap": "成分漏检（数据库覆盖不足/非植物药/糖苷/血清成分）",
+    "FM2_target_source": "靶点源差异（实测 vs 预测服务器；预测服务器不可自动化）",
+    "FM3_threshold": "阈值设置差异（OB/DL/PPI/GeneCards score 自定义）",
+    "FM4_undisclosed": "原文参数未披露（对接 PDB/打分/去重规则）",
+    "FM5_version_drift": "数据库版本更迭（TCMSP 成分增删）",
+    "FM6_low_power": "统计功效不足（交集过小导致富集无法计算）"
+  },
+  "cases": [
+    {"id":1,"key":"zhxf","paper":"Shan 2026 ZHXF/重症肺炎","compound":1.0,"intersection":0.29,"hub":0.2,"pathway":0.0,"docking":1.0,"failure":["FM2_target_source"],"paper_n":{"comp":5,"targets":182,"inter":75,"hub":18},"local_n":{"comp":5,"targets":73,"inter":22,"hub":0},"breakpoint":"预测→实测靶点源；hub 被 CYP450 主导，无 MAPK/NF-kB","note":"对接同引擎方向一致"},
+    {"id":2,"key":"ermiao","paper":"Song 2025 二妙散/骨关节炎","compound":0.83,"intersection":1.0,"hub":1.0,"pathway":1.0,"docking":0.4,"failure":["FM5_version_drift","FM4_undisclosed"],"paper_n":{"comp":46,"targets":187,"inter":90,"hub":7},"local_n":{"comp":38,"targets":197,"inter":122,"hub":7},"breakpoint":"TCMSP 删 8 个黄柏成分；对接 7 PDB 中 6 个未过门禁","note":"7 核心 hub 全在交集，通路全复现"},
+    {"id":3,"key":"alliin","paper":"2022 大蒜素/自噬","compound":0.2,"intersection":0.0,"hub":0.33,"pathway":1.0,"docking":0.5,"failure":["FM1_compound_gap","FM2_target_source","FM6_low_power"],"paper_n":{"comp":1,"targets":178,"inter":100,"hub":9},"local_n":{"comp":1,"targets":0,"inter":0,"hub":1},"breakpoint":"alliin 无人类实测靶点；PharmMapper/SEA 不可自动化","note":"9 hub 中 6 个不在自噬基因集；通路层由论文 hub 复现"},
+    {"id":4,"key":"yanghe_b5","paper":"2025 阳和汤/骨肉瘤(batch5)","compound":0.5,"intersection":1.0,"hub":1.0,"pathway":1.0,"docking":0.5,"failure":["FM1_compound_gap","FM4_undisclosed"],"paper_n":{"comp":67,"targets":279,"inter":101,"hub":10},"local_n":{"comp":114,"targets":232,"inter":139,"hub":10},"breakpoint":"鹿角胶/白芥子 TCMSP 无收录、肉桂 0 成分过筛","note":"hub 10/10 命中，PI3K-AKT+MAPK 全复现"},
+    {"id":5,"key":"hljd","paper":"2022 黄连解毒汤/脓毒症","compound":0.9,"intersection":1.0,"hub":0.67,"pathway":1.0,"docking":0.0,"failure":["FM5_version_drift","FM4_undisclosed"],"paper_n":{"comp":65,"targets":"-","inter":101,"hub":3},"local_n":{"comp":80,"targets":214,"inter":158,"hub":2},"breakpoint":"JUN 从现版 TCMSP 交集消失；3 个论文 PDB 全被门禁拒绝","note":"4 条核心 KEGG 全复现"},
+    {"id":6,"key":"yinhuang","paper":"2024 银黄颗粒/IPF","compound":0.9,"intersection":0.8,"hub":0.9,"pathway":1.0,"docking":1.0,"failure":[],"paper_n":{"comp":"-","targets":280,"inter":56,"hub":10},"local_n":{"comp":56,"targets":216,"inter":133,"hub":9},"breakpoint":"VEGFA 不在本机交集（疾病库差异）","note":"IL-17/PI3K-AKT/TNF 全复现；对接 6 成分全强结合"},
+    {"id":7,"key":"escitalopram","paper":"2025 艾司西酞普兰/长QT","compound":0.2,"intersection":0.27,"hub":0.14,"pathway":0.9,"docking":1.0,"failure":["FM2_target_source","FM3_threshold"],"paper_n":{"comp":1,"targets":480,"inter":157,"hub":7},"local_n":{"comp":1,"targets":75,"inter":42,"hub":1},"breakpoint":"6 库预测 vs ChEMBL 实测；论文 hub 漏掉真实机制靶点 hERG","note":"对接同引擎逐位一致；本机 hub 含 KCNH2#10——修正论文"},
+    {"id":8,"key":"xiaoyaosan","paper":"2026 逍遥散/双相","compound":0.9,"intersection":0.9,"hub":1.0,"pathway":1.0,"docking":0.7,"failure":["FM3_threshold"],"paper_n":{"comp":161,"targets":249,"inter":120,"hub":4},"local_n":{"comp":149,"targets":238,"inter":144,"hub":4},"breakpoint":"GeneCards 中位数筛选叙述无法复算","note":"hub 4/4，9 条核心 KEGG 全复现；药材学名错误(Smilax glabra≠Poria)"},
+    {"id":9,"key":"shenhong","paper":"2025-26 参红通络/MIRI","compound":0.6,"intersection":1.0,"hub":0.6,"pathway":0.8,"docking":0.6,"failure":["FM1_compound_gap","FM2_target_source"],"paper_n":{"comp":8,"targets":"-","inter":77,"hub":10},"local_n":{"comp":139,"targets":164,"inter":74,"hub":4},"breakpoint":"水蛭/红景天无收录；铁死亡轴来自 FerrDb+RNA-seq 未复现","note":"HMOX1#2 自动浮现；对接 tanshinone IIA -11.37"},
+    {"id":10,"key":"liuwei","paper":"2025-26 六味地黄丸/HCC","compound":1.0,"intersection":0.9,"hub":0.7,"pathway":1.0,"docking":0.6,"failure":[],"paper_n":{"comp":69,"targets":285,"inter":180,"hub":20},"local_n":{"comp":69,"targets":193,"inter":132,"hub":7},"breakpoint":null,"note":"69 成分逐位一致；p53/PI3K-AKT/TNF/TCR 全复现"},
+    {"id":11,"key":"antrodia","paper":"牛樟芝/肝癌","compound":0.0,"intersection":0.0,"hub":0.0,"pathway":0.5,"docking":0.0,"failure":["FM1_compound_gap","FM2_target_source","FM4_undisclosed"],"paper_n":{"comp":139,"targets":"-","inter":15,"hub":"-"},"local_n":{"comp":0,"targets":0,"inter":0,"hub":0},"breakpoint":"139 成分来自 UPLC 补充表；antcin 类不在 TCMSP/ChEMBL","note":"仅通路层间接支持"},
+    {"id":12,"key":"yanghe_b11","paper":"2025 阳和汤/骨肉瘤(batch11复用)","compound":0.5,"intersection":1.0,"hub":1.0,"pathway":1.0,"docking":0.5,"failure":["FM1_compound_gap","FM4_undisclosed"],"paper_n":{"comp":67,"targets":279,"inter":101,"hub":10},"local_n":{"comp":114,"targets":232,"inter":139,"hub":10},"breakpoint":"同 id=4，复用验证一致性","note":"复用案例，结果一致"},
+    {"id":13,"key":"yigan","paper":"2026 益肝明目/DR","compound":0.85,"intersection":0.9,"hub":0.5,"pathway":1.0,"docking":0.4,"failure":["FM1_compound_gap","FM3_threshold"],"paper_n":{"comp":166,"targets":240,"inter":174,"hub":2},"local_n":{"comp":155,"targets":226,"inter":154,"hub":2},"breakpoint":"TXNIP/LC3 来自 181 血清成分，TCMSP 路径触及不到","note":"AGE-RAGE q=1e-39+氧化应激+自噬全复现"},
+    {"id":14,"key":"xiangsha","paper":"2026 香砂六君子/GERD","compound":0.9,"intersection":0.9,"hub":0.8,"pathway":1.0,"docking":0.6,"failure":["FM3_threshold","FM4_undisclosed"],"paper_n":{"comp":169,"targets":121,"inter":74,"hub":18},"local_n":{"comp":158,"targets":253,"inter":123,"hub":12},"breakpoint":"论文 1132 关联去重到 121 不可复算（本机 253）","note":"IL-17/TNF 全复现"},
+    {"id":15,"key":"catechin","paper":"2024 茶儿茶素/高血压","compound":0.8,"intersection":0.5,"hub":0.6,"pathway":0.9,"docking":0.4,"failure":["FM2_target_source"],"paper_n":{"comp":8,"targets":64,"inter":23,"hub":"-"},"local_n":{"comp":8,"targets":152,"inter":69,"hub":6},"breakpoint":"SEA/STP 不可自动化；成分排序从 ECG/EGCG 主导变为 EGCG 独大","note":"renin/calcium/relaxin 通路群全显著"},
+    {"id":16,"key":"erchen","paper":"2026 二陈汤/动脉粥样硬化","compound":0.9,"intersection":0.9,"hub":0.8,"pathway":1.0,"docking":1.0,"failure":[],"paper_n":{"comp":37,"targets":"-","inter":"-","hub":"-"},"local_n":{"comp":130,"targets":239,"inter":160,"hub":2},"breakpoint":null,"note":"AMPK/PPAR/胆固醇外流逐环节复现；对接 narirutin-PPARG -9.73 vs 论文 -9.9"},
+    {"id":17,"key":"huafeng","paper":"华风丹/缺血性中风","compound":0.0,"intersection":0.0,"hub":0.0,"pathway":0.4,"docking":0.0,"failure":["FM1_compound_gap","FM4_undisclosed"],"paper_n":{"comp":"21味血清","targets":299,"inter":299,"hub":3},"local_n":{"comp":0,"targets":0,"inter":0,"hub":0},"breakpoint":"21 味血清药化学成分超出 TCMSP 可自动化范围","note":"SPR 验证是论文亮点"},
+    {"id":18,"key":"pteris","paper":"五种凤尾蕨/COVID-19","compound":0.0,"intersection":0.0,"hub":0.0,"pathway":0.3,"docking":0.0,"failure":["FM1_compound_gap","FM2_target_source"],"paper_n":{"comp":21,"targets":540,"inter":69,"hub":14},"local_n":{"comp":0,"targets":0,"inter":0,"hub":0},"breakpoint":"蕨类成分不在 TCMSP；HERB/STP 不可自动化","note":"pharmaphylogenomics 方法学新颖但成分层不可复现"},
+    {"id":19,"key":"dhm","paper":"2027 二氢杨梅素/DN","compound":0.5,"intersection":0.1,"hub":0.0,"pathway":0.0,"docking":0.7,"failure":["FM2_target_source","FM6_low_power"],"paper_n":{"comp":1,"targets":"数百","inter":"-","hub":10},"local_n":{"comp":1,"targets":5,"inter":5,"hub":0},"breakpoint":"TCMSP 仅 7 靶点→5 基因，PPI 仅 2 节点无法拓扑","note":"SymMap/CTD 文献挖掘 vs 实测的极端案例"},
+    {"id":20,"key":"celastrol","paper":"2025 雷公藤红素/胃癌铁死亡","compound":0.4,"intersection":0.2,"hub":0.0,"pathway":0.8,"docking":0.5,"failure":["FM1_compound_gap","FM2_target_source","FM6_low_power"],"paper_n":{"comp":1,"targets":124,"inter":89,"hub":10},"local_n":{"comp":1,"targets":22,"inter":17,"hub":0},"breakpoint":"STP 124 vs TCMSP 22；STAT3 核心无法触达","note":"论文 -7.9 kJ/mol 单位笔误；本机发现 NR3C1 hub"},
+    {"id":21,"key":"formononetin","paper":"2025 芒柄花素/椎间盘退变","compound":0.5,"intersection":0.2,"hub":0.2,"pathway":0.2,"docking":0.4,"failure":["FM1_compound_gap","FM2_target_source","FM6_low_power"],"paper_n":{"comp":1,"targets":"-","inter":28,"hub":5},"local_n":{"comp":1,"targets":30,"inter":15,"hub":2},"breakpoint":"28 三方交集→本机 0；15 基因功效不足","note":"PPARG#2 hub 提示替代机制；ML385 反转是论文硬证据"},
+    {"id":22,"key":"shenshuai","paper":"2026 肾衰1号方/CKD","compound":0.8,"intersection":0.95,"hub":0.4,"pathway":1.0,"docking":0.9,"failure":["FM1_compound_gap"],"paper_n":{"comp":"-","targets":"-","inter":212,"hub":5},"local_n":{"comp":128,"targets":257,"inter":168,"hub":3},"breakpoint":"煅牡蛎矿物壳不在 TCMSP；SRC/PIK3CA 不在交集","note":"PI3K-Akt q=3e-32；对接 5 对全过门禁"},
+    {"id":23,"key":"crocetin","paper":"2025 藏红花素/AD","compound":0.1,"intersection":0.01,"hub":0.0,"pathway":0.0,"docking":0.6,"failure":["FM1_compound_gap","FM2_target_source","FM6_low_power","FM4_undisclosed"],"paper_n":{"comp":1,"targets":"数百","inter":"-","hub":6},"local_n":{"comp":1,"targets":1,"inter":1,"hub":0},"breakpoint":"crocin MW913 双糖苷，TCMSP 仅 1 靶点；交集 1 基因被工具拒绝分析","note":"对接 crocin-TNF -7.51/GSK3B -7.30；论文未报数值"}
+  ]
+}

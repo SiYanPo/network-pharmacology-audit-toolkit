@@ -1,0 +1,10 @@
+{
+ "n_herbs": 1,
+ "herbs": [
+  "甘草"
+ ],
+ "errors": [],
+ "warnings": [],
+ "toxic_hits": [],
+ "verdict": "PASS"
+}

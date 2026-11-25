@@ -1,0 +1,19 @@
+{
+ "_说明": "演示配置：examples/ 下全部为**构造数据**（随机/占位），仅用于验证管线与报告版式，不得作任何生物学解读。路径一律**相对仓库根**——容器内 WORKDIR=/work、宿主机 CWD=仓库根，两处通用；不要写绝对路径（容器里不存在，v3.0.1 教训）。",
+ "inputs": {
+  "herbs": "黄芪,当归,丹参",
+  "herbs_file": "examples/herbs.txt",
+  "targets": "examples/compound_targets.csv",
+  "compounds": "examples/compounds.csv",
+  "disease": "examples/disease_targets.tsv",
+  "edges": "examples/string_edges.tsv",
+  "compound_edges": "examples/compound_targets.csv",
+  "dose": "",
+  "gmt": "examples/pathways.gmt"
+ },
+ "params": {
+  "label": "演示方剂（黄芪/当归/丹参）— 演示疾病（构造数据）",
+  "organism": "mouse",
+  "tissue": "brain"
+ }
+}

@@ -1,0 +1,2 @@
+﻿family,unit,test,stat,p,q_family,q_global,significant_raw,significant_family,significant_global,source,sha256_16
+MR_IVW,IL6,causal_effect,-0.3,1e-06,1e-06,1e-06,1,1,1,mr\IL6\mr_result.json,f29c7792ffaffebb

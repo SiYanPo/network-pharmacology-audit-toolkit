@@ -1,0 +1,3 @@
+﻿gene,source,evidence_type,level,level_name,direction,effect_size,uncertainty,detail,provenance_hash
+IL6,mendelian_randomization,causal_estimate,L4,genetic_causal,risk_decreasing,-0.3,0.0,IVW p=1e-06 F=40,f29c7792ffaffebb
+IL6,coloc_abf,colocalisation,L4,genetic_causal,,0.9,,ABF 近似 PP.H4,f29c7792ffaffebb

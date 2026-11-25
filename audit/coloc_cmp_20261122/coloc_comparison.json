@@ -1,0 +1,164 @@
+{
+ "status": "OK",
+ "n_loci": 20,
+ "comparison": [
+  {
+   "locus": "L00",
+   "ours_pp4": 0.0714,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.9286,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L01",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.0475379025342e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L02",
+   "ours_pp4": 0.9278,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0722,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L03",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.07875689445177e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L04",
+   "ours_pp4": 0.0114,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.9886,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L05",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.00437698428222e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L06",
+   "ours_pp4": 0.5597,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.4403,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L07",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.0087404672152e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L08",
+   "ours_pp4": 0.4645,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.5355,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L09",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.28894321998096e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L10",
+   "ours_pp4": 0.2301,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.7699,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L11",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.02762847013529e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L12",
+   "ours_pp4": 0.892,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.108,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L13",
+   "ours_pp4": 0.0,
+   "r_pp4": 9.94478801169166e-46,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L14",
+   "ours_pp4": 0.9171,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.0829,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L15",
+   "ours_pp4": 0.0,
+   "r_pp4": 4.08991759139132e-44,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L16",
+   "ours_pp4": 0.4879,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.5121,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L17",
+   "ours_pp4": 0.0,
+   "r_pp4": 1.86267121122223e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  },
+  {
+   "locus": "L18",
+   "ours_pp4": 0.3618,
+   "r_pp4": 1.0,
+   "ours_pp3": 0.6382,
+   "r_pp3": 0.0
+  },
+  {
+   "locus": "L19",
+   "ours_pp4": 0.0,
+   "r_pp4": 3.28729968806368e-45,
+   "ours_pp3": 1.0,
+   "r_pp3": 1.0
+  }
+ ],
+ "stats": {
+  "n": 20,
+  "pearson_r": 0.7354,
+  "mae_pp4": 0.2538,
+  "max_abs_diff": 0.9886
+ },
+ "verdict": "WARN",
+ "method_ours": "ABF 近似（W=0.15², p1=p2=1e-4, p12=1e-5）",
+ "method_r": "coloc::coloc.abf（Wakefield ABF + 完整先验组合）",
+ "wording_rule": "PASS → Methods 可写 'colocalisation analysis (coloc.abf-equivalent)'；WARN/FAIL/NOT_ASSESSED → 只能写 'an ABF-based colocalisation approximation'",
+ "info": {
+  "rscript": "C:/Program Files/R\\R-4.6.2\\bin\\Rscript.exe",
+  "coloc_available": true,
+  "r_stdout": " PP.H2.abf PP.H3.abf PP.H4.abf \n2.59e-104  7.48e-44  3.46e-61  1.00e+00  1.86e-45 \n[1] \"PP abf for shared variant: 1.86e-43%\"\nPP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf \n3.99e-101  1.15e-40  3.46e-64  0.00e+00  1.00e+00 \n[1] \"PP abf for shared variant: 100%\"\nPP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf \n2.59e-104  7.48e-44  3.46e-61  1.00e+00  3.29e-45 \n[1] \"PP abf for shared variant: 3.29e-43%\"\nR coloc done -> C:/Users/huawei/AppData/Local/Temp/np_coloc_run_2eve5iws/r_coloc_pp.csv \n",
+  "r_stderr": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \nThis is coloc version 5.2.3\n",
+  "ascii_workdir": "C:\\Users\\huawei\\AppData\\Local\\Temp\\np_coloc_run_2eve5iws"
+ },
+ "timestamp": "2026-11-22 17:55:30"
+}

@@ -1,0 +1,13 @@
+{
+  "label": "网络药理学分析",
+  "generated": "2026-11-24T22:45:02",
+  "claims": [],
+  "missing_params": [
+    "OB 阈值（阶段 02 未记录 ob）",
+    "DL 阈值（阶段 02 未记录 dl）",
+    "给药途径（阶段 02 未记录 route）",
+    "PPI 置信度阈值（阶段 04 未记录 min_score）",
+    "bootstrap 次数（阶段 04 未记录 bootstrap）",
+    "富集 q 阈值（阶段 06 未记录 q）"
+  ]
+}

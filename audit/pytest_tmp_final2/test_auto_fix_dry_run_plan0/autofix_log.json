@@ -1,0 +1,44 @@
+{
+ "steps": [
+  {
+   "name": "同源转换（在线补全）",
+   "gate": "G22",
+   "ready": true,
+   "why": "缺 05_ppi/hubs.csv",
+   "status": "DRY",
+   "rc": null,
+   "out": "",
+   "sec": 0
+  },
+  {
+   "name": "孤立靶点扩展子网",
+   "gate": "G21",
+   "ready": false,
+   "why": "缺 ppi_edges_clean.tsv 或交集基因表",
+   "status": "SKIP",
+   "rc": null,
+   "out": "缺 ppi_edges_clean.tsv 或交集基因表",
+   "sec": 0
+  },
+  {
+   "name": "富集（HPA 组织背景）",
+   "gate": "G7",
+   "ready": false,
+   "why": "缺交集基因表",
+   "status": "SKIP",
+   "rc": null,
+   "out": "缺交集基因表",
+   "sec": 0
+  },
+  {
+   "name": "重新生成报告",
+   "gate": "-",
+   "ready": true,
+   "why": "",
+   "status": "DRY",
+   "rc": null,
+   "out": "",
+   "sec": 0
+  }
+ ]
+}

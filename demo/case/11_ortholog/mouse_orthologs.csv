@@ -1,0 +1,282 @@
+﻿human,ortholog,mapping_type,direct_ortholog,confidence,n_orthologs,ambiguity,source,status,mouse,rat,zebrafish,zebrafish_n,note
+AKT1,Akt1,ortholog,yes,high,2,,local_table,resolved_local,Akt1,Akt1,,0,
+CTNNB1,Ctnnb1,ortholog,yes,high,2,,local_table,resolved_local,Ctnnb1,Ctnnb1,,0,
+EGFR,Egfr,ortholog,yes,high,2,,local_table,resolved_local,Egfr,Egfr,,0,
+MTOR,Mtor,ortholog,yes,high,2,,local_table,resolved_local,Mtor,Mtor,,0,
+HIF1A,Hif1a,ortholog,yes,high,2,,local_table,resolved_local,Hif1a,Hif1a,,0,
+PIK3CA,Pik3ca,ortholog,yes,high,2,,local_table,resolved_local,Pik3ca,Pik3ca,,0,
+TP53,Trp53,ortholog,yes,high,2,,local_table,resolved_local,Trp53,Tp53,,0,
+PIK3CB,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+STAT3,Stat3,ortholog,yes,high,2,,local_table,resolved_local,Stat3,Stat3,,0,
+ESR1,Esr1,ortholog,yes,high,2,,local_table,resolved_local,Esr1,Esr1,,0,
+HSP90AA1,Hsp90aa1,ortholog,yes,high,2,,local_table,resolved_local,Hsp90aa1,Hsp90aa1,,0,
+NFKB1,Nfkb1,ortholog,yes,high,2,,local_table,resolved_local,Nfkb1,Nfkb1,,0,
+JUN,Jun,ortholog,yes,high,2,,local_table,resolved_local,Jun,Jun,,0,
+GSK3B,Gsk3b,ortholog,yes,high,2,,local_table,resolved_local,Gsk3b,Gsk3b,,0,
+MAPK3,Mapk3,ortholog,yes,high,2,,local_table,resolved_local,Mapk3,Mapk3,,0,
+SRC,Src,ortholog,yes,high,2,,local_table,resolved_local,Src,Src,,0,
+EP300,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MMP9,Mmp9,ortholog,yes,high,2,,local_table,resolved_local,Mmp9,Mmp9,,0,
+PARP1,Parp1,ortholog,yes,high,2,,local_table,resolved_local,Parp1,Parp1,,0,
+BRCA1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTGS2,Ptgs2,ortholog,yes,high,2,,local_table,resolved_local,Ptgs2,Ptgs2,,0,
+PPARG,Pparg,ortholog,yes,high,2,,local_table,resolved_local,Pparg,Pparg,,0,
+MAPK1,Mapk1,ortholog,yes,high,2,,local_table,resolved_local,Mapk1,Mapk1,,0,
+APP,App,ortholog,yes,high,2,,local_table,resolved_local,App,App,,0,
+HDAC1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MAPK14,Mapk14,ortholog,yes,high,2,,local_table,resolved_local,Mapk14,Mapk14,,0,
+MAPT,Mapt,ortholog,yes,high,2,,local_table,resolved_local,Mapt,Mapt,,0,
+NFE2L2,Nfe2l2,ortholog,yes,high,2,,local_table,resolved_local,Nfe2l2,Nfe2l2,,0,
+RELA,Rela,ortholog,yes,high,2,,local_table,resolved_local,Rela,Rela,,0,
+KDR,Kdr,ortholog,yes,high,2,,local_table,resolved_local,Kdr,Kdr,,0,
+ABCG2,Abcg2,ortholog,yes,high,2,,local_table,resolved_local,Abcg2,Abcg2,,0,
+BRAF,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTPN1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AR,Ar,ortholog,yes,high,2,,local_table,resolved_local,Ar,Ar,,0,
+ABCB1,Abcb1a,ortholog,yes,high,2,,local_table,resolved_local,Abcb1a,Abcb1,,0,
+IGF1R,Igf1r,ortholog,yes,high,2,,local_table,resolved_local,Igf1r,Igf1r,,0,
+PIK3R1,Pik3r1,ortholog,yes,high,2,,local_table,resolved_local,Pik3r1,Pik3r1,,0,
+SNCA,Snca,ortholog,yes,high,2,,local_table,resolved_local,Snca,Snca,,0,
+AHR,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MMP2,Mmp2,ortholog,yes,high,2,,local_table,resolved_local,Mmp2,Mmp2,,0,
+HMGB1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CDK1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PPARA,Ppara,ortholog,yes,high,2,,local_table,resolved_local,Ppara,Ppara,,0,
+PTPN11,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TERT,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+FYN,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PGR,Pgr,ortholog,yes,high,2,,local_table,resolved_local,Pgr,Pgr,,0,
+PTK2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SLC2A1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP3A4,Cyp3a11(FuncRep);Cyp3a13(FuncRep),functional_analog,no,functional_analog,2,functional_analog,curated_knowledge,no_direct_ortholog,Cyp3a11(FuncRep);Cyp3a13(FuncRep),Cyp3a2(FuncRep);Cyp3a1(FuncRep),,0,CYP3A4 在啮齿类无 1:1 直系同源，Cyp3a11/Cyp3a2 为功能类似物（底物谱重叠但不完全一致）
+HDAC6,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP19A1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ESR2,Esr2,ortholog,yes,high,2,,local_table,resolved_local,Esr2,Esr2,,0,
+STAT6,Stat6,ortholog,yes,high,2,,local_table,resolved_local,Stat6,Stat6,,0,
+CCR2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+IDO1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MPO,Mpo,ortholog,yes,high,2,,local_table,resolved_local,Mpo,Mpo,,0,
+HTT,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP1A1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+USP7,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PLK1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MET,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+XPO1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP1A2,Cyp1a2,ortholog,yes,high,2,,local_table,resolved_local,Cyp1a2,Cyp1a2,,0,
+ALDH1A1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HMGCR,Hmgcr,ortholog,yes,high,2,,local_table,resolved_local,Hmgcr,Hmgcr,,0,
+ALK,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ITGB3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+KDM1A,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP2C9,Cyp2c29(FuncRep);Cyp2c38(FuncRep),functional_analog,no,functional_analog,2,functional_analog,curated_knowledge,no_direct_ortholog,Cyp2c29(FuncRep);Cyp2c38(FuncRep),Cyp2c11(FuncRep),,0,CYP2C9 的人鼠对应关系为多对多，功能类似物需按底物验证
+NOS2,Nos2,ortholog,yes,high,2,,local_table,resolved_local,Nos2,Nos2,,0,
+CSNK2A1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+LMNA,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TLR9,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MMP3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CDK5,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+UGT1A1,Ugt1a1,ortholog,yes,high,2,,local_table,resolved_local,Ugt1a1,Ugt1a1,,0,
+CXCR2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTPN6,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SYK,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NR1H4,Nr1h4,ortholog,yes,high,2,,local_table,resolved_local,Nr1h4,Nr1h4,,0,
+CYP2C19,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NOX4,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MAOA,Maoa,ortholog,yes,high,2,,local_table,resolved_local,Maoa,Maoa,,0,
+ELAVL1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NR1I2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+RPS6KA3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+FLT3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MAOB,Maob,ortholog,yes,high,2,,local_table,resolved_local,Maob,Maob,,0,
+BACE1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP2B6,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP2D6,Cyp2d22(FuncRep);Cyp2d26(FuncRep),functional_analog,no,functional_analog,2,functional_analog,curated_knowledge,no_direct_ortholog,Cyp2d22(FuncRep);Cyp2d26(FuncRep),Cyp2d4(FuncRep),,0,CYP2D6 在啮齿类为多基因家族扩增，无单一 1:1 ortholog
+SIRT3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ALOX5,Alox5,ortholog,yes,high,2,,local_table,resolved_local,Alox5,Alox5,,0,
+CYP1B1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+METTL3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP2C8,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+XDH,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AURKB,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MMP13,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SIRT6,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA9,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+DPP4,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AXL,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ABCC1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+GSK3A,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CYP2A6,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTGS1,Ptgs1,ortholog,yes,high,2,,local_table,resolved_local,Ptgs1,Ptgs1,,0,
+NR1I3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+APEX1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CD38,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NFKB2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TRPV1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ACHE,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SLC6A4,Slc6a4,ortholog,yes,high,2,,local_table,resolved_local,Slc6a4,Slc6a4,,0,
+BCHE,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SLCO1B1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ABCB11,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+F3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+APAF1,Apaf1,ortholog,yes,high,2,,local_table,resolved_local,Apaf1,Apaf1,,0,
+KLF5,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SPHK1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HSPD1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PSMB5,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ALOX15,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PSMB1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MEN1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PRKCE,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CXCR1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SLCO1B3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+DYRK1A,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AKR1C3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+YES1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PAX8,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AKR1B1,Akr1b1,ortholog,yes,ambiguous_ortholog,1,rat 1→2;zebrafish 1→2,ensembl_online,resolved_online,Akr1b1,Akr1b1;Akr1b1-ps2,akr1b1.2;akr1b1.1,2,一对多直系同源（rat 1→2;zebrafish 1→2），湿实验需分别验证
+DAPK1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+FTO,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+BLM,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CES1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ACP1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PLA2G1B,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+RAD52,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTPN2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SLCO2B1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+F2,F2,ortholog,yes,high,2,,local_table,resolved_local,F2,F2,,0,
+HSD17B2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SLC6A3,Slc6a3,ortholog,yes,high,2,,local_table,resolved_local,Slc6a3,Slc6a3,,0,
+CSNK2B,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ATP2A2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HSD17B1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TSHR,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PRKAA2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SETD7,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HSD11B1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ATP1A1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MGAM,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TUBB4B,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ALOX12,Alox12,ortholog,yes,high,2,,local_table,resolved_local,Alox12,Alox12,,0,
+TYR,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+THRB,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ELANE,Elane,ortholog,yes,high,2,,local_table,resolved_local,Elane,Elane,,0,
+ESRRA,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TTR,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ALKBH5,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HTR2A,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CNR1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PIM1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTGES,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HDAC8,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NOD2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HPGD,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NEK2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TNKS2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+FABP4,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+POLA1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+GPBAR1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TBXAS1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+GSTM2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NSD1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TUBB3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+RHOC,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ATP1B1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TNKS,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+POLB,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+KCNH2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MMP12,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SENP1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTPRF,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+RECQL,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+DYRK2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CAMK2B,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+RORC,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ATP1A2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PKN1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TRPA1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MT-CO2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTGES2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TDO2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA4,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SLC6A2,Slc6a2,ortholog,yes,high,2,,local_table,resolved_local,Slc6a2,Slc6a2,,0,
+ATP1B2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PYGL,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HSD17B10,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MERTK,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CES2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ADAMTS4,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AKR1C2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NR4A2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MKNK2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PRSS1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+USP2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PNLIP,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AVPR2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+DRD4,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ADRB3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TDP1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HTR2B,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+GLO1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+DRD1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+GMNN,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA12,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CCR4,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+GABRA1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MKNK1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ANPEP,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA7,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+GRK6,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SLC16A1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+HSD11B2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NPC1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+OPRD1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CNR2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ABHD5,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NUAK1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA13,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+SMN1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PDE5A,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NPSR1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ALKBH2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+DHODH,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA5A,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AKR1B10,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PKMYT1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CHRM2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA14,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+DYRK1B,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ADORA3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MLNR,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+GPR35,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+IP6K2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+L3MBTL1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CLK1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NAPRT,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ALKBH3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ADRA2B,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA6,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CCKAR,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CISD1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ALPI,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TBXA2R,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ELAVL3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MC5R,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ADRA1A,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CA5B,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CTDSP1,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+CLK4,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+ATP2A3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+AMY1A,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+DYRK3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+KDM4E,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NEK6,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+MRGPRX2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PTP4A3,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+NQO2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+PMP22,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+QPCTL,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TACR2,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全
+TRPC5,,,,,0,,offline,unresolved_offline,,,,0,本地表未收录；加 --online（默认）可自动补全

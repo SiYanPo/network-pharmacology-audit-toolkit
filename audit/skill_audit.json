@@ -1,0 +1,1072 @@
+{
+ "generated": "2026-11-22 18:44:51",
+ "inventory": [
+  {
+   "module": "np_admet",
+   "lines": 369,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "numpy",
+    "pandas",
+    "rdkit",
+    "scipy",
+    "sklearn"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_alias",
+   "lines": 302,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "tests/test_alias.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_audit",
+   "lines": 389,
+   "in_dag": false,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py"
+   ],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_bench",
+   "lines": 221,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_benchloop",
+   "lines": 200,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_benchmark",
+   "lines": 756,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "run_benchmark.py",
+    "tests/test_benchmark.py",
+    "tests/test_phase1_units.py",
+    "tests/test_round8.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_coloc_compare",
+   "lines": 350,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_compounds",
+   "lines": 495,
+   "in_dag": true,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py"
+   ],
+   "third_party": [
+    "rdkit"
+   ],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_consensus",
+   "lines": 190,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_contracts",
+   "lines": 315,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_contracts.py"
+   ],
+   "third_party": [
+    "yaml"
+   ],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_contraindication",
+   "lines": 250,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_corpus",
+   "lines": 500,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_cyto",
+   "lines": 128,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "numpy",
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_db",
+   "lines": 142,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_decoy",
+   "lines": 232,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "tests/test_decoy.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_defense",
+   "lines": 178,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_dock",
+   "lines": 225,
+   "in_dag": false,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py"
+   ],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_dockprep",
+   "lines": 656,
+   "in_dag": false,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py"
+   ],
+   "third_party": [
+    "rdkit"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_doctor",
+   "lines": 148,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "deprecated"
+  },
+  {
+   "module": "np_domain",
+   "lines": 118,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_dose",
+   "lines": 184,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_doseweight",
+   "lines": 204,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "networkx"
+   ],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_enrich",
+   "lines": 540,
+   "in_dag": true,
+   "in_evals": true,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/integrity.py",
+    "evals/regression.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_envcheck",
+   "lines": 148,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_evidence",
+   "lines": 266,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_evidence_ledger",
+   "lines": 990,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_evidence_ledger.py",
+    "tests/test_phase1_modules.py",
+    "tests/test_phase1_units.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_export",
+   "lines": 144,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_contracts.py"
+   ],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_fdr",
+   "lines": 346,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_phase1_modules.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_fetch",
+   "lines": 283,
+   "in_dag": false,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/integrity.py"
+   ],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_figcheck",
+   "lines": 174,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_figs",
+   "lines": 436,
+   "in_dag": false,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/integrity.py"
+   ],
+   "third_party": [
+    "matplotlib",
+    "networkx",
+    "numpy",
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_finalcheck",
+   "lines": 625,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "tests/test_round8.py",
+    "tests/test_round9.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_funnel",
+   "lines": 442,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_goldfetch",
+   "lines": 263,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_goldtest",
+   "lines": 203,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_guard",
+   "lines": 104,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_herbcache",
+   "lines": 229,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_hpa",
+   "lines": 159,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_htmlreport",
+   "lines": 272,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_interactive",
+   "lines": 349,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_round8.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_interpret",
+   "lines": 249,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_round8.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_intersect",
+   "lines": 317,
+   "in_dag": true,
+   "in_evals": true,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_intervention",
+   "lines": 342,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "tests/test_intervention.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_lab",
+   "lines": 124,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_liana",
+   "lines": 156,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "matplotlib"
+   ],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_ligand_top",
+   "lines": 163,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_lincs",
+   "lines": 173,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_lincs_local",
+   "lines": 377,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "h5py",
+    "numpy"
+   ],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_md",
+   "lines": 701,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "numpy"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_mr",
+   "lines": 856,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "tests/test_mr.py",
+    "tests/test_phase1_units.py",
+    "tests/test_round9.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_mr_plots",
+   "lines": 291,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "matplotlib"
+   ],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_null",
+   "lines": 359,
+   "in_dag": true,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_omics",
+   "lines": 295,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "numpy",
+    "pandas",
+    "scipy"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_optimize",
+   "lines": 213,
+   "in_dag": false,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py"
+   ],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_ortholog",
+   "lines": 725,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_round8.py",
+    "tests/test_round9.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_pdf",
+   "lines": 163,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_round8.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_pipeline",
+   "lines": 440,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "run_benchmark.py"
+   ],
+   "third_party": [
+    "yaml"
+   ],
+   "registry_status": "entry"
+  },
+  {
+   "module": "np_pocket",
+   "lines": 210,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_ppi",
+   "lines": 730,
+   "in_dag": true,
+   "in_evals": true,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py",
+    "tests/test_phase1_units.py",
+    "tests/test_round9.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_preflight",
+   "lines": 234,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_primer",
+   "lines": 235,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_prov",
+   "lines": 102,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "deprecated"
+  },
+  {
+   "module": "np_qa",
+   "lines": 156,
+   "in_dag": false,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/integrity.py"
+   ],
+   "third_party": [
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_report",
+   "lines": 443,
+   "in_dag": true,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "evals/regression.py",
+    "evals/selftest.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_repro_batch",
+   "lines": 393,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_run",
+   "lines": 340,
+   "in_dag": false,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "evals/regression.py",
+    "evals/selftest.py"
+   ],
+   "third_party": [],
+   "registry_status": "entry"
+  },
+  {
+   "module": "np_selfaudit",
+   "lines": 319,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_phase1_units.py"
+   ],
+   "third_party": [
+    "yaml"
+   ],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_sens",
+   "lines": 117,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "numpy",
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_singlecell",
+   "lines": 280,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "matplotlib",
+    "numpy"
+   ],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_snapshot",
+   "lines": 395,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_phase1_modules.py",
+    "tests/test_phase1_units.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_split",
+   "lines": 462,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_phase1_modules.py",
+    "tests/test_phase1_units.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_standardize",
+   "lines": 335,
+   "in_dag": true,
+   "in_evals": true,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [
+    "run_benchmark.py",
+    "adapters/tcmsp_adapter.py",
+    "evals/regression.py",
+    "examples/make_demo.py"
+   ],
+   "third_party": [],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_subnetwork",
+   "lines": 294,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "matplotlib",
+    "networkx"
+   ],
+   "registry_status": "core"
+  },
+  {
+   "module": "np_survival",
+   "lines": 253,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "numpy",
+    "pandas",
+    "scipy"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_synergy",
+   "lines": 552,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "tests/test_synergy.py"
+   ],
+   "third_party": [
+    "matplotlib",
+    "networkx"
+   ],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_tcmviz",
+   "lines": 216,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_tools",
+   "lines": 229,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "tests/test_tool_registry.py"
+   ],
+   "third_party": [],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_toxpath",
+   "lines": 116,
+   "in_dag": false,
+   "in_evals": false,
+   "has_selftest": false,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [
+    "pandas"
+   ],
+   "registry_status": "manual"
+  },
+  {
+   "module": "np_uireport",
+   "lines": 952,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [
+    "app.py",
+    "tests/test_round9.py"
+   ],
+   "third_party": [],
+   "registry_status": "audit"
+  },
+  {
+   "module": "np_wetlab",
+   "lines": 260,
+   "in_dag": true,
+   "in_evals": false,
+   "has_selftest": true,
+   "help_ok": null,
+   "exec_refs": [],
+   "third_party": [],
+   "registry_status": "audit"
+  }
+ ],
+ "deadcode": [],
+ "deps": {
+  "h5py": "installed",
+  "matplotlib": "installed",
+  "networkx": "installed",
+  "numpy": "installed",
+  "pandas": "installed",
+  "rdkit": "installed",
+  "scipy": "installed",
+  "sklearn": "installed",
+  "yaml": "installed"
+ },
+ "selftest_ran": false
+}

@@ -1,0 +1,110 @@
+{
+  "stages": [
+    {
+      "stage": "03_intersect",
+      "tool": "network-pharmacology-pro",
+      "tool_version": "1.0.0",
+      "python": "3.13.14",
+      "platform": "win32",
+      "started": "2026-11-23T14:11:29",
+      "argv": [
+        "scripts/np_pipeline.py",
+        "--inputs",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/inputs/Quercetin/inputs.json",
+        "-o",
+        "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测/np_out/Quercetin_full",
+        "--offline",
+        "--enable-funnel",
+        "--enable-doseweight",
+        "--enable-louvain"
+      ],
+      "env": {
+        "python": "3.13.14",
+        "implementation": "CPython",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "machine": "AMD64",
+        "locale": "Chinese (Simplified)_China.936",
+        "filesystem_encoding": "utf-8",
+        "stdout_encoding": "utf-8",
+        "cwd": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro",
+        "tz": "中国标准时间",
+        "packages": {
+          "numpy": "2.5.4",
+          "scipy": "1.18.1",
+          "openpyxl": "3.1.5",
+          "networkx": "3.7",
+          "matplotlib": "3.11.2",
+          "rdkit": "2026.09.1"
+        }
+      },
+      "params": {
+        "drug": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/02_standardize/targets_standardized.csv",
+        "drug_col": null,
+        "gene_col": null,
+        "disease": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\disease_targets.tsv",
+        "sets": null,
+        "outdir": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/04_intersect",
+        "min_score": null,
+        "universe": "genome",
+        "label": "药物-疾病",
+        "quiet": false,
+        "selftest": false
+      },
+      "inputs": {
+        "drug": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\02_standardize\\targets_standardized.csv",
+          "sha256_16": "11863cf2293e6cf2",
+          "bytes": 13807,
+          "hash": "full"
+        },
+        "disease": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\_research\\realdata\\dataset\\disease_targets.tsv",
+          "sha256_16": "d09ddef4e32fd8bc",
+          "bytes": 90152,
+          "hash": "full"
+        }
+      },
+      "outputs": {
+        "intersection": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\04_intersect\\intersection.csv",
+          "sha256_16": "2f19ff993aac34fb",
+          "bytes": 1707,
+          "hash": "full"
+        },
+        "genes": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\04_intersect\\intersection_genes.txt",
+          "sha256_16": "106d50441d41098d",
+          "bytes": 125,
+          "hash": "full"
+        },
+        "venn": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\04_intersect\\venn.svg",
+          "sha256_16": "f4fcd6dce0a78a0a",
+          "bytes": 1139,
+          "hash": "full"
+        },
+        "enrichment": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\04_intersect\\compound_enrichment.csv",
+          "sha256_16": "6c2d08405ea889da",
+          "bytes": 175,
+          "hash": "full"
+        },
+        "report": {
+          "path": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\04_intersect\\intersect_report.md",
+          "sha256_16": "2e1fdcbf43480a29",
+          "bytes": 2221,
+          "hash": "full"
+        }
+      },
+      "warnings": [],
+      "counts": {
+        "sets": {
+          "药物靶点": 101,
+          "疾病靶点": 2244
+        },
+        "intersection": 23
+      },
+      "finished": "2026-11-23T14:11:29"
+    }
+  ]
+}

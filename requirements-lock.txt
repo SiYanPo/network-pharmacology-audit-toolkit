@@ -1,0 +1,15 @@
+# 由 np_preflight / 实际环境导出（2026-11-22）
+# 用法：pip install -r requirements-lock.txt
+
+numpy==2.5.4
+pandas==3.1.0
+networkx==3.7
+matplotlib==3.11.2
+h5py==3.16.0
+streamlit==1.67.0
+pyyaml==6.0.3
+pytest==9.2.0
+rdkit==2026.09.1
+
+# 说明：核心功能零第三方依赖；以上为可选增强。
+# Python 3.10–3.12 为全功能区间（scanpy 在 3.13 不可用）。

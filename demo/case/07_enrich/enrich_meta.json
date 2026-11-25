@@ -1,0 +1,10 @@
+{
+ "background_mode": "genome",
+ "background_source": "全基因组（未使用疾病/组织表达背景）",
+ "N": 20596,
+ "n_input": 23,
+ "hpa_tissue": "liver",
+ "hpa_min_ntpm": 1.0,
+ "pvalue_inflation_warning": true,
+ "warning_text": "未使用疾病表达谱背景，P 值可能膨胀"
+}

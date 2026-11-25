@@ -1,0 +1,122 @@
+{
+ "gate": "G21",
+ "n_intersection": 23,
+ "n_ppi_nodes": 281,
+ "n_missing": 1,
+ "missing_genes": [
+  "MGAM2"
+ ],
+ "coverage": 0.9565,
+ "n_ppi_nodes_extended": null,
+ "n_missing_extended": 1,
+ "missing_genes_extended": [
+  "MGAM2"
+ ],
+ "coverage_extended": null,
+ "verdict": "PASS",
+ "ppi_edge_file": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\\05_ppi\\ppi_edges_clean.tsv",
+ "hub_top10": [
+  "AKT1",
+  "CTNNB1",
+  "EGFR",
+  "MTOR",
+  "HIF1A",
+  "PIK3CA",
+  "TP53",
+  "PIK3CB",
+  "STAT3",
+  "ESR1"
+ ],
+ "intersection_rank_in_ppi": [
+  {
+   "gene": "ACHE",
+   "hub_rank": 114,
+   "degree": "23",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "ALK",
+   "hub_rank": 67,
+   "degree": "28",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "BRAF",
+   "hub_rank": 32,
+   "degree": "47",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "CA2",
+   "hub_rank": 201,
+   "degree": "8",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "CA4",
+   "hub_rank": 200,
+   "degree": "10",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "CA5A",
+   "hub_rank": 244,
+   "degree": "5",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "CAMK2B",
+   "hub_rank": 191,
+   "degree": "10",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "CYP19A1",
+   "hub_rank": 52,
+   "degree": "45",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "DPP4",
+   "hub_rank": 103,
+   "degree": "25",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "FTO",
+   "hub_rank": 137,
+   "degree": "15",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "GSK3B",
+   "hub_rank": 14,
+   "degree": "76",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "HDAC6",
+   "hub_rank": 51,
+   "degree": "38",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "IGF1R",
+   "hub_rank": 36,
+   "degree": "41",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "MAPT",
+   "hub_rank": 27,
+   "degree": "79",
+   "verdict": "不稳定"
+  },
+  {
+   "gene": "MGAM2",
+   "hub_rank": null
+  }
+ ],
+ "ranking_note": "S4 交集表按支持成分数(n_compounds)排序，S5 hub 按拓扑中心性(degree/共识)排序，两者排序键不同，名单不完全重叠属预期；本门禁校验的是成员一致性，不是排名一致性。",
+ "fix_hint": "交集基因不在 PPI 中：①该基因在 STRING 无任何边（孤立节点）；②PPI 边表被 score 阈值过滤过严。处理：降低 --min-score 或换覆盖更全的边表后重跑 ppi，并在正文说明孤立节点数。"
+}

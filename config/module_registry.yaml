@@ -1,0 +1,380 @@
+# 模块注册表（module registry）
+# status: entry（入口）/ core（DAG 主流程）/ audit（按需审计）/ manual（手动工具）/ deprecated（待移除）
+# 规则：manual 必须写 when + min_cmd；deprecated 不得出现在新流程与文档的推荐路径。
+version: '3.0'
+generated_at: '2026-11-22'
+modules:
+  - module: np_admet
+    status: manual
+    when: "ADMET/类药性过滤（Lipinski、肠吸收、PAINS）"
+    min_cmd: "python scripts/np_admet.py -i compounds.csv -o out/"
+  - module: np_alias
+    status: core
+    stage: alias
+    when: "前置必经——生僻药/炮制品/矿物药不标准化，后续全错"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_scm0061
+    status: audit
+    when: "按 SCM0061-2021 附录 A 对一次运行的产物做评价评分（可靠性/规范性/合理性），出评分卡"
+  - module: np_wetlab_result
+    status: audit
+    when: "湿实验完成后回灌结果：按 n>=3 且 p<alpha 定 L3，否则降 L2 并给理由（SCM0061 6.1.3/6.3.3）"
+  - module: np_audit
+    status: manual
+    when: "项目红线审计：对目录结构与断言做结构性检查"
+    min_cmd: "python scripts/np_audit.py --dir np_out"
+  - module: np_bench
+    status: manual
+    when: "文献复现基准集管理与归因审计（≠ np_benchmark 的性能评测）"
+    min_cmd: "python scripts/np_bench.py --help"
+  - module: np_benchloop
+    status: manual
+    when: "np_bench 的 golden 回归闭环（capture/verify/accept）"
+    min_cmd: "python scripts/np_benchloop.py capture --dir np_out"
+  - module: np_benchmark
+    status: audit
+    stage: benchmark
+    when: "金标准基准——AUC/Recall@K/EF + 跨库边级一致性 + benchmark_report.md"
+    min_cmd: "python scripts/np_benchmark.py --help"
+  - module: np_compounds
+    status: core
+    stage: compounds
+    when: "主流程节点"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_consensus
+    status: audit
+    stage: consensus
+    when: "共识打分UQ——Vina+Vinardo+GNINA多打分，方差大标Unstable_Binding"
+    min_cmd: "python scripts/np_consensus.py --help"
+  - module: np_contracts
+    status: audit
+    stage: contracts
+    when: "产物契约校验——列名/类型/空表；改列名会立刻失败，而不是等到出图"
+    min_cmd: "python scripts/np_contracts.py check --dir np_out"
+  - module: np_contraindication
+    status: core
+    stage: safety
+    when: "最前置红线——十八反/十九畏触发 ERROR 直接终止"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_corpus
+    status: manual
+    when: "文献语料库构建与检索（复现研究用）"
+    min_cmd: "python scripts/np_corpus.py --help"
+  - module: np_cyto
+    status: manual
+    when: "细胞因子/炎性介质分类注释"
+    min_cmd: "python scripts/np_cyto.py -i genes.txt -o out/"
+  - module: np_db
+    status: manual
+    when: "本地数据库缓存管理（TCMSP/HERB 离线副本）"
+    min_cmd: "python scripts/np_db.py status"
+  - module: np_decoy
+    status: audit
+    stage: decoy
+    when: "对接阴性对照——Z-score 判定，不显著标 Red Flag High False Positive Risk"
+    min_cmd: "python scripts/np_decoy.py --help"
+  - module: np_defense
+    status: audit
+    stage: defense
+    when: "三大盲区防御——soup 共溶效应 / temporal 时间偏倚 / dockstate 构象状态"
+    min_cmd: "python scripts/np_defense.py --help"
+  - module: np_dock
+    status: manual
+    when: "分子对接批量执行（AutoDock Vina）"
+    min_cmd: "python scripts/np_dock.py --receptor r.pdbqt --ligands lig/ -o dock/"
+  - module: np_dockprep
+    status: manual
+    when: "受体/配体准备（去水、加氢、转 pdbqt）"
+    min_cmd: "python scripts/np_dockprep.py --help"
+  - module: np_doctor
+    status: deprecated
+    when: "被 np_preflight（七类体检）+ np_envcheck（工具路径）取代"
+    min_cmd: ""
+  - module: np_domain
+    status: manual
+    when: "蛋白结构域注释（Pfam/InterPro 映射）"
+    min_cmd: "python scripts/np_domain.py -i genes.txt -o out/"
+  - module: np_dose
+    status: manual
+    when: "剂量可达性核算：饮片→摄入→游离暴露 vs 体外浓度"
+    min_cmd: "python scripts/np_dose.py --dose dose.csv -o out/"
+  - module: np_doseweight
+    status: core
+    stage: doseweight
+    when: "可选——需提供剂量表"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_enrich
+    status: core
+    stage: enrich
+    when: "未提供 DEGs 时自动使用 HPA 组织表达背景（params.tissue）"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_envcheck
+    status: audit
+    stage: envcheck
+    when: "真实环境探测——纠正TOOL_MISSING误判，发现非PATH工具(D:/MDtools与WSL)"
+    min_cmd: "python scripts/np_envcheck.py --help"
+  - module: np_evidence
+    status: audit
+    stage: evidence
+    when: "LLM 文本证据锚点校验——审稿前对 Discussion 单独跑"
+    min_cmd: "python scripts/np_evidence.py --help"
+  - module: np_evidence_ledger
+    status: audit
+    stage: evidence-ledger
+    when: "证据账本 + 单一排序函数；无校准器时输出 UNCALIBRATED（拒绝给概率）"
+    min_cmd: "python scripts/np_evidence_ledger.py auto --dir np_out"
+  - module: np_export
+    status: manual
+    when: "中间产物标准化导出（交付/归档用）"
+    min_cmd: "python scripts/np_export.py --dir np_out -o export/"
+  - module: np_fdr
+    status: audit
+    stage: fdr
+    when: "全局多重性控制——族内+全局 BH；q_global 是唯一可写结论的显著性口径"
+    min_cmd: "python scripts/np_fdr.py run --dir np_out"
+  - module: np_fetch
+    status: manual
+    when: "靶点批量抓取（多库合并，带来源标记）"
+    min_cmd: "python scripts/np_fetch.py --genes genes.txt -o out/"
+  - module: np_figcheck
+    status: manual
+    when: "图件规范检查（分辨率/字体/尺寸/色盲友好）"
+    min_cmd: "python scripts/np_figcheck.py --dir figs/"
+  - module: np_figs
+    status: manual
+    when: "出版级图件批量生成（300 dpi PNG + SVG）"
+    min_cmd: "python scripts/np_figs.py --dir np_out -o figs/"
+  - module: np_finalcheck
+    status: audit
+    stage: finalcheck
+    when: "投稿门禁——硬性项(时间盲测/Apo-Holo/剂量/Decoy无RedFlag)全过才出 Ready 水印，否则 Draft"
+    min_cmd: "python scripts/np_finalcheck.py --help"
+  - module: np_funnel
+    status: core
+    stage: funnel
+    when: "可选——生成对接候选清单，避免全量对接卡死"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_goldfetch
+    status: audit
+    stage: goldfetch
+    when: "金标准自动获取——CTD bulk 断点续传 / ChEMBL ATC 严格匹配（DrugBank 平替）"
+    min_cmd: "python scripts/np_goldfetch.py --help"
+  - module: np_goldtest
+    status: audit
+    stage: goldtest
+    when: "外部金标准盲测 Recall/FPR——需人工准备金标准文件，或用 --audit goldfetch 自动获取"
+    min_cmd: "python scripts/np_goldtest.py --help"
+  - module: np_guard
+    status: manual
+    when: "结论护栏：拦截「计算预测」被写成「疗效证明」"
+    min_cmd: "python scripts/np_guard.py --md draft.md"
+  - module: np_herbcache
+    status: manual
+    when: "药材名缓存与别名回填（减少重复在线查询）"
+    min_cmd: "python scripts/np_herbcache.py --help"
+  - module: np_hpa
+    status: audit
+    stage: hpa
+    when: "HPA组织特异性——靶点在病变组织nTPM富集校验，排细胞系假阳性"
+    min_cmd: "python scripts/np_hpa.py --help"
+  - module: np_htmlreport
+    status: manual
+    when: "稿件式 HTML 报告（偏论文排版，与 np_uireport 交付版不同）"
+    min_cmd: "python scripts/np_htmlreport.py --dir np_out --label X --out manuscript.html"
+  - module: np_interactive
+    status: audit
+    stage: interactive
+    when: "交互式网络（Cytoscape.js 单文件 HTML）——缩放/拖拽/搜索/点节点看属性，替代静态 SVG"
+    min_cmd: "python scripts/np_interactive.py --help"
+  - module: np_interpret
+    status: audit
+    stage: interpret
+    when: "结果解读引擎——MR OR、COLOC PP.H4、协同评分的中英双语标准措辞"
+    min_cmd: "python scripts/np_interpret.py --help"
+  - module: np_intersect
+    status: core
+    stage: intersect
+    when: "主流程节点"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_intervention
+    status: audit
+    stage: intervention
+    when: "靶点-干预方向一致性——MR 方向 vs 成分作用方向，冲突抛 Target_Intervention_Mismatch"
+    min_cmd: "python scripts/np_intervention.py --help"
+  - module: np_lab
+    status: manual
+    when: "湿实验方案生成（分组、剂量、读数、样本量）"
+    min_cmd: "python scripts/np_lab.py --targets hubs.csv -o lab/"
+  - module: np_liana
+    status: audit
+    stage: liana
+    when: "细胞通讯——核心靶点配体/受体LR推断+热图（LIANA框架）"
+    min_cmd: "python scripts/np_liana.py --help"
+  - module: np_ligand_top
+    status: audit
+    stage: ligandtop
+    when: "配体GAFF拓扑——acpype自动转Vina配体为GROMACS .itp/.gro（MD前置）"
+    min_cmd: "python scripts/np_ligand_top.py --help"
+  - module: np_lincs
+    status: audit
+    stage: lincs
+    when: "LINCS/CMap 签名 + connectivity 真实查询：query-l1000fwd 免费API（clue.io 2026-01-31 退役后替代），score 本地打分"
+    min_cmd: "python scripts/np_lincs.py --help"
+  - module: np_lincs_local
+    status: audit
+    stage: lincs-local
+    when: "LINCS L1000 gctx 本地流式比对——彻底摆脱外部 API（需 h5py + GEO 数据）"
+    min_cmd: "python scripts/np_lincs_local.py --help"
+  - module: np_md
+    status: manual
+    when: "分子动力学前后处理（GROMACS；需 NP_GMX）"
+    min_cmd: "python scripts/np_md.py --help"
+  - module: np_mr
+    status: audit
+    stage: mr
+    when: "孟德尔随机化——Steiger 方向过滤 + LD 去冗余 + COLOC，IVW/Egger/加权中位数"
+    min_cmd: "python scripts/np_mr.py --help"
+  - module: np_mr_plots
+    status: audit
+    stage: mrplots
+    when: "MR/COLOC 出版级图——森林图/散点图/LocusZoom 区域图（300dpi PNG + SVG）"
+    min_cmd: "python scripts/np_mr_plots.py --help"
+  - module: np_null
+    status: core
+    stage: nullmodel
+    when: "主流程节点"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_omics
+    status: manual
+    when: "组学数据整合（转录组/蛋白组/代谢组交集）"
+    min_cmd: "python scripts/np_omics.py --help"
+  - module: np_optimize
+    status: manual
+    when: "参数寻优（阈值/权重扫描，输出敏感性面）"
+    min_cmd: "python scripts/np_optimize.py --help"
+  - module: np_ortholog
+    status: core
+    stage: ortholog
+    when: "后置必经——湿实验衔接刚需"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_pdf
+    status: audit
+    stage: pdf
+    when: "HTML→PDF（系统 Edge/Chrome 无头模式，零 Python 依赖；不用 weasyprint）"
+    min_cmd: "python scripts/np_pdf.py --help"
+  - module: np_pipeline
+    status: entry
+    when: "DAG 编排入口（config/pipeline.yaml 驱动）"
+    min_cmd: "python scripts/np_pipeline.py --help"
+  - module: np_pocket
+    status: audit
+    stage: pocket
+    when: "精准对接口袋——共晶配体中心提取 / fpocket 预测（避免盲对接）"
+    min_cmd: "python scripts/np_pocket.py --help"
+  - module: np_ppi
+    status: core
+    stage: ppi
+    when: "产物含 hubs.csv / topology.csv / network.svg / ppi_report.md"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_preflight
+    status: audit
+    stage: preflight
+    when: "换机体检——Python/数据/依赖/工具/缓存/路径/CLI 七类"
+    min_cmd: "python scripts/np_preflight.py --help"
+  - module: np_primer
+    status: audit
+    stage: primer
+    when: "湿实验闭环——小鼠靶点 PCR 引物 F/R/Tm + Primer3 .p3 批处理"
+    min_cmd: "python scripts/np_primer.py --help"
+  - module: np_prov
+    status: deprecated
+    when: "被 np_snapshot 取代（版本探测 + 快照 + 离线挂载）；保留仅为兼容旧脚本"
+    min_cmd: ""
+  - module: np_qa
+    status: manual
+    when: "结果问答与解释（对报告做定向追问）"
+    min_cmd: "python scripts/np_qa.py --dir np_out --ask 'why IL6'"
+  - module: np_report
+    status: core
+    stage: report
+    when: "主流程节点"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_repro_batch
+    status: manual
+    when: "批量复现引擎（500 篇语料 → 重算 → 差异归因）"
+    min_cmd: "python scripts/np_repro_batch.py --help"
+  - module: np_run
+    status: entry
+    when: "旧版 11 阶段串行入口（零回归对照；新项目用 np_pipeline）"
+    min_cmd: "python scripts/np_run.py --help"
+  - module: np_selfaudit
+    status: audit
+    stage: selfaudit
+    when: "模块自审——死代码/自检矩阵/契约核对，提交前跑一次"
+    min_cmd: "python scripts/np_selfaudit.py --help"
+  - module: np_sens
+    status: manual
+    when: "参数敏感性扫描（OB/DL/阈值）"
+    min_cmd: "python scripts/np_sens.py --dir np_out -o sens/"
+  - module: np_singlecell
+    status: audit
+    stage: singlecell
+    when: "单细胞投影——核心靶点投射到 scRNA 细胞亚群，气泡/小提琴/UMAP（需 scanpy）"
+    min_cmd: "python scripts/np_singlecell.py --help"
+  - module: np_snapshot
+    status: audit
+    stage: snapshot
+    when: "版本探测 + 快照打包 + 离线挂载；投稿前必须 probe --save 并用 pack 发布快照"
+    min_cmd: "python scripts/np_snapshot.py probe --save"
+  - module: np_split
+    status: audit
+    stage: split
+    when: "基准切分（随机/家族/留一库）+ 外部工具对照；随机切分偏乐观，必须以 family 切分为主"
+    min_cmd: "python scripts/np_split.py run --edges \"np_out/02_standardize/targets_standardized.csv\" --gold-csv gold.csv --split complex"
+  - module: np_standardize
+    status: core
+    stage: standardize
+    when: "主流程节点"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_subnetwork
+    status: core
+    stage: subnetwork
+    when: "可选——需先有 PPI 与富集（KEGG 显著性过滤依赖富集结果）"
+    min_cmd: "python scripts/np_pipeline.py --inputs inputs.json -o np_out"
+  - module: np_survival
+    status: manual
+    when: "生存分析（TCGA 表达 + 临床，KM/Cox）"
+    min_cmd: "python scripts/np_survival.py --help"
+  - module: np_synergy
+    status: audit
+    stage: synergy
+    when: "机制定向协同——通路上下游+方向兼容判协同；共享靶点强制 Competitive_Antagonism"
+    min_cmd: "python scripts/np_synergy.py --help"
+  - module: np_tcmviz
+    status: manual
+    when: "药材-成分-靶点可视化（中医语义分层图）"
+    min_cmd: "python scripts/np_tcmviz.py --dir np_out -o tcm.html"
+  - module: np_toxpath
+    status: manual
+    when: "毒理通路映射（CTD 通路证据）"
+    min_cmd: "python scripts/np_toxpath.py -i genes.txt -o out/"
+  - module: np_uireport
+    status: audit
+    stage: uireport
+    when: "一键交付报告——带 READY/DRAFT/UNVERIFIED 水印，可打印为 PDF"
+    min_cmd: "python scripts/np_uireport.py --help"
+  - module: np_wetlab
+    status: audit
+    stage: wetlab
+    when: "湿实验三件套——引物本地特异性/MD桥接模板/UniProt亚细胞定位分层"
+    min_cmd: "python scripts/np_wetlab.py --help"
+  - module: np_tools
+    status: manual
+    when: "外部工具解析的唯一入口（路径/来源/修复提示）；换机时先跑它"
+    min_cmd: "python scripts/np_tools.py list"
+  - module: np_coloc_compare
+    status: manual
+    when: "ABF 共定位 vs R coloc 一致性核验；PASS 才可在 Methods 写 colocalisation"
+    min_cmd: "python scripts/np_coloc_compare.py run --loci loci.tsv --r-lib ~/Rlibs -o out/"
+  # 注：tools/random_pairs_meta.py 与 tools/pathway_benchmark.py 为 tools/ 下的独立
+  # 方法学证据工具，不纳入本注册表（注册表仅覆盖 scripts/*.py，见 test_registry_covers_every_script_once）。

@@ -1,0 +1,150 @@
+{
+ "config": "C:\\Users\\huawei\\.workbuddy-2\\skills\\network-pharmacology-pro\\scripts\\..\\config\\pipeline.yaml",
+ "outdir": "D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full",
+ "inputs": {
+  "herbs": "甘草",
+  "herbs_file": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测\\inputs\\Quercetin\\herbs.txt",
+  "targets": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compound_targets.csv",
+  "compounds": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compounds.csv",
+  "disease": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\disease_targets.tsv",
+  "edges": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\string_edges.tsv",
+  "compound_edges": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compound_targets.csv",
+  "dose": "",
+  "gmt": "D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\KEGG_2021_Human.gmt,D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\Reactome_2022.gmt,D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\GO_Biological_Process_2023.gmt"
+ },
+ "params": {
+  "label": "Quercetin(黄酮醇) — 2型糖尿病(真实Open Targets数据)",
+  "organism": "mouse",
+  "tissue": "liver",
+  "source_organism": "human"
+ },
+ "enable": [
+  "--enable-doseweight",
+  "--enable-funnel",
+  "--enable-louvain"
+ ],
+ "nodes": [
+  {
+   "id": "safety",
+   "status": "ok",
+   "cli": "--herbs-file \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46/全流程实测\\inputs\\Quercetin\\herbs.txt\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/00_safety\"",
+   "module": "np_contraindication",
+   "artifact_sha256": {
+    "00_safety/contraindication.json": "8afd77166fe47d32"
+   }
+  },
+  {
+   "id": "alias",
+   "status": "ok",
+   "cli": "herbs --input \"甘草\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/01_alias\"",
+   "module": "np_alias",
+   "artifact_sha256": {
+    "01_alias/herb_alias_result.csv": "3f9956c3857966ba"
+   }
+  },
+  {
+   "id": "standardize",
+   "status": "ok",
+   "cli": "-i \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compound_targets.csv\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/02_standardize\"",
+   "module": "np_standardize",
+   "artifact_sha256": {
+    "02_standardize/targets_standardized.csv": "11863cf2293e6cf2"
+   }
+  },
+  {
+   "id": "compounds",
+   "status": "ok",
+   "cli": "-i \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compounds.csv\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/03_compounds\"",
+   "module": "np_compounds",
+   "artifact_sha256": {
+    "03_compounds/compounds_kept.csv": "dca43adb01ac9003"
+   }
+  },
+  {
+   "id": "intersect",
+   "status": "ok",
+   "cli": "--drug \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/02_standardize/targets_standardized.csv\" --disease \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\disease_targets.tsv\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/04_intersect\"",
+   "module": "np_intersect",
+   "artifact_sha256": {
+    "04_intersect/intersection_genes.txt": "106d50441d41098d"
+   }
+  },
+  {
+   "id": "ppi",
+   "status": "ok",
+   "cli": "-e \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\string_edges.tsv\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/05_ppi\" --core \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/04_intersect/intersection_genes.txt\" --expand-isolated --string-cache \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/string_cache\"",
+   "module": "np_ppi",
+   "artifact_sha256": {}
+  },
+  {
+   "id": "nullmodel",
+   "status": "ok",
+   "cli": "-g \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/04_intersect/intersection_genes.txt\" -e \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\string_edges.tsv\" -d \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\disease_targets.tsv\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/06_null\"",
+   "module": "np_null",
+   "artifact_sha256": {
+    "06_null/null_report.md": "475b4d027d2c950b"
+   }
+  },
+  {
+   "id": "enrich",
+   "status": "ok",
+   "cli": "-g \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/04_intersect/intersection_genes.txt\" -m \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\KEGG_2021_Human.gmt,D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\Reactome_2022.gmt,D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/gmt\\GO_Biological_Process_2023.gmt\" --hpa-tissue \"liver\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/07_enrich\"",
+   "module": "np_enrich",
+   "artifact_sha256": {
+    "07_enrich/enrich_report.md": "300378735bc9516c"
+   }
+  },
+  {
+   "id": "doseweight",
+   "status": "degraded",
+   "cli": "--edges \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compound_targets.csv\" --dose \"\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/08_doseweight\"",
+   "module": "np_doseweight",
+   "artifact_sha256": {},
+   "degrade_reason": "data_insufficient_or_optional"
+  },
+  {
+   "id": "funnel",
+   "status": "ok",
+   "cli": "--edges \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\全流程实测\\inputs\\Quercetin\\compound_targets.csv\" -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/09_funnel\"",
+   "module": "np_funnel",
+   "artifact_sha256": {
+    "09_funnel/final_docking_list.csv": "3633c3792dd47bc3"
+   }
+  },
+  {
+   "id": "subnetwork",
+   "status": "ok",
+   "cli": "--edges \"D:/WorkBuddy/分身文件/2026-11-19-10-40-46\\_research/realdata/dataset\\string_edges.tsv\" --outdir \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/10_subnetworks\"",
+   "module": "np_subnetwork",
+   "artifact_sha256": {
+    "10_subnetworks/subnetwork_manifest.json": "ffafcc9c04c273b7"
+   }
+  },
+  {
+   "id": "ortholog",
+   "status": "ok",
+   "cli": "--input \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/05_ppi/hubs.csv\" --col node --organism mouse -o \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full/11_ortholog\"",
+   "module": "np_ortholog",
+   "artifact_sha256": {
+    "11_ortholog/mouse_orthologs.csv": "d4c667f1776db83b"
+   }
+  },
+  {
+   "id": "report",
+   "status": "ok",
+   "cli": "--dir \"D:\\WorkBuddy\\分身文件\\2026-11-19-10-40-46\\全流程实测\\np_out\\Quercetin_full\" --label \"Quercetin(黄酮醇) — 2型糖尿病(真实Open Targets数据)\"",
+   "module": "np_report",
+   "artifact_sha256": {
+    "np_report.html": "fa755028b354a250"
+   }
+  }
+ ],
+ "versions": {
+  "cache_root": "C:\\WorkBuddy-Home2\\.np_cache",
+  "source": "versions.json",
+  "STRING": "12.5",
+  "Ensembl": 116,
+  "MyGene": "20261117",
+  "probed_at": "2026-11-22 14:33:25"
+ }
+}

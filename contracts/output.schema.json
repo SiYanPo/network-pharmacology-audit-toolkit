@@ -1,0 +1,30 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "np run summary",
+ "type": "object",
+ "required": [
+  "status"
+ ],
+ "properties": {
+  "status": {
+   "enum": [
+    "ok",
+    "degraded",
+    "failed"
+   ]
+  },
+  "artifacts": {
+   "type": "array"
+  },
+  "n_herbs": {
+   "type": "number"
+  },
+  "n_targets": {
+   "type": "number"
+  },
+  "meta": {
+   "type": "object"
+  }
+ },
+ "additionalProperties": true
+}

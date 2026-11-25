@@ -1,0 +1,325 @@
+﻿protein_name	gene_symbol	note
+Prothrombin	F2	凝血酶原
+Coagulation factor Xa	F10	
+Coagulation factor X	F10	
+Coagulation factor VII	F7	
+Coagulation factor IX	F9	
+Coagulation factor XI	F11	
+Coagulation factor XIII A chain	F13A1	
+Tissue-type plasminogen activator	PLAT	
+Urokinase-type plasminogen activator	PLAU	
+Plasminogen	PLG	
+Plasminogen activator inhibitor 1	SERPINE1	
+Antithrombin-III	SERPINC1	
+Fibrinogen alpha chain	FGA	
+Fibrinogen beta chain	FGB	
+Fibrinogen gamma chain	FGG	
+Prostaglandin G/H synthase 1	PTGS1	COX-1
+Prostaglandin G/H synthase 2	PTGS2	COX-2
+Prostaglandin E synthase	PTGES	
+Arachidonate 5-lipoxygenase	ALOX5	
+Arachidonate 12-lipoxygenase	ALOX12	
+Arachidonate 15-lipoxygenase	ALOX15	
+Estrogen receptor	ESR1	ERα
+Estrogen receptor beta	ESR2	
+Androgen receptor	AR	
+Progesterone receptor	PGR	
+Glucocorticoid receptor	NR3C1	
+Mineralocorticoid receptor	NR3C2	
+Retinoic acid receptor RXR-alpha	RXRA	
+Retinoic acid receptor RXR-beta	RXRB	
+Retinoic acid receptor alpha	RARA	
+Retinoic acid receptor gamma	RARG	
+Retinoic acid receptor RXR-gamma	RXRG	
+Vitamin D3 receptor	VDR	
+Thyroid hormone receptor alpha	THRA	
+Thyroid hormone receptor beta	THRB	
+Peroxisome proliferator-activated receptor alpha	PPARA	
+Peroxisome proliferator-activated receptor gamma	PPARG	PPARγ
+Peroxisome proliferator-activated receptor delta	PPARD	
+Pregnane X receptor	NR1I2	PXR
+Constitutive androstane receptor	NR1I3	CAR
+Aryl hydrocarbon receptor	AHR	
+Liver X receptor alpha	NR1H3	
+Liver X receptor beta	NR1H2	
+Farnesoid X receptor	NR1H4	FXR
+Nuclear receptor coactivator 1	NCOA1	
+Nuclear receptor coactivator 2	NCOA2	
+Nuclear receptor corepressor 1	NCOR1	
+Heat shock protein HSP 90-alpha	HSP90AA1	
+Heat shock protein HSP 90-beta	HSP90AB1	
+Heat shock protein HSP 70	HSPA1A	
+Heat shock cognate 71 kDa protein	HSPA8	
+DNA topoisomerase 1	TOP1	
+DNA topoisomerase 2-alpha	TOP2A	
+DNA topoisomerase 2-beta	TOP2B	
+Dihydrofolate reductase	DHFR	
+Thymidylate synthase	TYMS	
+Ribonucleoside-diphosphate reductase	RRM1	
+Carbonic anhydrase II	CA2	
+Carbonic anhydrase I	CA1	
+Carbonic anhydrase IX	CA9	
+Carbonic anhydrase XII	CA12	
+Xanthine dehydrogenase/oxidase	XDH	
+Aldose reductase	AKR1B1	
+Aldehyde dehydrogenase	ALDH2	
+Alcohol dehydrogenase 1B	ADH1B	
+Alcohol dehydrogenase 1C	ADH1C	
+Alcohol dehydrogenase class-3	ADH5	
+Cytochrome P450 3A4	CYP3A4	
+Cytochrome P450 2D6	CYP2D6	
+Cytochrome P450 2C9	CYP2C9	
+Cytochrome P450 2C19	CYP2C19	
+Cytochrome P450 1A1	CYP1A1	
+Cytochrome P450 1A2	CYP1A2	
+Cytochrome P450 1B1	CYP1B1	
+Cytochrome P450 2E1	CYP2E1	
+Cytochrome P450 2C8	CYP2C8	
+Cytochrome P450 2A6	CYP2A6	
+Cytochrome P450 2B6	CYP2B6	
+Cytochrome P450 2J2	CYP2J2	
+Cytochrome P450 2C18	CYP2C18	
+Cytochrome P450 11B1	CYP11B1	
+Cytochrome P450 19A1	CYP19A1	芳香化酶
+Cytochrome P450 17A1	CYP17A1	
+Acetylcholinesterase	ACHE	
+Butyrylcholinesterase	BCHE	
+Cholinesterase	BCHE	
+Monoamine oxidase A	MAOA	
+Monoamine oxidase B	MAOB	
+Catechol O-methyltransferase	COMT	
+Tyrosine 3-monooxygenase	TH	
+Tryptophan 5-hydroxylase 1	TPH1	
+Aromatic-L-amino-acid decarboxylase	DDC	
+Phenylethanolamine N-methyltransferase	PNMT	
+Sodium-dependent noradrenaline transporter	SLC6A2	NET
+Sodium-dependent dopamine transporter	SLC6A3	DAT
+Sodium-dependent serotonin transporter	SLC6A4	SERT
+Vesicular acetylcholine transporter	SLC18A3	
+GABA-A receptor alpha-1	GABRA1	
+GABA-A receptor alpha-5	GABRA5	
+GABA-A receptor beta-2	GABRB2	
+GABA-A receptor gamma-2	GABRG2	
+Glutamate receptor ionotropic NMDA 1	GRIN1	
+Glutamate receptor ionotropic NMDA 2A	GRIN2A	
+Glutamate receptor ionotropic NMDA 2B	GRIN2B	
+Glutamate receptor ionotropic AMPA 1	GRIA1	
+Metabotropic glutamate receptor 5	GRM5	
+Muscarinic acetylcholine receptor M1	CHRM1	
+Muscarinic acetylcholine receptor M2	CHRM2	
+Muscarinic acetylcholine receptor M3	CHRM3	
+Muscarinic acetylcholine receptor M4	CHRM4	
+Muscarinic acetylcholine receptor M5	CHRM5	
+Neuronal acetylcholine receptor subunit alpha-2	CHRNA2	
+Neuronal acetylcholine receptor subunit alpha-4	CHRNA4	
+Neuronal acetylcholine receptor subunit alpha-7	CHRNA7	
+Neuronal acetylcholine receptor subunit beta-2	CHRNB2	
+Alpha-1A adrenergic receptor	ADRA1A	
+Alpha-1B adrenergic receptor	ADRA1B	
+Alpha-1D adrenergic receptor	ADRA1D	
+Alpha-2A adrenergic receptor	ADRA2A	
+Alpha-2B adrenergic receptor	ADRA2B	
+Alpha-2C adrenergic receptor	ADRA2C	
+Beta-1 adrenergic receptor	ADRB1	
+Beta-2 adrenergic receptor	ADRB2	
+Beta-3 adrenergic receptor	ADRB3	
+Dopamine D1 receptor	DRD1	
+Dopamine D2 receptor	DRD2	
+Dopamine D3 receptor	DRD3	
+Dopamine D4 receptor	DRD4	
+Dopamine D5 receptor	DRD5	
+5-hydroxytryptamine receptor 1A	HTR1A	
+5-hydroxytryptamine receptor 1B	HTR1B	
+5-hydroxytryptamine receptor 2A	HTR2A	
+5-hydroxytryptamine receptor 2B	HTR2B	
+5-hydroxytryptamine receptor 2C	HTR2C	
+5-hydroxytryptamine receptor 3A	HTR3A	
+5-hydroxytryptamine receptor 6	HTR6	
+5-hydroxytryptamine receptor 7	HTR7	
+Histamine H1 receptor	HRH1	
+Histamine H2 receptor	HRH2	
+Adenosine A1 receptor	ADORA1	
+Adenosine A2a receptor	ADORA2A	
+Adenosine A2b receptor	ADORA2B	
+Adenosine A3 receptor	ADORA3	
+Cannabinoid receptor 1	CNR1	
+Cannabinoid receptor 2	CNR2	
+Opioid receptor mu 1	OPRM1	
+Opioid receptor delta 1	OPRD1	
+Opioid receptor kappa 1	OPRK1	
+Angiotensin-converting enzyme	ACE	
+Angiotensin-converting enzyme 2	ACE2	
+Angiotensin II receptor type 1	AGTR1	
+Renin	REN	
+Endothelin-1 receptor	EDNRA	
+Endothelin receptor type B	EDNRB	
+Nitric-oxide synthase endothelial	NOS3	eNOS
+Nitric-oxide synthase inducible	NOS2	iNOS
+Nitric-oxide synthase brain	NOS1	nNOS
+Vascular endothelial growth factor A	VEGFA	
+Vascular endothelial growth factor receptor 2	KDR	VEGFR2
+Fibroblast growth factor 2	FGF2	
+Fibroblast growth factor receptor 1	FGFR1	
+Platelet-derived growth factor receptor beta	PDGFRB	
+Epidermal growth factor receptor	EGFR	
+Receptor tyrosine-protein kinase erbB-2	ERBB2	HER2
+Insulin receptor	INSR	
+Insulin-like growth factor 1 receptor	IGF1R	
+Hepatocyte growth factor receptor	MET	
+Proto-oncogene tyrosine-protein kinase Src	SRC	
+Tyrosine-protein kinase ABL1	ABL1	
+Serine/threonine-protein kinase mTOR	MTOR	
+Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha	PIK3CA	
+RAC-alpha serine/threonine-protein kinase	AKT1	
+Mitogen-activated protein kinase 1	MAPK1	ERK2
+Mitogen-activated protein kinase 3	MAPK3	ERK1
+Mitogen-activated protein kinase 14	MAPK14	p38α
+Mitogen-activated protein kinase kinase kinase 1	MAP3K1	
+Dual specificity mitogen-activated protein kinase kinase 1	MAP2K1	MEK1
+Proto-oncogene c-Jun	JUN	
+Proto-oncogene c-Fos	FOS	
+Transcription factor p65	RELA	NF-κB p65
+NF-kappa-B inhibitor alpha	NFKBIA	IκBα
+Nuclear factor NF-kappa-B p105 subunit	NFKB1	
+Cellular tumor antigen p53	TP53	
+Tumor necrosis factor	TNF	
+Interleukin-6	IL6	
+Interleukin-1 beta	IL1B	
+Interleukin-1 alpha	IL1A	
+Interleukin-2	IL2	
+Interleukin-4	IL4	
+Interleukin-10	IL10	
+Interleukin-17A	IL17A	
+Interferon gamma	IFNG	
+Transforming growth factor beta-1	TGFB1	
+C-C motif chemokine 2	CCL2	MCP-1
+C-X-C motif chemokine 8	CXCL8	IL-8
+C-X-C motif chemokine 10	CXCL10	
+C-X-C motif chemokine 11	CXCL11	
+C-C motif chemokine 5	CCL5	
+C-reactive protein	CRP	
+Serum amyloid A protein	SAA1	
+Matrix metalloproteinase-1	MMP1	
+Matrix metalloproteinase-2	MMP2	
+Matrix metalloproteinase-3	MMP3	
+Matrix metalloproteinase-9	MMP9	
+Matrix metalloproteinase-13	MMP13	
+Tissue inhibitor of metalloproteinases 1	TIMP1	
+Cathepsin B	CTSB	
+Cathepsin D	CTSD	
+Cathepsin K	CTSK	
+Caspase-3	CASP3	
+Caspase-8	CASP8	
+Caspase-9	CASP9	
+Bcl-2-like protein 1	BCL2L1	BCL-XL
+Apoptosis regulator Bcl-2	BCL2	
+Apoptosis regulator BAX	BAX	
+Cellular tumor antigen p53	TP53	
+Poly [ADP-ribose] polymerase 1	PARP1	
+Calpain-1 catalytic subunit	CAPN1	
+Coagulation factor Xa	F10	
+Heme oxygenase 1	HMOX1	HO-1
+NAD(P)H dehydrogenase quinone 1	NQO1	
+Glutathione S-transferase Mu 1	GSTM1	
+Superoxide dismutase Cu-Zn	SOD1	
+Superoxide dismutase Mn	SOD2	
+Catalase	CAT	
+Glutathione peroxidase 1	GPX1	
+Thioredoxin reductase 1	TXNRD1	
+Nuclear factor erythroid 2-related factor 2	NFE2L2	NRF2
+Hypoxia-inducible factor 1-alpha	HIF1A	
+Sirtuin 1	SIRT1	
+AMP-activated protein kinase catalytic subunit alpha-1	PRKAA1	AMPKα1
+5'-AMP-activated protein kinase catalytic subunit alpha-2	PRKAA2	
+Glycogen synthase kinase-3 beta	GSK3B	
+Casein kinase II subunit alpha	CSNK2A1	
+Protein kinase C alpha type	PRKCA	
+Protein kinase C beta type	PRKCB	
+Protein kinase C delta type	PRKCD	
+Protein kinase C epsilon type	PRKCE	
+cAMP-dependent protein kinase catalytic subunit alpha	PRKACA	
+Serine/threonine-protein phosphatase PP1-alpha	PPP1CA	
+Tyrosine-protein phosphatase non-receptor type 1	PTPN1	PTP1B
+Tubulin beta	TUBB	
+Tubulin alpha-1B chain	TUBA1B	
+Heat shock protein HSP 90-alpha	HSP90AA1	
+Calmodulin	CALM1	
+Tumor suppressor p53-binding protein	TP53BP1	
+ATP-binding cassette sub-family B member 1	ABCB1	P-gp
+ATP-binding cassette sub-family G member 2	ABCG2	BCRP
+Solute carrier organic anion transporter family member 1B1	SLCO1B1	OATP1B1
+Solute carrier organic anion transporter family member 1B3	SLCO1B3	
+UDP-glucuronosyltransferase 1-1	UGT1A1	
+UDP-glucuronosyltransferase 2B7	UGT2B7	
+Sulfotransferase 1A1	SULT1A1	
+N-acetyltransferase 2	NAT2	
+Thromboxane-A synthase	TBXAS1	
+Prostacyclin synthase	PTGIS	
+Phospholipase A2	PLA2G4A	
+Sphingosine kinase 1	SPHK1	
+Indoleamine 2,3-dioxygenase 1	IDO1	
+Programmed cell death 1 ligand 1	CD274	PD-L1
+Programmed cell death protein 1	PDCD1	PD-1
+T-cell-specific surface glycoprotein CD28	CD28	
+Cytotoxic T-lymphocyte protein 4	CTLA4	
+Tumor necrosis factor receptor superfamily member 11B	TNFRSF11B	OPG
+NF-kappa-B ligand receptor activator	TNFSF11	RANKL
+Osteoclast differentiation factor	TNFSF11	
+Immunoglobulin G-1 chain C region	IGHG1	非药物靶点，常见 TCMSP 噪音
+Ig gamma-1 chain C region	IGHG1	非药物靶点
+Ig alpha-1 chain C region	IGHA1	非药物靶点
+Serum albumin	ALB	
+Alpha-1-antitrypsin	SERPINA1	
+Alpha-fetoprotein	AFP	
+Ferritin light chain	FTL	
+Transferrin	TF	
+Ceruloplasmin	CP	
+Haptoglobin	HP	
+Apolipoprotein A-I	APOA1	
+Apolipoprotein B-100	APOB	
+Apolipoprotein E	APOE	
+Low-density lipoprotein receptor	LDLR	
+Scavenger receptor class B member 1	SCARB1	
+Hydroxymethylglutaryl-CoA reductase	HMGCR	
+Cholesterol 7-alpha-monooxygenase	CYP7A1	
+Sterol regulatory element-binding protein 1	SREBF1	
+Nuclear receptor ROR-alpha	RORA	
+Retinoid X receptor alpha	RXRA	
+Aldo-keto reductase family 1 member C3	AKR1C3	
+11-beta-hydroxysteroid dehydrogenase 1	HSD11B1	
+Estradiol 17-beta-dehydrogenase 1	HSD17B1	
+Aromatase	CYP19A1	
+Sex hormone-binding globulin	SHBG	
+Corticosteroid-binding globulin	SERPINA6	
+Transthyretin	TTR	
+Amyloid-beta precursor protein	APP	
+Beta-secretase 1	BACE1	
+Gamma-secretase	PSEN1	
+Glycogen phosphorylase brain form	PYGB	
+Sodium channel protein type 5 subunit alpha	SCN5A	
+Potassium voltage-gated channel subfamily H member 2	KCNH2	hERG
+Calcium-activated potassium channel subunit alpha-1	KCNMA1	
+Aquaporin-1	AQP1	
+Aquaporin-4	AQP4	
+Transient receptor potential cation channel subfamily V member 1	TRPV1	
+Transient receptor potential cation channel subfamily M member 8	TRPM8	
+Cannabinoid receptor 1	CNR1	
+Sigma non-opioid intracellular receptor 1	SIGMAR1	
+Sigma intracellular receptor 2	TMEM97	
+Sigma receptor	SIGMAR1	
+Cytochrome P450-cam	—	细菌来源，非人类，应剔除
+Cytochrome P450-cam (Pseudomonas putida)	—	细菌来源，非人类
+Dihydrofolate reductase (Staphylococcus aureus)	—	细菌来源，非人类
+Thymidylate synthase (Escherichia coli)	—	细菌来源，非人类
+mRNA of Protein-tyrosine phosphatase	—	TCMSP 噪音条目
+Rhinovirus coat protein	—	病毒来源，非人类
+Trypsin (Bos taurus)	—	牛来源，非人类
+Alcohol dehydrogenase (Equus caballus)	—	马来源，非人类
+Fibronectin	FN1	
+Intercellular adhesion molecule 1	ICAM1	
+Vascular cell adhesion protein 1	VCAM1	
+Selectin E	SELE	
+Collagen alpha-1(I) chain	COL1A1	
+Advanced glycosylation end product-specific receptor	AGER	RAGE
+C-C motif chemokine 2	CCL2	MCP-1
+Nuclear factor NF-kappa-B p105 subunit	NFKB1	NF-κB1

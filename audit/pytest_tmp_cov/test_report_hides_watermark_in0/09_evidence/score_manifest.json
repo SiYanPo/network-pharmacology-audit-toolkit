@@ -1,0 +1,8 @@
+{
+ "status": "UNCALIBRATED",
+ "feature_meta": {
+  "n_genes": 1,
+  "betweenness_available": false
+ },
+ "reason": "缺 calibration_model.json；先运行 fit 再打分"
+}
