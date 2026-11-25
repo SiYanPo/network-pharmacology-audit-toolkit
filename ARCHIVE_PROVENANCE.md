@@ -62,10 +62,12 @@ archive. `_ruff_cache/` is retained because it was present when the archive
 hash was fixed; removing it now would silently change every downstream
 checksum.
 
-## Two files that are not in the archive
+## Four files that are not inside the zip
 
-`.gitattributes` (in this repository only) and this file are repository
-metadata, added after the deposit. They are the only two paths here that do
-not appear in `ARCHIVE_MANIFEST.tsv`. `verify_archive.py` checks the manifest
-against the tree and therefore reports no mismatch; a tool that additionally
-flags unlisted files will report exactly these two, which is expected.
+`.gitattributes`, `ARCHIVE_PROVENANCE.md`, `ARCHIVE_MANIFEST.tsv` and
+`ARCHIVE_SUMMARY.md` sit alongside the archive rather than inside it — the
+manifest describes the archive, so it cannot be part of it. These four are the
+only paths here that do not appear as entries in the manifest itself.
+`verify_archive.py` walks the manifest and reports no mismatch; a tool that
+additionally flags unlisted files will report exactly these four, which is
+expected.
