@@ -1,0 +1,64 @@
+name: release
+
+# Publishing a release is the event Zenodo's GitHub integration listens for:
+# it downloads the source zip of the tag and mints a DOI. Doing it here means
+# the release can be produced from a terminal, without a browser, and the notes
+# stay identical across versions.
+#
+# Trigger: push a tag (git tag -a v3.0.19 -m "..." && git push origin v3.0.19)
+# Manual:  Actions -> release -> Run workflow, with a tag that already exists.
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing tag to publish (e.g. v3.0.19)'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve the tag to publish
+        id: tag
+        run: |
+          if [ -n "${{ inputs.tag }}" ]; then
+            echo "name=${{ inputs.tag }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "name=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Skip if a release already exists for this tag
+        id: exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.tag.outputs.name }}
+        run: |
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            echo "Release $TAG already exists; nothing to do."
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create the release
+        if: steps.exists.outputs.found == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.tag.outputs.name }}
+        run: |
+          gh release create "$TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "network-pharmacology-audit-toolkit $TAG" \
+            --verify-tag \
+            --notes-file ARCHIVE_PROVENANCE.md
